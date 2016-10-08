@@ -1,0 +1,939 @@
+{ href: '/wiki/Alnus', class: 'mw-redirect', title: 'Alnus' }
+{ href: '/wiki/Alnus_glutinosa', title: 'Alnus glutinosa' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Alnus_glutinosa', title: 'Alnus glutinosa' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Alnus_incana', title: 'Alnus incana' }
+{ href: '/wiki/Alnus_incana', title: 'Alnus incana' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Alnus_incana', title: 'Alnus incana' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Almond', title: 'Almond' }
+{ href: '/wiki/Ambrosia_trifida', title: 'Ambrosia trifida' }
+{ href: '/wiki/Apocynum_cannabinum',
+  title: 'Apocynum cannabinum' }
+{ href: '/wiki/Malus_domestica',
+  class: 'mw-redirect',
+  title: 'Malus domestica' }
+{ href: '/wiki/Maclura_pomifera', title: 'Maclura pomifera' }
+{ href: '/wiki/Solanum_carolinense',
+  title: 'Solanum carolinense' }
+{ href: '/wiki/Apricot', title: 'Apricot' }
+{ href: '/wiki/Rhanterium_epapposum',
+  title: 'Rhanterium epapposum' }
+{ href: '/wiki/Sycamore', title: 'Sycamore' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Fraxinus', title: 'Fraxinus' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Fraxinus_nigra', title: 'Fraxinus nigra' }
+{ href: '/wiki/Fraxinus_pennsylvanica',
+  title: 'Fraxinus pennsylvanica' }
+{ href: '/wiki/Fraxinus_americana',
+  title: 'Fraxinus americana' }
+{ href: '/wiki/Fraxinus_pennsylvanica',
+  title: 'Fraxinus pennsylvanica' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Fraxinus_pennsylvanica',
+  title: 'Fraxinus pennsylvanica' }
+{ href: '/wiki/Fraxinus_pennsylvanica',
+  title: 'Fraxinus pennsylvanica' }
+{ href: '/wiki/Fraxinus_pennsylvanica',
+  title: 'Fraxinus pennsylvanica' }
+{ href: '/wiki/Fraxinus_americana',
+  title: 'Fraxinus americana' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Fraxinus_pennsylvanica',
+  title: 'Fraxinus pennsylvanica' }
+{ href: '/wiki/Azolla', title: 'Azolla' }
+{ href: '/wiki/Azolla_caroliniana',
+  title: 'Azolla caroliniana' }
+{ href: '/wiki/Bamboo', title: 'Bamboo' }
+{ href: '/wiki/Banana', title: 'Banana' }
+{ href: '/wiki/Adansonia', title: 'Adansonia' }
+{ href: '/wiki/Bean', title: 'Bean' }
+{ href: '/wiki/Fabaceae', title: 'Fabaceae' }
+{ href: '/wiki/Phaseolus', title: 'Phaseolus' }
+{ href: '/wiki/Ilex_decidua', title: 'Ilex decidua' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Beech', title: 'Beech' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Betula', class: 'mw-redirect', title: 'Betula' }
+{ href: '/wiki/Betula_lenta', title: 'Betula lenta' }
+{ href: '/wiki/Betula_nigra', title: 'Betula nigra' }
+{ href: '/wiki/Betula_papyrifera', title: 'Betula papyrifera' }
+{ href: '/wiki/Betula_papyrifera', title: 'Betula papyrifera' }
+{ href: '/wiki/Betula_lenta', title: 'Betula lenta' }
+{ href: '/wiki/Betula_pendula', title: 'Betula pendula' }
+{ href: '/wiki/Betula_pendula', title: 'Betula pendula' }
+{ href: '/wiki/Betula_alleghaniensis',
+  title: 'Betula alleghaniensis' }
+{ href: '/wiki/Betula_lenta', title: 'Betula lenta' }
+{ href: '/wiki/Betula_papyrifera', title: 'Betula papyrifera' }
+{ href: '/wiki/Betula_nigra', title: 'Betula nigra' }
+{ href: '/wiki/Betula_nigra', title: 'Betula nigra' }
+{ href: '/wiki/Betula_lenta', title: 'Betula lenta' }
+{ href: '/wiki/Betula_papyrifera', title: 'Betula papyrifera' }
+{ href: '/wiki/Betula_lenta', title: 'Betula lenta' }
+{ href: '/wiki/Betula_lenta', title: 'Betula lenta' }
+{ href: '/wiki/Betula_nigra', title: 'Betula nigra' }
+{ href: '/wiki/Betula_pendula', title: 'Betula pendula' }
+{ href: '/wiki/Betula_papyrifera', title: 'Betula papyrifera' }
+{ href: '/wiki/Betula_pendula', title: 'Betula pendula' }
+{ href: '/wiki/Betula_alleghaniensis',
+  title: 'Betula alleghaniensis' }
+{ href: '/wiki/Barbarea_vulgaris', title: 'Barbarea vulgaris' }
+{ href: '/wiki/Cardamine_bulbosa', title: 'Cardamine bulbosa' }
+{ href: '/wiki/Cardamine_hirsuta', title: 'Cardamine hirsuta' }
+{ href: '/wiki/Cardamine_hirsuta', title: 'Cardamine hirsuta' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Ambrosia', title: 'Ambrosia' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/w/index.php?title=Artemisia_trifida&action=edit&redlink=1',
+  class: 'new',
+  title: 'Artemisia trifida (page does not exist)' }
+{ href: '/wiki/Helenium_amarum', title: 'Helenium amarum' }
+{ href: '/wiki/Blackberry', title: 'Blackberry' }
+{ href: '/wiki/Rubus', title: 'Rubus' }
+{ href: '/wiki/Rubus_pensilvanicus',
+  title: 'Rubus pensilvanicus' }
+{ href: '/wiki/Rubus_occidentalis',
+  title: 'Rubus occidentalis' }
+{ href: '/wiki/Rubus_hispidus',
+  class: 'mw-redirect',
+  title: 'Rubus hispidus' }
+{ href: '/wiki/Rubus_pensilvanicus',
+  title: 'Rubus pensilvanicus' }
+{ href: '/wiki/Rubus_hispidus',
+  class: 'mw-redirect',
+  title: 'Rubus hispidus' }
+{ href: '/wiki/Rubus_occidentalis',
+  title: 'Rubus occidentalis' }
+{ href: '/wiki/Rudbeckia_hirta', title: 'Rudbeckia hirta' }
+{ href: '/wiki/Rudbeckia_fulgida', title: 'Rudbeckia fulgida' }
+{ href: '/wiki/Viburnum_prunifolium',
+  title: 'Viburnum prunifolium' }
+{ href: '/wiki/Rudbeckia_hirta', title: 'Rudbeckia hirta' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Blueberry', title: 'Blueberry' }
+{ href: '/wiki/Allium_caeruleum', title: 'Allium caeruleum' }
+{ href: '/wiki/Maclura_pomifera', title: 'Maclura pomifera' }
+{ href: '/wiki/Buxus', title: 'Buxus' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Buxus', title: 'Buxus' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Solanum_carolinense',
+  title: 'Solanum carolinense' }
+{ href: '/wiki/Encelia_farinosa', title: 'Encelia farinosa' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Rudbeckia_hirta', title: 'Rudbeckia hirta' }
+{ href: '/wiki/Rudbeckia_hirta', title: 'Rudbeckia hirta' }
+{ href: '/wiki/Rudbeckia_triloba', title: 'Rudbeckia triloba' }
+{ href: '/wiki/California_buckeye',
+  class: 'mw-redirect',
+  title: 'California buckeye' }
+{ href: '/wiki/Buckeye_(tree)',
+  class: 'mw-redirect',
+  title: 'Buckeye (tree)' }
+{ href: '/wiki/Ambrosia_trifida', title: 'Ambrosia trifida' }
+{ href: '/wiki/Asclepias_syriaca', title: 'Asclepias syriaca' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Brassica_oleracea', title: 'Brassica oleracea' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/Lysichiton', title: 'Lysichiton' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/California_bay',
+  class: 'mw-redirect',
+  title: 'California bay' }
+{ href: '/wiki/California_buckeye',
+  class: 'mw-redirect',
+  title: 'California buckeye' }
+{ href: '/wiki/Platanus_racemosa', title: 'Platanus racemosa' }
+{ href: '/wiki/California_walnut',
+  class: 'mw-redirect',
+  title: 'California walnut' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Lyonothamnus_floribundus',
+  class: 'mw-redirect',
+  title: 'Lyonothamnus floribundus' }
+{ href: '/wiki/Prunus', title: 'Prunus' }
+{ href: '/wiki/Prunus_serotina', title: 'Prunus serotina' }
+{ href: '/wiki/Prunus_serotina', title: 'Prunus serotina' }
+{ href: '/wiki/Prunus_serotina', title: 'Prunus serotina' }
+{ href: '/wiki/Prunus_serotina', title: 'Prunus serotina' }
+{ href: '/wiki/Prunus_avium', title: 'Prunus avium' }
+{ href: '/wiki/Prunus_serotina', title: 'Prunus serotina' }
+{ href: '/wiki/Prunus_serotina', title: 'Prunus serotina' }
+{ href: '/wiki/Chestnut', title: 'Chestnut' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/w/index.php?title=Dendranthema_grandiflora&action=edit&redlink=1',
+  class: 'new',
+  title: 'Dendranthema grandiflora (page does not exist)' }
+{ href: '/wiki/Chrysanthemum_morifolium',
+  title: 'Chrysanthemum morifolium' }
+{ href: '/wiki/Cinnamomum_verum', title: 'Cinnamomum verum' }
+{ href: '/wiki/Clove', title: 'Clove' }
+{ href: '/wiki/Clover', title: 'Clover' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Coconut', title: 'Coconut' }
+{ href: '/wiki/Coffea', title: 'Coffea' }
+{ href: '/wiki/Corydalis_flavula', title: 'Corydalis flavula' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/Sonchus_oleraceus', title: 'Sonchus oleraceus' }
+{ href: '/wiki/Rudbeckia_fulgida', title: 'Rudbeckia fulgida' }
+{ href: '/wiki/Rudbeckia_laciniata',
+  title: 'Rudbeckia laciniata' }
+{ href: '/wiki/Rudbeckia_fulgida', title: 'Rudbeckia fulgida' }
+{ href: '/wiki/Rudbeckia_laciniata',
+  title: 'Rudbeckia laciniata' }
+{ href: '/wiki/Rudbeckia_fulgida', title: 'Rudbeckia fulgida' }
+{ href: '/wiki/Rudbeckia_laciniata',
+  title: 'Rudbeckia laciniata' }
+{ href: '/wiki/Rudbeckia_triloba', title: 'Rudbeckia triloba' }
+{ href: '/wiki/Rudbeckia_triloba', title: 'Rudbeckia triloba' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Corydalis', title: 'Corydalis' }
+{ href: '/wiki/Corydalis_chelidoniifolia',
+  title: 'Corydalis chelidoniifolia' }
+{ href: '/wiki/Corydalis_aurea', title: 'Corydalis aurea' }
+{ href: '/wiki/Corydalis_flavula', title: 'Corydalis flavula' }
+{ href: '/wiki/Corydalis_sempervirens',
+  class: 'mw-redirect',
+  title: 'Corydalis sempervirens' }
+{ href: '/wiki/Corydalis_sempervirens',
+  class: 'mw-redirect',
+  title: 'Corydalis sempervirens' }
+{ href: '/wiki/Corydalis_lutea',
+  class: 'mw-redirect',
+  title: 'Corydalis lutea' }
+{ href: '/wiki/Corydalis_flavula', title: 'Corydalis flavula' }
+{ href: '/wiki/Gossypium', title: 'Gossypium' }
+{ href: '/wiki/Rorippa_sylvestris',
+  title: 'Rorippa sylvestris' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Cardamine_bulbosa', title: 'Cardamine bulbosa' }
+{ href: '/wiki/Cardamine_hirsuta', title: 'Cardamine hirsuta' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Cardamine_hirsuta', title: 'Cardamine hirsuta' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Cardamine_bulbosa', title: 'Cardamine bulbosa' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Cardamine_concatenata',
+  title: 'Cardamine concatenata' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Cardamine_concatenata',
+  title: 'Cardamine concatenata' }
+{ href: '/wiki/Cucumber', title: 'Cucumber' }
+{ href: '/wiki/Rudbeckia_hirta', title: 'Rudbeckia hirta' }
+{ href: '/wiki/Bellis_perennis', title: 'Bellis perennis' }
+{ href: '/wiki/Lamium', title: 'Lamium' }
+{ href: '/wiki/Lamium_amplexicaule',
+  title: 'Lamium amplexicaule' }
+{ href: '/wiki/Lamium_maculatum', title: 'Lamium maculatum' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Rubus_hispidus',
+  class: 'mw-redirect',
+  title: 'Rubus hispidus' }
+{ href: '/wiki/Rubus_hispidus',
+  class: 'mw-redirect',
+  title: 'Rubus hispidus' }
+{ href: '/wiki/Sonchus_arvensis', title: 'Sonchus arvensis' }
+{ href: '/wiki/Cornus_(genus)',
+  class: 'mw-redirect',
+  title: 'Cornus (genus)' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Cornus_kousa', title: 'Cornus kousa' }
+{ href: '/wiki/Cornus_kousa', title: 'Cornus kousa' }
+{ href: '/wiki/Moringa_oleifera', title: 'Moringa oleifera' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Solanum_nigrum', title: 'Solanum nigrum' }
+{ href: '/wiki/Ilex_glabra', title: 'Ilex glabra' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Rudbeckia_hirta', title: 'Rudbeckia hirta' }
+{ href: '/wiki/Eucalyptus', title: 'Eucalyptus' }
+{ href: '/wiki/Encalypta', title: 'Encalypta' }
+{ href: '/wiki/Amphipappus', title: 'Amphipappus' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Azolla_caroliniana',
+  title: 'Azolla caroliniana' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Foeniculum_vulgare',
+  class: 'mw-redirect',
+  title: 'Foeniculum vulgare' }
+{ href: '/wiki/Nephrolepis_exaltata',
+  title: 'Nephrolepis exaltata' }
+{ href: '/wiki/Polystichum_acrostichoides',
+  title: 'Polystichum acrostichoides' }
+{ href: '/wiki/Polypodium_scouleri',
+  title: 'Polypodium scouleri' }
+{ href: '/wiki/Nephrolepis_obliterata',
+  title: 'Nephrolepis obliterata' }
+{ href: '/wiki/Azolla_caroliniana',
+  title: 'Azolla caroliniana' }
+{ href: '/wiki/Polystichum', title: 'Polystichum' }
+{ href: '/wiki/Azolla_caroliniana',
+  title: 'Azolla caroliniana' }
+{ href: '/wiki/Polystichum_munitum',
+  title: 'Polystichum munitum' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Tanacetum_parthenium',
+  title: 'Tanacetum parthenium' }
+{ href: '/wiki/Ficus', title: 'Ficus' }
+{ href: '/wiki/Ficus_carica',
+  class: 'mw-redirect',
+  title: 'Ficus carica' }
+{ href: '/wiki/Flax', title: 'Flax' }
+{ href: '/wiki/Phormium_tenax', title: 'Phormium tenax' }
+{ href: '/wiki/Phormium_colensoi', title: 'Phormium colensoi' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Corydalis_flavula', title: 'Corydalis flavula' }
+{ href: '/wiki/Ilex_glabra', title: 'Ilex glabra' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Allium_moly', title: 'Allium moly' }
+{ href: '/wiki/Allium_canadense', title: 'Allium canadense' }
+{ href: '/wiki/Alliaria_petiolata',
+  title: 'Alliaria petiolata' }
+{ href: '/wiki/Alliaria_petiolata',
+  title: 'Alliaria petiolata' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Tanacetum_vulgare',
+  class: 'mw-redirect',
+  title: 'Tanacetum vulgare' }
+{ href: '/wiki/Rudbeckia_laciniata',
+  title: 'Rudbeckia laciniata' }
+{ href: '/wiki/Rudbeckia_hirta', title: 'Rudbeckia hirta' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Grapefruit', title: 'Grapefruit' }
+{ href: '/wiki/Vitis', title: 'Vitis' }
+{ href: '/wiki/Rubus_hispidus',
+  class: 'mw-redirect',
+  title: 'Rubus hispidus' }
+{ href: '/wiki/Rubus_hispidus',
+  class: 'mw-redirect',
+  title: 'Rubus hispidus' }
+{ href: '/wiki/Sonchus_arvensis', title: 'Sonchus arvensis' }
+{ href: '/wiki/Curcuma_domestica',
+  class: 'mw-redirect',
+  title: 'Curcuma domestica' }
+{ href: '/wiki/Corydalis_sempervirens',
+  class: 'mw-redirect',
+  title: 'Corydalis sempervirens' }
+{ href: '/wiki/Corydalis_flavula', title: 'Corydalis flavula' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/w/index.php?title=Artemisia_trifida&action=edit&redlink=1',
+  class: 'new',
+  title: 'Artemisia trifida (page does not exist)' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Maclura_pomifera', title: 'Maclura pomifera' }
+{ href: '/wiki/Helleborus',
+  class: 'mw-redirect',
+  title: 'Helleborus' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Veratrum_nigrum', title: 'Veratrum nigrum' }
+{ href: '/wiki/Veratrum_album', title: 'Veratrum album' }
+{ href: '/wiki/Veratrum_album', title: 'Veratrum album' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Veratrum_album', title: 'Veratrum album' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Hemp', title: 'Hemp' }
+{ href: '/wiki/Cannabis', title: 'Cannabis' }
+{ href: '/wiki/Cannabis_sativa', title: 'Cannabis sativa' }
+{ href: '/wiki/Apocynum_cannabinum',
+  title: 'Apocynum cannabinum' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Barbarea_vulgaris', title: 'Barbarea vulgaris' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Ilex', class: 'mw-redirect', title: 'Ilex' }
+{ href: '/wiki/Ilex_decidua', title: 'Ilex decidua' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Ilex_aquifolium', title: 'Ilex aquifolium' }
+{ href: '/wiki/Ilex_glabra', title: 'Ilex glabra' }
+{ href: '/wiki/Ilex_decidua', title: 'Ilex decidua' }
+{ href: '/wiki/Ilex_decidua', title: 'Ilex decidua' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Ambrosia_trifida', title: 'Ambrosia trifida' }
+{ href: '/wiki/Solanum_nigrum', title: 'Solanum nigrum' }
+{ href: '/wiki/Vaccinium', title: 'Vaccinium' }
+{ href: '/wiki/Vaccinium_ovatum', title: 'Vaccinium ovatum' }
+{ href: '/wiki/Vaccinium_parvifolium',
+  title: 'Vaccinium parvifolium' }
+{ href: '/wiki/Sempervivum_tectorum',
+  title: 'Sempervivum tectorum' }
+{ href: '/wiki/Apocynum_cannabinum',
+  title: 'Apocynum cannabinum' }
+{ href: '/wiki/Cannabis_indica', title: 'Cannabis indica' }
+{ href: '/wiki/Asclepias_incarnata',
+  title: 'Asclepias incarnata' }
+{ href: '/wiki/Castilleja', title: 'Castilleja' }
+{ href: '/wiki/Castilleja_mutis',
+  class: 'mw-redirect',
+  title: 'Castilleja mutis' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Ilex_glabra', title: 'Ilex glabra' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Coincya_monensis', title: 'Coincya monensis' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Ivy', class: 'mw-redirect', title: 'Ivy' }
+{ href: '/wiki/Alliaria_petiolata',
+  title: 'Alliaria petiolata' }
+{ href: '/wiki/Alliaria_petiolata',
+  title: 'Alliaria petiolata' }
+{ href: '/wiki/Amelanchier_canadensis',
+  title: 'Amelanchier canadensis' }
+{ href: '/wiki/Juniper', title: 'Juniper' }
+{ href: '/wiki/Rorippa_sylvestris',
+  title: 'Rorippa sylvestris' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Cornus_kousa', title: 'Cornus kousa' }
+{ href: '/wiki/Pueraria_lobata',
+  class: 'mw-redirect',
+  title: 'Pueraria lobata' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Lavandula', title: 'Lavandula' }
+{ href: '/wiki/Allium', title: 'Allium' }
+{ href: '/wiki/Lemon', title: 'Lemon' }
+{ href: '/wiki/Lettuce', title: 'Lettuce' }
+{ href: '/wiki/Allium_moly', title: 'Allium moly' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/Maize', title: 'Maize' }
+{ href: '/wiki/Mango', title: 'Mango' }
+{ href: '/wiki/Acer_(genus)',
+  class: 'mw-redirect',
+  title: 'Acer (genus)' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Acer_nigrum', title: 'Acer nigrum' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Acer_pensylvanicum',
+  title: 'Acer pensylvanicum' }
+{ href: '/wiki/Acer_negundo', title: 'Acer negundo' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Acer_pensylvanicum',
+  title: 'Acer pensylvanicum' }
+{ href: '/wiki/Acer_saccharum', title: 'Acer saccharum' }
+{ href: '/wiki/Acer_saccharum', title: 'Acer saccharum' }
+{ href: '/wiki/Acer_leucoderme', title: 'Acer leucoderme' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Acer_saccharinum', title: 'Acer saccharinum' }
+{ href: '/wiki/Prosopis', title: 'Prosopis' }
+{ href: '/wiki/Prosopis_glandulosa',
+  title: 'Prosopis glandulosa' }
+{ href: '/wiki/Screwbean_Mesquite',
+  class: 'mw-redirect',
+  title: 'Screwbean Mesquite' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Asclepias', title: 'Asclepias' }
+{ href: '/wiki/Sonchus_oleraceus', title: 'Sonchus oleraceus' }
+{ href: '/wiki/Asclepias_amplexicaulis',
+  title: 'Asclepias amplexicaulis' }
+{ href: '/wiki/Asclepias_syriaca', title: 'Asclepias syriaca' }
+{ href: '/wiki/Asclepias_verticillata',
+  title: 'Asclepias verticillata' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Asclepias_incarnata',
+  title: 'Asclepias incarnata' }
+{ href: '/wiki/Asclepias_incarnata',
+  title: 'Asclepias incarnata' }
+{ href: '/wiki/Asclepias_verticillata',
+  title: 'Asclepias verticillata' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Sonchus_oleraceus', title: 'Sonchus oleraceus' }
+{ href: '/wiki/Acer_pensylvanicum',
+  title: 'Acer pensylvanicum' }
+{ href: '/wiki/Morel', class: 'mw-redirect', title: 'Morel' }
+{ href: '/wiki/Solanum_nigrum', title: 'Solanum nigrum' }
+{ href: '/wiki/Azolla_caroliniana',
+  title: 'Azolla caroliniana' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Betula_lenta', title: 'Betula lenta' }
+{ href: '/wiki/Morus_(plant)', title: 'Morus (plant)' }
+{ href: '/wiki/Morus_rubra', title: 'Morus rubra' }
+{ href: '/wiki/Morus_alba', title: 'Morus alba' }
+{ href: '/wiki/Cornus_florida', title: 'Cornus florida' }
+{ href: '/wiki/Neem', class: 'mw-redirect', title: 'Neem' }
+{ href: '/wiki/Urtica_dioica', title: 'Urtica dioica' }
+{ href: '/wiki/Solanum_carolinense',
+  title: 'Solanum carolinense' }
+{ href: '/wiki/Solanum_carolinense',
+  title: 'Solanum carolinense' }
+{ href: '/wiki/Solanum_carolinense',
+  title: 'Solanum carolinense' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Solanum_americanum',
+  title: 'Solanum americanum' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Solanum_nigrum', title: 'Solanum nigrum' }
+{ href: '/wiki/Solanum_americanum',
+  title: 'Solanum americanum' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Solanum_nigrum', title: 'Solanum nigrum' }
+{ href: '/wiki/Solanum_nigrum', title: 'Solanum nigrum' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Quercus', class: 'mw-redirect', title: 'Quercus' }
+{ href: '/wiki/Quercus_douglasii', title: 'Quercus douglasii' }
+{ href: '/wiki/Quercus_macrocarpa',
+  title: 'Quercus macrocarpa' }
+{ href: '/wiki/Quercus_rubra', title: 'Quercus rubra' }
+{ href: '/wiki/Quercus_velutina', title: 'Quercus velutina' }
+{ href: '/wiki/Quercus_velutina', title: 'Quercus velutina' }
+{ href: '/wiki/Quercus_robur', title: 'Quercus robur' }
+{ href: '/wiki/Quercus_canariensis',
+  title: 'Quercus canariensis' }
+{ href: '/wiki/Quercus_macrocarpa',
+  title: 'Quercus macrocarpa' }
+{ href: '/wiki/Quercus_rubra', title: 'Quercus rubra' }
+{ href: '/wiki/Quercus_robur', title: 'Quercus robur' }
+{ href: '/wiki/Quercus_palustris', title: 'Quercus palustris' }
+{ href: '/wiki/Quercus_rubra', title: 'Quercus rubra' }
+{ href: '/wiki/Quercus_coccinea', title: 'Quercus coccinea' }
+{ href: '/wiki/Quercus_coccinea', title: 'Quercus coccinea' }
+{ href: '/wiki/Quercus_macrocarpa',
+  title: 'Quercus macrocarpa' }
+{ href: '/wiki/Quercus_petraea', title: 'Quercus petraea' }
+{ href: '/wiki/Quercus_coccinea', title: 'Quercus coccinea' }
+{ href: '/wiki/Quercus_rubra', title: 'Quercus rubra' }
+{ href: '/wiki/Quercus_velutina', title: 'Quercus velutina' }
+{ href: '/wiki/Quercus_palustris', title: 'Quercus palustris' }
+{ href: '/wiki/Quercus_bicolor', title: 'Quercus bicolor' }
+{ href: '/wiki/Quercus_palustris', title: 'Quercus palustris' }
+{ href: '/wiki/Quercus_bicolor', title: 'Quercus bicolor' }
+{ href: '/wiki/Quercus_alba', title: 'Quercus alba' }
+{ href: '/wiki/Quercus_velutina', title: 'Quercus velutina' }
+{ href: '/wiki/Olive', title: 'Olive' }
+{ href: '/wiki/Allium', title: 'Allium' }
+{ href: '/wiki/Allium_giganteum', title: 'Allium giganteum' }
+{ href: '/wiki/Allium_cernuum', title: 'Allium cernuum' }
+{ href: '/wiki/Allium_canadense', title: 'Allium canadense' }
+{ href: '/wiki/Allium_canadense', title: 'Allium canadense' }
+{ href: '/wiki/Maclura_pomifera', title: 'Maclura pomifera' }
+{ href: '/wiki/Maclura_pomifera', title: 'Maclura pomifera' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Maclura_pomifera', title: 'Maclura pomifera' }
+{ href: '/wiki/Salix', class: 'mw-redirect', title: 'Salix' }
+{ href: '/wiki/Cornus_(genus)',
+  class: 'mw-redirect',
+  title: 'Cornus (genus)' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Parsley', title: 'Parsley' }
+{ href: '/wiki/Pastinaca_sativa',
+  class: 'mw-redirect',
+  title: 'Pastinaca sativa' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Pea', title: 'Pea' }
+{ href: '/wiki/Peach', title: 'Peach' }
+{ href: '/wiki/Peanut', title: 'Peanut' }
+{ href: '/wiki/Pear', title: 'Pear' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Alliaria_petiolata',
+  title: 'Alliaria petiolata' }
+{ href: '/wiki/Cardamine_concatenata',
+  title: 'Cardamine concatenata' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Pine', title: 'Pine' }
+{ href: '/wiki/Pineapple', title: 'Pineapple' }
+{ href: '/wiki/Pistachio', title: 'Pistachio' }
+{ href: '/wiki/Platanus', title: 'Platanus' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Toxicodendron_radicans',
+  title: 'Toxicodendron radicans' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Alliaria_petiolata',
+  title: 'Alliaria petiolata' }
+{ href: '/wiki/Populus', title: 'Populus' }
+{ href: '/wiki/Poppy', title: 'Poppy' }
+{ href: '/wiki/Papaveraceae', title: 'Papaveraceae' }
+{ href: '/wiki/Ilex_decidua', title: 'Ilex decidua' }
+{ href: '/wiki/Potato', title: 'Potato' }
+{ href: '/w/index.php?title=Mentha_indica&action=edit&redlink=1',
+  class: 'new',
+  title: 'Mentha indica (page does not exist)' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Anthriscus_sylvestris',
+  title: 'Anthriscus sylvestris' }
+{ href: '/wiki/Quercus_velutina', title: 'Quercus velutina' }
+{ href: '/wiki/Solanum_carolinense',
+  title: 'Solanum carolinense' }
+{ href: '/wiki/Ambrosia', title: 'Ambrosia' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Ambrosia_trifida', title: 'Ambrosia trifida' }
+{ href: '/wiki/Ambrosia_trifida', title: 'Ambrosia trifida' }
+{ href: '/wiki/Senecio', title: 'Senecio' }
+{ href: '/wiki/Senecio_jacobaea',
+  class: 'mw-redirect',
+  title: 'Senecio jacobaea' }
+{ href: '/wiki/Senecio_erucifolius',
+  class: 'mw-redirect',
+  title: 'Senecio erucifolius' }
+{ href: '/wiki/Senecio_aquaticus',
+  class: 'mw-redirect',
+  title: 'Senecio aquaticus' }
+{ href: '/wiki/Senecio_squalidus', title: 'Senecio squalidus' }
+{ href: '/wiki/Senecio_cineraria',
+  class: 'mw-redirect',
+  title: 'Senecio cineraria' }
+{ href: '/wiki/Daucus_carota', title: 'Daucus carota' }
+{ href: '/wiki/Rapeseed', title: 'Rapeseed' }
+{ href: '/wiki/Rubus', title: 'Rubus' }
+{ href: '/wiki/Rubus_occidentalis',
+  title: 'Rubus occidentalis' }
+{ href: '/wiki/Rubus_occidentalis',
+  title: 'Rubus occidentalis' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Cercis', title: 'Cercis' }
+{ href: '/wiki/Cercis_siliquastrum',
+  title: 'Cercis siliquastrum' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Apocynum_cannabinum',
+  title: 'Apocynum cannabinum' }
+{ href: '/wiki/Rhubarb', title: 'Rhubarb' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Rice', title: 'Rice' }
+{ href: '/wiki/Oryza_sativa', title: 'Oryza sativa' }
+{ href: '/wiki/Oryza_glaberrima', title: 'Oryza glaberrima' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Barbarea_vulgaris', title: 'Barbarea vulgaris' }
+{ href: '/wiki/Barbarea_vulgaris', title: 'Barbarea vulgaris' }
+{ href: '/wiki/Barbarea_vulgaris', title: 'Barbarea vulgaris' }
+{ href: '/wiki/Rose', title: 'Rose' }
+{ href: '/wiki/Rosa_multiflora', title: 'Rosa multiflora' }
+{ href: '/wiki/Rosa_virginiana', title: 'Rosa virginiana' }
+{ href: '/wiki/Rosa_virginiana', title: 'Rosa virginiana' }
+{ href: '/wiki/Rosa_multiflora', title: 'Rosa multiflora' }
+{ href: '/wiki/Rosa_virginiana', title: 'Rosa virginiana' }
+{ href: '/wiki/Rosa_multiflora', title: 'Rosa multiflora' }
+{ href: '/wiki/Rosa_virginiana', title: 'Rosa virginiana' }
+{ href: '/wiki/Rosemary', title: 'Rosemary' }
+{ href: '/wiki/Rye', title: 'Rye' }
+{ href: '/wiki/Saffron', title: 'Saffron' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Amelanchier_alnifolia',
+  title: 'Amelanchier alnifolia' }
+{ href: '/wiki/Alliaria_petiolata',
+  title: 'Alliaria petiolata' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Phytolacca_americana',
+  title: 'Phytolacca americana' }
+{ href: '/wiki/Rubus_occidentalis',
+  title: 'Rubus occidentalis' }
+{ href: '/wiki/Corydalis_aurea', title: 'Corydalis aurea' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Amelanchier', title: 'Amelanchier' }
+{ href: '/wiki/Amelanchier_arborea',
+  title: 'Amelanchier arborea' }
+{ href: '/wiki/Amelanchier_arborea',
+  title: 'Amelanchier arborea' }
+{ href: '/wiki/Amelanchier_canadensis',
+  title: 'Amelanchier canadensis' }
+{ href: '/wiki/Amelanchier_canadensis',
+  title: 'Amelanchier canadensis' }
+{ href: '/wiki/Amelanchier_canadensis',
+  title: 'Amelanchier canadensis' }
+{ href: '/wiki/Asclepias_syriaca', title: 'Asclepias syriaca' }
+{ href: '/wiki/Asclepias_incarnata',
+  title: 'Asclepias incarnata' }
+{ href: '/wiki/Asclepias_syriaca', title: 'Asclepias syriaca' }
+{ href: '/wiki/Symplocarpus_foetidus',
+  title: 'Symplocarpus foetidus' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Galanthus', title: 'Galanthus' }
+{ href: '/wiki/Oxalis', title: 'Oxalis' }
+{ href: '/wiki/Veronica_arvensis', title: 'Veronica arvensis' }
+{ href: '/wiki/Veronica_arvensis', title: 'Veronica arvensis' }
+{ href: '/wiki/Betula_papyrifera', title: 'Betula papyrifera' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Allium_cristophii', title: 'Allium cristophii' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Strawberry', title: 'Strawberry' }
+{ href: '/wiki/Arbutus_unedo', title: 'Arbutus unedo' }
+{ href: '/wiki/Arbutus', title: 'Arbutus' }
+{ href: '/wiki/Sugarcane', title: 'Sugarcane' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Asclepias_syriaca', title: 'Asclepias syriaca' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Sunflower',
+  class: 'mw-redirect',
+  title: 'Sunflower' }
+{ href: '/wiki/Amelanchier_canadensis',
+  title: 'Amelanchier canadensis' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Viburnum_prunifolium',
+  title: 'Viburnum prunifolium' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Asclepias_syriaca', title: 'Asclepias syriaca' }
+{ href: '/wiki/Ipomoea_batatas',
+  class: 'mw-redirect',
+  title: 'Ipomoea batatas' }
+{ href: '/wiki/Ipomoea_batatas',
+  class: 'mw-redirect',
+  title: 'Ipomoea batatas' }
+{ href: '/wiki/Sonchus_oleraceus', title: 'Sonchus oleraceus' }
+{ href: '/wiki/Sycamore', title: 'Sycamore' }
+{ href: '/wiki/Platanus', title: 'Platanus' }
+{ href: '/wiki/Platanus_racemosa', title: 'Platanus racemosa' }
+{ href: '/wiki/Platanus_occidentalis',
+  title: 'Platanus occidentalis' }
+{ href: '/wiki/Tanacetum_vulgare',
+  class: 'mw-redirect',
+  title: 'Tanacetum vulgare' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Camellia_sinensis', title: 'Camellia sinensis' }
+{ href: '/wiki/Ilex_glabra', title: 'Ilex glabra' }
+{ href: '/wiki/Rubus_occidentalis',
+  title: 'Rubus occidentalis' }
+{ href: '/wiki/Rudbeckia_laciniata',
+  title: 'Rudbeckia laciniata' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Sonchus_oleraceus', title: 'Sonchus oleraceus' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Sonchus_arvensis', title: 'Sonchus arvensis' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Sonchus_arvensis', title: 'Sonchus arvensis' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Sonchus_oleraceus', title: 'Sonchus oleraceus' }
+{ href: '/wiki/Sonchus_oleraceus', title: 'Sonchus oleraceus' }
+{ href: '/wiki/Carduus_nutans', title: 'Carduus nutans' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Sonchus_asper', title: 'Sonchus asper' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Sonchus_asper', title: 'Sonchus asper' }
+{ href: '/wiki/Sonchus_asper', title: 'Sonchus asper' }
+{ href: '/wiki/Sonchus_arvensis', title: 'Sonchus arvensis' }
+{ href: '/wiki/Sonchus_arvensis', title: 'Sonchus arvensis' }
+{ href: '/wiki/Cirsium_arvense', title: 'Cirsium arvense' }
+{ href: '/wiki/Thyme', title: 'Thyme' }
+{ href: '/wiki/Thymus_(plant)', title: 'Thymus (plant)' }
+{ href: '/wiki/Thymus_vulgaris', title: 'Thymus vulgaris' }
+{ href: '/wiki/Veratrum_viride', title: 'Veratrum viride' }
+{ href: '/wiki/Nicotiana', title: 'Nicotiana' }
+{ href: '/wiki/Tomato', title: 'Tomato' }
+{ href: '/wiki/Cardamine_concatenata',
+  title: 'Cardamine concatenata' }
+{ href: '/wiki/Cardamine_concatenata',
+  title: 'Cardamine concatenata' }
+{ href: '/wiki/Cardamine_concatenata',
+  title: 'Cardamine concatenata' }
+{ href: '/wiki/Impatiens_capensis',
+  title: 'Impatiens capensis' }
+{ href: '/wiki/Impatiens_pallida', title: 'Impatiens pallida' }
+{ href: '/wiki/Mimosa_pudica', title: 'Mimosa pudica' }
+{ href: '/wiki/Cardamine_hirsuta', title: 'Cardamine hirsuta' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/Solanum_carolinense',
+  title: 'Solanum carolinense' }
+{ href: '/wiki/Nicotiana_glauca', title: 'Nicotiana glauca' }
+{ href: '/wiki/Trillium', title: 'Trillium' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Tulip', title: 'Tulip' }
+{ href: '/w/index.php?title=Ocimum_santalum&action=edit&redlink=1',
+  class: 'new',
+  title: 'Ocimum santalum (page does not exist)' }
+{ href: '/wiki/Vanilla_(genus)', title: 'Vanilla (genus)' }
+{ href: '/wiki/Viburnum', title: 'Viburnum' }
+{ href: '/wiki/Viburnum_prunifolium',
+  title: 'Viburnum prunifolium' }
+{ href: '/wiki/Viburnum_rhytidophyllum',
+  title: 'Viburnum rhytidophyllum' }
+{ href: '/wiki/Viola_(plant)', title: 'Viola (plant)' }
+{ href: '/wiki/Saintpaulia', title: 'Saintpaulia' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Hesperis_matronalis',
+  title: 'Hesperis matronalis' }
+{ href: '/wiki/Erythronium_dens-canis',
+  title: 'Erythronium dens-canis' }
+{ href: '/wiki/Solanum_dulcamara', title: 'Solanum dulcamara' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/California_walnut',
+  class: 'mw-redirect',
+  title: 'California walnut' }
+{ href: '/wiki/Walnut', title: 'Walnut' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Western_redbud',
+  class: 'mw-redirect',
+  title: 'Western redbud' }
+{ href: '/wiki/Wheat', title: 'Wheat' }
+{ href: '/wiki/Plantago_major', title: 'Plantago major' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Apocynum_cannabinum',
+  title: 'Apocynum cannabinum' }
+{ href: '/wiki/Asclepias_syriaca', title: 'Asclepias syriaca' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/Salix', class: 'mw-redirect', title: 'Salix' }
+{ href: '/wiki/Salix_exigua', title: 'Salix exigua' }
+{ href: '/wiki/Salix_gooddingii', title: 'Salix gooddingii' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Cornus_amomum', title: 'Cornus amomum' }
+{ href: '/wiki/Asclepias_tuberosa',
+  title: 'Asclepias tuberosa' }
+{ href: '/wiki/Rubus_phoenicolasius',
+  title: 'Rubus phoenicolasius' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Ilex_glabra', title: 'Ilex glabra' }
+{ href: '/wiki/Ilex_verticillata', title: 'Ilex verticillata' }
+{ href: '/wiki/Barbarea_vulgaris', title: 'Barbarea vulgaris' }
+{ href: '/wiki/Barbarea_verna', title: 'Barbarea verna' }
+{ href: '/wiki/Clematis_virginiana',
+  title: 'Clematis virginiana' }
+{ href: '/wiki/Ambrosia_artemisiifolia',
+  title: 'Ambrosia artemisiifolia' }
+{ href: '/wiki/Corydalis_sempervirens',
+  class: 'mw-redirect',
+  title: 'Corydalis sempervirens' }
+{ href: '/wiki/Barbarea_vulgaris', title: 'Barbarea vulgaris' }
+{ href: '/wiki/Achillea', title: 'Achillea' }
+{ href: '/wiki/Achillea_millefolium',
+  title: 'Achillea millefolium' }
+{ href: '/wiki/Achillea_filipendulina',
+  title: 'Achillea filipendulina' }
+{ href: '/wiki/Achillea_ptarmica', title: 'Achillea ptarmica' }
+{ href: '/wiki/Rorippa_sylvestris',
+  title: 'Rorippa sylvestris' }
+{ href: '/wiki/Cladrastis_lutea',
+  class: 'mw-redirect',
+  title: 'Cladrastis lutea' }
+{ href: '/wiki/Maclura_pomifera', title: 'Maclura pomifera' }
+{ href: '/wiki/Echinacea_paradoxa',
+  title: 'Echinacea paradoxa' }
+{ href: '/wiki/Dioscorea', title: 'Dioscorea' }
+{ href: '/wiki/Zedoary', class: 'mw-redirect', title: 'Zedoary' }
