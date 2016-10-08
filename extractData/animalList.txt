@@ -1,0 +1,543 @@
+{ href: '/wiki/Aardvark', title: 'Aardvark' }
+{ href: '/wiki/Aardwolf', title: 'Aardwolf' }
+{ href: '/wiki/African_buffalo', title: 'African buffalo' }
+{ href: '/wiki/African_elephant', title: 'African elephant' }
+{ href: '/wiki/African_leopard', title: 'African leopard' }
+{ href: '/wiki/Albatross', title: 'Albatross' }
+{ href: '/wiki/Alligator', title: 'Alligator' }
+{ href: '/wiki/Alpaca', title: 'Alpaca' }
+{ href: '/wiki/Bison', title: 'Bison' }
+{ href: '/wiki/American_robin', title: 'American robin' }
+{ href: '/wiki/Amphibian', title: 'Amphibian' }
+{ href: '/wiki/Anaconda', title: 'Anaconda' }
+{ href: '/wiki/Angelfish_(disambiguation)',
+  class: 'mw-redirect mw-disambig',
+  title: 'Angelfish (disambiguation)' }
+{ href: '/wiki/Anglerfish', title: 'Anglerfish' }
+{ href: '/wiki/Ant', title: 'Ant' }
+{ href: '/wiki/Anteater', title: 'Anteater' }
+{ href: '/wiki/Antelope', title: 'Antelope' }
+{ href: '/wiki/Antlion', title: 'Antlion' }
+{ href: '/wiki/Ape', title: 'Ape' }
+{ href: '/wiki/Aphid', title: 'Aphid' }
+{ href: '/wiki/Arabian_leopard', title: 'Arabian leopard' }
+{ href: '/wiki/Arctic_Fox',
+  class: 'mw-redirect',
+  title: 'Arctic Fox' }
+{ href: '/wiki/Arctic_Wolf',
+  class: 'mw-redirect',
+  title: 'Arctic Wolf' }
+{ href: '/wiki/Armadillo', title: 'Armadillo' }
+{ href: '/wiki/Stenorhynchus_seticornis',
+  title: 'Stenorhynchus seticornis' }
+{ href: '/wiki/Asp_(reptile)', title: 'Asp (reptile)' }
+{ href: '/wiki/Donkey', title: 'Donkey' }
+{ href: '/wiki/Baboon', title: 'Baboon' }
+{ href: '/wiki/Badger_(animal)',
+  class: 'mw-redirect',
+  title: 'Badger (animal)' }
+{ href: '/wiki/Bald_eagle', title: 'Bald eagle' }
+{ href: '/wiki/Bandicoot', title: 'Bandicoot' }
+{ href: '/wiki/Barnacle', title: 'Barnacle' }
+{ href: '/wiki/Barracuda', title: 'Barracuda' }
+{ href: '/wiki/Common_basilisk', title: 'Common basilisk' }
+{ href: '/wiki/Bass_(fish)', title: 'Bass (fish)' }
+{ href: '/wiki/Bat', title: 'Bat' }
+{ href: '/wiki/Beaked_whale', title: 'Beaked whale' }
+{ href: '/wiki/Bear', title: 'Bear' }
+{ href: '/wiki/Beaver', title: 'Beaver' }
+{ href: '/wiki/Bedbug', class: 'mw-redirect', title: 'Bedbug' }
+{ href: '/wiki/Bee', title: 'Bee' }
+{ href: '/wiki/Beetle', title: 'Beetle' }
+{ href: '/wiki/Bird', title: 'Bird' }
+{ href: '/wiki/Bison', title: 'Bison' }
+{ href: '/wiki/Common_blackbird', title: 'Common blackbird' }
+{ href: '/wiki/Black_panther', title: 'Black panther' }
+{ href: '/wiki/Latrodectus', title: 'Latrodectus' }
+{ href: '/wiki/Sialia', class: 'mw-redirect', title: 'Sialia' }
+{ href: '/wiki/Blue_jay', title: 'Blue jay' }
+{ href: '/wiki/Blue_whale', title: 'Blue whale' }
+{ href: '/wiki/Boidae', title: 'Boidae' }
+{ href: '/wiki/Boar', class: 'mw-redirect', title: 'Boar' }
+{ href: '/wiki/Bobcat', title: 'Bobcat' }
+{ href: '/wiki/Bobolink', title: 'Bobolink' }
+{ href: '/wiki/Bonobo', title: 'Bonobo' }
+{ href: '/wiki/Booby', title: 'Booby' }
+{ href: '/wiki/Box_jellyfish', title: 'Box jellyfish' }
+{ href: '/wiki/Bovid', class: 'mw-redirect', title: 'Bovid' }
+{ href: '/wiki/African_buffalo', title: 'African buffalo' }
+{ href: '/wiki/Bison', title: 'Bison' }
+{ href: '/wiki/Arthropod', title: 'Arthropod' }
+{ href: '/wiki/Butterfly', title: 'Butterfly' }
+{ href: '/wiki/Buzzard', title: 'Buzzard' }
+{ href: '/wiki/Camel', title: 'Camel' }
+{ href: '/wiki/Canid', class: 'mw-redirect', title: 'Canid' }
+{ href: '/wiki/African_buffalo', title: 'African buffalo' }
+{ href: '/wiki/Capybara', title: 'Capybara' }
+{ href: '/wiki/Cardinal_(bird)', title: 'Cardinal (bird)' }
+{ href: '/wiki/Caribou', title: 'Caribou' }
+{ href: '/wiki/Carp', title: 'Carp' }
+{ href: '/wiki/Cat', title: 'Cat' }
+{ href: '/wiki/Catshark', title: 'Catshark' }
+{ href: '/wiki/Caterpillar', title: 'Caterpillar' }
+{ href: '/wiki/Catfish', title: 'Catfish' }
+{ href: '/wiki/Cattle', title: 'Cattle' }
+{ href: '/wiki/Centipede', title: 'Centipede' }
+{ href: '/wiki/Cephalopod', title: 'Cephalopod' }
+{ href: '/wiki/Chameleon', title: 'Chameleon' }
+{ href: '/wiki/Cheetah', title: 'Cheetah' }
+{ href: '/wiki/Chickadee', title: 'Chickadee' }
+{ href: '/wiki/Chicken', title: 'Chicken' }
+{ href: '/wiki/Chimpanzee', title: 'Chimpanzee' }
+{ href: '/wiki/Chinchilla', title: 'Chinchilla' }
+{ href: '/wiki/Chipmunk', title: 'Chipmunk' }
+{ href: '/wiki/Clam', title: 'Clam' }
+{ href: '/wiki/Clownfish',
+  class: 'mw-redirect',
+  title: 'Clownfish' }
+{ href: '/wiki/Cobra', title: 'Cobra' }
+{ href: '/wiki/Cockroach', title: 'Cockroach' }
+{ href: '/wiki/Cod', title: 'Cod' }
+{ href: '/wiki/Condor', title: 'Condor' }
+{ href: '/wiki/Boa_constrictor', title: 'Boa constrictor' }
+{ href: '/wiki/Coral', title: 'Coral' }
+{ href: '/wiki/Cougar', title: 'Cougar' }
+{ href: '/wiki/Cattle', title: 'Cattle' }
+{ href: '/wiki/Coyote', title: 'Coyote' }
+{ href: '/wiki/Crab', title: 'Crab' }
+{ href: '/wiki/Crane_(bird)', title: 'Crane (bird)' }
+{ href: '/wiki/Crane_fly', title: 'Crane fly' }
+{ href: '/wiki/Crawdad', class: 'mw-redirect', title: 'Crawdad' }
+{ href: '/wiki/Crayfish', title: 'Crayfish' }
+{ href: '/wiki/Cricket_(insect)', title: 'Cricket (insect)' }
+{ href: '/wiki/Crocodile', title: 'Crocodile' }
+{ href: '/wiki/Crow', title: 'Crow' }
+{ href: '/wiki/Cuckoo', title: 'Cuckoo' }
+{ href: '/wiki/Cicada', title: 'Cicada' }
+{ href: '/wiki/Damselfly', title: 'Damselfly' }
+{ href: '/wiki/Deer', title: 'Deer' }
+{ href: '/wiki/Dingo', title: 'Dingo' }
+{ href: '/wiki/Dinosaur', title: 'Dinosaur' }
+{ href: '/wiki/Dog', title: 'Dog' }
+{ href: '/wiki/Dolphin', title: 'Dolphin' }
+{ href: '/wiki/Donkey', title: 'Donkey' }
+{ href: '/wiki/Dormouse', title: 'Dormouse' }
+{ href: '/wiki/Dove', class: 'mw-redirect', title: 'Dove' }
+{ href: '/wiki/Dragonfly', title: 'Dragonfly' }
+{ href: '/wiki/Dragon', title: 'Dragon' }
+{ href: '/wiki/Duck', title: 'Duck' }
+{ href: '/wiki/Dung_beetle', title: 'Dung beetle' }
+{ href: '/wiki/Eagle', title: 'Eagle' }
+{ href: '/wiki/Earthworm', title: 'Earthworm' }
+{ href: '/wiki/Earwig', title: 'Earwig' }
+{ href: '/wiki/Echidna', title: 'Echidna' }
+{ href: '/wiki/Eel', title: 'Eel' }
+{ href: '/wiki/Egret', title: 'Egret' }
+{ href: '/wiki/Elephant', title: 'Elephant' }
+{ href: '/wiki/Elephant_seal', title: 'Elephant seal' }
+{ href: '/wiki/Red_deer', title: 'Red deer' }
+{ href: '/wiki/Emu', title: 'Emu' }
+{ href: '/wiki/Pointer_(dog_breed)',
+  title: 'Pointer (dog breed)' }
+{ href: '/wiki/Ermine', class: 'mw-redirect', title: 'Ermine' }
+{ href: '/wiki/Falcon', title: 'Falcon' }
+{ href: '/wiki/Ferret', title: 'Ferret' }
+{ href: '/wiki/Finch', title: 'Finch' }
+{ href: '/wiki/Firefly', title: 'Firefly' }
+{ href: '/wiki/Fish', title: 'Fish' }
+{ href: '/wiki/Flamingo', title: 'Flamingo' }
+{ href: '/wiki/Flea', title: 'Flea' }
+{ href: '/wiki/Fly', title: 'Fly' }
+{ href: '/wiki/Flyingfish',
+  class: 'mw-redirect',
+  title: 'Flyingfish' }
+{ href: '/wiki/Fowl', title: 'Fowl' }
+{ href: '/wiki/Fox', title: 'Fox' }
+{ href: '/wiki/Frog', title: 'Frog' }
+{ href: '/wiki/Megabat', title: 'Megabat' }
+{ href: '/wiki/Gamefowl',
+  class: 'mw-redirect',
+  title: 'Gamefowl' }
+{ href: '/wiki/Galliform',
+  class: 'mw-redirect',
+  title: 'Galliform' }
+{ href: '/wiki/Gazelle', title: 'Gazelle' }
+{ href: '/wiki/Gecko', title: 'Gecko' }
+{ href: '/wiki/Gerbil', title: 'Gerbil' }
+{ href: '/wiki/Giant_panda', title: 'Giant panda' }
+{ href: '/wiki/Giant_squid', title: 'Giant squid' }
+{ href: '/wiki/Gibbon', title: 'Gibbon' }
+{ href: '/wiki/Gila_monster', title: 'Gila monster' }
+{ href: '/wiki/Giraffe', title: 'Giraffe' }
+{ href: '/wiki/Goat', title: 'Goat' }
+{ href: '/wiki/Goldfish', title: 'Goldfish' }
+{ href: '/wiki/Goose', title: 'Goose' }
+{ href: '/wiki/Gopher_(animal)',
+  class: 'mw-redirect',
+  title: 'Gopher (animal)' }
+{ href: '/wiki/Gorilla', title: 'Gorilla' }
+{ href: '/wiki/Grasshopper', title: 'Grasshopper' }
+{ href: '/wiki/Great_blue_heron', title: 'Great blue heron' }
+{ href: '/wiki/Great_white_shark', title: 'Great white shark' }
+{ href: '/wiki/Grizzly_bear', title: 'Grizzly bear' }
+{ href: '/wiki/Ground_shark',
+  class: 'mw-redirect',
+  title: 'Ground shark' }
+{ href: '/wiki/Ground_sloth', title: 'Ground sloth' }
+{ href: '/wiki/Grouse', title: 'Grouse' }
+{ href: '/wiki/Guan_(bird)', title: 'Guan (bird)' }
+{ href: '/wiki/Guanaco', title: 'Guanaco' }
+{ href: '/wiki/Guineafowl', title: 'Guineafowl' }
+{ href: '/wiki/Guinea_pig', title: 'Guinea pig' }
+{ href: '/wiki/Gull', title: 'Gull' }
+{ href: '/wiki/Guppy', title: 'Guppy' }
+{ href: '/wiki/Haddock', title: 'Haddock' }
+{ href: '/wiki/Halibut', title: 'Halibut' }
+{ href: '/wiki/Hammerhead_shark', title: 'Hammerhead shark' }
+{ href: '/wiki/Hamster', title: 'Hamster' }
+{ href: '/wiki/Hare', title: 'Hare' }
+{ href: '/wiki/Harrier_(bird)', title: 'Harrier (bird)' }
+{ href: '/wiki/Hawk', title: 'Hawk' }
+{ href: '/wiki/Hedgehog', title: 'Hedgehog' }
+{ href: '/wiki/Hermit_crab', title: 'Hermit crab' }
+{ href: '/wiki/Heron', title: 'Heron' }
+{ href: '/wiki/Herring', title: 'Herring' }
+{ href: '/wiki/Hippopotamus', title: 'Hippopotamus' }
+{ href: '/wiki/Hookworm',
+  class: 'mw-redirect',
+  title: 'Hookworm' }
+{ href: '/wiki/Hornet', title: 'Hornet' }
+{ href: '/wiki/Horse', title: 'Horse' }
+{ href: '/wiki/Hoverfly', title: 'Hoverfly' }
+{ href: '/wiki/Hummingbird', title: 'Hummingbird' }
+{ href: '/wiki/Humpback_whale', title: 'Humpback whale' }
+{ href: '/wiki/Hyena', title: 'Hyena' }
+{ href: '/wiki/Iguana', title: 'Iguana' }
+{ href: '/wiki/Impala', title: 'Impala' }
+{ href: '/wiki/Irukandji_jellyfish',
+  title: 'Irukandji jellyfish' }
+{ href: '/wiki/Jackal', title: 'Jackal' }
+{ href: '/wiki/Jaguar', title: 'Jaguar' }
+{ href: '/wiki/Jay', title: 'Jay' }
+{ href: '/wiki/Jellyfish', title: 'Jellyfish' }
+{ href: '/wiki/Junglefowl', title: 'Junglefowl' }
+{ href: '/wiki/Kangaroo', title: 'Kangaroo' }
+{ href: '/wiki/Kangaroo_mouse', title: 'Kangaroo mouse' }
+{ href: '/wiki/Kangaroo_rat', title: 'Kangaroo rat' }
+{ href: '/wiki/Kingfisher', title: 'Kingfisher' }
+{ href: '/wiki/Kite_(bird)', title: 'Kite (bird)' }
+{ href: '/wiki/Kiwi', title: 'Kiwi' }
+{ href: '/wiki/Koala', title: 'Koala' }
+{ href: '/wiki/Koi', title: 'Koi' }
+{ href: '/wiki/Komodo_dragon', title: 'Komodo dragon' }
+{ href: '/wiki/Krill', title: 'Krill' }
+{ href: '/wiki/Ladybug', class: 'mw-redirect', title: 'Ladybug' }
+{ href: '/wiki/Lamprey', title: 'Lamprey' }
+{ href: '/wiki/Landfowl',
+  class: 'mw-redirect',
+  title: 'Landfowl' }
+{ href: '/wiki/Land_snail', title: 'Land snail' }
+{ href: '/wiki/Lark', title: 'Lark' }
+{ href: '/wiki/Leech', title: 'Leech' }
+{ href: '/wiki/Lemming', title: 'Lemming' }
+{ href: '/wiki/Lemur', title: 'Lemur' }
+{ href: '/wiki/Leopard', title: 'Leopard' }
+{ href: '/wiki/Leopon', title: 'Leopon' }
+{ href: '/wiki/Limpet', title: 'Limpet' }
+{ href: '/wiki/Lion', title: 'Lion' }
+{ href: '/wiki/Lizard', title: 'Lizard' }
+{ href: '/wiki/Llama', title: 'Llama' }
+{ href: '/wiki/Lobster', title: 'Lobster' }
+{ href: '/wiki/Locust', title: 'Locust' }
+{ href: '/wiki/Loon', title: 'Loon' }
+{ href: '/wiki/Louse', title: 'Louse' }
+{ href: '/wiki/Lungfish', title: 'Lungfish' }
+{ href: '/wiki/Lynx', title: 'Lynx' }
+{ href: '/wiki/Macaw', title: 'Macaw' }
+{ href: '/wiki/Mackerel', title: 'Mackerel' }
+{ href: '/wiki/Magpie', title: 'Magpie' }
+{ href: '/wiki/Mammal', title: 'Mammal' }
+{ href: '/wiki/Manatee', title: 'Manatee' }
+{ href: '/wiki/Mandrill', title: 'Mandrill' }
+{ href: '/wiki/Manta_ray', title: 'Manta ray' }
+{ href: '/wiki/Marlin', title: 'Marlin' }
+{ href: '/wiki/Marmoset', title: 'Marmoset' }
+{ href: '/wiki/Marmot', title: 'Marmot' }
+{ href: '/wiki/Marsupial', title: 'Marsupial' }
+{ href: '/wiki/Marten', title: 'Marten' }
+{ href: '/wiki/Mastodon', title: 'Mastodon' }
+{ href: '/wiki/Meadowlark', title: 'Meadowlark' }
+{ href: '/wiki/Meerkat', title: 'Meerkat' }
+{ href: '/wiki/Mink', title: 'Mink' }
+{ href: '/wiki/Minnow', title: 'Minnow' }
+{ href: '/wiki/Mite', title: 'Mite' }
+{ href: '/wiki/Mockingbird', title: 'Mockingbird' }
+{ href: '/wiki/Mole_(animal)', title: 'Mole (animal)' }
+{ href: '/wiki/Mollusk', class: 'mw-redirect', title: 'Mollusk' }
+{ href: '/wiki/Mongoose', title: 'Mongoose' }
+{ href: '/wiki/Monitor_lizard', title: 'Monitor lizard' }
+{ href: '/wiki/Monkey', title: 'Monkey' }
+{ href: '/wiki/Moose', title: 'Moose' }
+{ href: '/wiki/Mosquito', title: 'Mosquito' }
+{ href: '/wiki/Moth', title: 'Moth' }
+{ href: '/wiki/Mountain_goat', title: 'Mountain goat' }
+{ href: '/wiki/Mouse', title: 'Mouse' }
+{ href: '/wiki/Mule', title: 'Mule' }
+{ href: '/wiki/Muskox', title: 'Muskox' }
+{ href: '/wiki/Narwhal', title: 'Narwhal' }
+{ href: '/wiki/Newt', title: 'Newt' }
+{ href: '/wiki/New_World_quail', title: 'New World quail' }
+{ href: '/wiki/Nightingale',
+  class: 'mw-redirect',
+  title: 'Nightingale' }
+{ href: '/wiki/Ocelot', title: 'Ocelot' }
+{ href: '/wiki/Octopus', title: 'Octopus' }
+{ href: '/wiki/Old_World_quail', title: 'Old World quail' }
+{ href: '/wiki/Opossum', title: 'Opossum' }
+{ href: '/wiki/Orangutan', title: 'Orangutan' }
+{ href: '/wiki/Orca', class: 'mw-redirect', title: 'Orca' }
+{ href: '/wiki/Ostrich', title: 'Ostrich' }
+{ href: '/wiki/Otter', title: 'Otter' }
+{ href: '/wiki/Owl', title: 'Owl' }
+{ href: '/wiki/Ox', title: 'Ox' }
+{ href: '/wiki/Panda', class: 'mw-redirect', title: 'Panda' }
+{ href: '/wiki/Panthera', title: 'Panthera' }
+{ href: '/wiki/Panthera_hybrid', title: 'Panthera hybrid' }
+{ href: '/wiki/Parakeet', title: 'Parakeet' }
+{ href: '/wiki/Parrot', title: 'Parrot' }
+{ href: '/wiki/Parrotfish', title: 'Parrotfish' }
+{ href: '/wiki/Partridge', title: 'Partridge' }
+{ href: '/wiki/Peacock', class: 'mw-redirect', title: 'Peacock' }
+{ href: '/wiki/Peafowl', title: 'Peafowl' }
+{ href: '/wiki/Pelican', title: 'Pelican' }
+{ href: '/wiki/Penguin', title: 'Penguin' }
+{ href: '/wiki/Perch', title: 'Perch' }
+{ href: '/wiki/Peregrine_falcon', title: 'Peregrine falcon' }
+{ href: '/wiki/Pheasant', title: 'Pheasant' }
+{ href: '/wiki/Pig', title: 'Pig' }
+{ href: '/wiki/Pigeon', class: 'mw-redirect', title: 'Pigeon' }
+{ href: '/wiki/Pike_(fish)',
+  class: 'mw-redirect',
+  title: 'Pike (fish)' }
+{ href: '/wiki/Pilot_whale', title: 'Pilot whale' }
+{ href: '/wiki/Pinniped', title: 'Pinniped' }
+{ href: '/wiki/Piranha', title: 'Piranha' }
+{ href: '/wiki/Planarian', title: 'Planarian' }
+{ href: '/wiki/Platypus', title: 'Platypus' }
+{ href: '/wiki/Polar_bear', title: 'Polar bear' }
+{ href: '/wiki/Pony', title: 'Pony' }
+{ href: '/wiki/Porcupine', title: 'Porcupine' }
+{ href: '/wiki/Porpoise', title: 'Porpoise' }
+{ href: '/wiki/Portuguese_man_o%27_war',
+  title: 'Portuguese man o\' war' }
+{ href: '/wiki/Possum', title: 'Possum' }
+{ href: '/wiki/Prairie_dog', title: 'Prairie dog' }
+{ href: '/wiki/Prawn', title: 'Prawn' }
+{ href: '/wiki/Mantis', title: 'Mantis' }
+{ href: '/wiki/Primate', title: 'Primate' }
+{ href: '/wiki/Ptarmigan',
+  class: 'mw-redirect',
+  title: 'Ptarmigan' }
+{ href: '/wiki/Puffin', title: 'Puffin' }
+{ href: '/wiki/Cougar', title: 'Cougar' }
+{ href: '/wiki/Pythonidae', title: 'Pythonidae' }
+{ href: '/wiki/Quail', title: 'Quail' }
+{ href: '/wiki/Quelea', title: 'Quelea' }
+{ href: '/wiki/Quokka', title: 'Quokka' }
+{ href: '/wiki/Rabbit', title: 'Rabbit' }
+{ href: '/wiki/Raccoon', title: 'Raccoon' }
+{ href: '/wiki/Rainbow_trout', title: 'Rainbow trout' }
+{ href: '/wiki/Rat', title: 'Rat' }
+{ href: '/wiki/Rattlesnake', title: 'Rattlesnake' }
+{ href: '/wiki/Raven', title: 'Raven' }
+{ href: '/wiki/Batoidea', title: 'Batoidea' }
+{ href: '/wiki/Rajiformes', title: 'Rajiformes' }
+{ href: '/wiki/Red_panda', title: 'Red panda' }
+{ href: '/wiki/Reindeer', title: 'Reindeer' }
+{ href: '/wiki/Reptile', title: 'Reptile' }
+{ href: '/wiki/Rhinoceros', title: 'Rhinoceros' }
+{ href: '/wiki/Right_whale', title: 'Right whale' }
+{ href: '/wiki/Geococcyx',
+  class: 'mw-redirect',
+  title: 'Geococcyx' }
+{ href: '/wiki/Rodent', title: 'Rodent' }
+{ href: '/wiki/Rook_(bird)', title: 'Rook (bird)' }
+{ href: '/wiki/Rooster', title: 'Rooster' }
+{ href: '/wiki/Roundworm',
+  class: 'mw-redirect',
+  title: 'Roundworm' }
+{ href: '/wiki/Saber-toothed_cat', title: 'Saber-toothed cat' }
+{ href: '/wiki/Sailfish', title: 'Sailfish' }
+{ href: '/wiki/Salamander', title: 'Salamander' }
+{ href: '/wiki/Salmon', title: 'Salmon' }
+{ href: '/wiki/Sawfish', title: 'Sawfish' }
+{ href: '/wiki/Scale_insect', title: 'Scale insect' }
+{ href: '/wiki/Scallop', title: 'Scallop' }
+{ href: '/wiki/Scorpion', title: 'Scorpion' }
+{ href: '/wiki/Hippocampus_(Genus)',
+  class: 'mw-redirect',
+  title: 'Hippocampus (Genus)' }
+{ href: '/wiki/Sea_lion', title: 'Sea lion' }
+{ href: '/wiki/Sea_slug', title: 'Sea slug' }
+{ href: '/wiki/Sea_snail', title: 'Sea snail' }
+{ href: '/wiki/Shark', title: 'Shark' }
+{ href: '/wiki/Sheep', title: 'Sheep' }
+{ href: '/wiki/Shrew', title: 'Shrew' }
+{ href: '/wiki/Shrimp', title: 'Shrimp' }
+{ href: '/wiki/Silkworm',
+  class: 'mw-redirect',
+  title: 'Silkworm' }
+{ href: '/wiki/Silverfish', title: 'Silverfish' }
+{ href: '/wiki/Skink', title: 'Skink' }
+{ href: '/wiki/Skunk', title: 'Skunk' }
+{ href: '/wiki/Sloth', title: 'Sloth' }
+{ href: '/wiki/Slug', title: 'Slug' }
+{ href: '/wiki/Smelt_(fish)', title: 'Smelt (fish)' }
+{ href: '/wiki/Snail', title: 'Snail' }
+{ href: '/wiki/Snake', title: 'Snake' }
+{ href: '/wiki/Snipe', title: 'Snipe' }
+{ href: '/wiki/Snow_leopard', title: 'Snow leopard' }
+{ href: '/wiki/Sockeye_salmon', title: 'Sockeye salmon' }
+{ href: '/wiki/Sole_(fish)', title: 'Sole (fish)' }
+{ href: '/wiki/Sparrow', title: 'Sparrow' }
+{ href: '/wiki/Sperm_whale', title: 'Sperm whale' }
+{ href: '/wiki/Spider', title: 'Spider' }
+{ href: '/wiki/Spider_monkey', title: 'Spider monkey' }
+{ href: '/wiki/Spoonbill', title: 'Spoonbill' }
+{ href: '/wiki/Squid', title: 'Squid' }
+{ href: '/wiki/Squirrel', title: 'Squirrel' }
+{ href: '/wiki/Starfish', title: 'Starfish' }
+{ href: '/wiki/Star-nosed_mole', title: 'Star-nosed mole' }
+{ href: '/wiki/Rainbow_trout', title: 'Rainbow trout' }
+{ href: '/wiki/Stingray', title: 'Stingray' }
+{ href: '/wiki/Stoat', title: 'Stoat' }
+{ href: '/wiki/Stork', title: 'Stork' }
+{ href: '/wiki/Sturgeon', title: 'Sturgeon' }
+{ href: '/wiki/Sugar_glider', title: 'Sugar glider' }
+{ href: '/wiki/Swallow', title: 'Swallow' }
+{ href: '/wiki/Swan', title: 'Swan' }
+{ href: '/wiki/Swift', title: 'Swift' }
+{ href: '/wiki/Swordfish', title: 'Swordfish' }
+{ href: '/wiki/Swordtail_(disambiguation)',
+  class: 'mw-redirect mw-disambig',
+  title: 'Swordtail (disambiguation)' }
+{ href: '/wiki/Tahr', title: 'Tahr' }
+{ href: '/wiki/Takin', title: 'Takin' }
+{ href: '/wiki/Tapir', title: 'Tapir' }
+{ href: '/wiki/Tarantula', title: 'Tarantula' }
+{ href: '/wiki/Tarsier', title: 'Tarsier' }
+{ href: '/wiki/Tasmanian_devil', title: 'Tasmanian devil' }
+{ href: '/wiki/Termite', title: 'Termite' }
+{ href: '/wiki/Tern', title: 'Tern' }
+{ href: '/wiki/Thrush_(bird)', title: 'Thrush (bird)' }
+{ href: '/wiki/Tick', title: 'Tick' }
+{ href: '/wiki/Tiger', title: 'Tiger' }
+{ href: '/wiki/Tiger_shark', title: 'Tiger shark' }
+{ href: '/wiki/Tiglon', class: 'mw-redirect', title: 'Tiglon' }
+{ href: '/wiki/Toad', title: 'Toad' }
+{ href: '/wiki/Tortoise', title: 'Tortoise' }
+{ href: '/wiki/Toucan', title: 'Toucan' }
+{ href: '/wiki/List_of_trapdoor_spiders',
+  title: 'List of trapdoor spiders' }
+{ href: '/wiki/Tree_frog', title: 'Tree frog' }
+{ href: '/wiki/Trout', title: 'Trout' }
+{ href: '/wiki/Tuna', title: 'Tuna' }
+{ href: '/wiki/Turkey_(bird)', title: 'Turkey (bird)' }
+{ href: '/wiki/Turtle', title: 'Turtle' }
+{}
+{ href: '/wiki/Urial', title: 'Urial' }
+{ href: '/wiki/Vampire_bat', title: 'Vampire bat' }
+{ href: '/wiki/Vampire_squid', title: 'Vampire squid' }
+{ href: '/wiki/Vicuna', class: 'mw-redirect', title: 'Vicuna' }
+{ href: '/wiki/Viperidae', title: 'Viperidae' }
+{ href: '/wiki/Vole', title: 'Vole' }
+{ href: '/wiki/Vulture', title: 'Vulture' }
+{ href: '/wiki/Wallaby', title: 'Wallaby' }
+{ href: '/wiki/Walrus', title: 'Walrus' }
+{ href: '/wiki/Wasp', title: 'Wasp' }
+{ href: '/wiki/Warbler', title: 'Warbler' }
+{ href: '/w/index.php?title=Water_Boa&action=edit&redlink=1',
+  class: 'new',
+  title: 'Water Boa (page does not exist)' }
+{ href: '/wiki/Water_buffalo', title: 'Water buffalo' }
+{ href: '/wiki/Weasel', title: 'Weasel' }
+{ href: '/wiki/Whale', title: 'Whale' }
+{ href: '/wiki/Whippet', title: 'Whippet' }
+{ href: '/wiki/Coregonus', title: 'Coregonus' }
+{ href: '/wiki/Whooping_crane', title: 'Whooping crane' }
+{ href: '/wiki/Wildcat', title: 'Wildcat' }
+{ href: '/wiki/Wildebeest', title: 'Wildebeest' }
+{ href: '/wiki/Wildfowl',
+  class: 'mw-redirect',
+  title: 'Wildfowl' }
+{ href: '/wiki/Wolf', class: 'mw-redirect', title: 'Wolf' }
+{ href: '/wiki/Wolverine', title: 'Wolverine' }
+{ href: '/wiki/Wombat', title: 'Wombat' }
+{ href: '/wiki/Woodpecker', title: 'Woodpecker' }
+{ href: '/wiki/Worm', title: 'Worm' }
+{ href: '/wiki/Wren', title: 'Wren' }
+{ href: '/wiki/Xerinae', title: 'Xerinae' }
+{ href: '/wiki/X-ray_fish',
+  class: 'mw-redirect',
+  title: 'X-ray fish' }
+{ href: '/wiki/Yak', title: 'Yak' }
+{ href: '/wiki/Yellow_perch', title: 'Yellow perch' }
+{ href: '/wiki/Zebra', title: 'Zebra' }
+{ href: '/wiki/Zebra_finch', title: 'Zebra finch' }
+{ href: '/wiki/Alpaca', title: 'Alpaca' }
+{ href: '/wiki/Bali_cattle',
+  class: 'mw-redirect',
+  title: 'Bali cattle' }
+{ href: '/wiki/Cat', title: 'Cat' }
+{ href: '/wiki/Cattle', title: 'Cattle' }
+{ href: '/wiki/Chicken', title: 'Chicken' }
+{ href: '/wiki/Dog', title: 'Dog' }
+{ href: '/wiki/Bactrian_camel', title: 'Bactrian camel' }
+{ href: '/wiki/Domestic_canary', title: 'Domestic canary' }
+{ href: '/wiki/Dromedary#Domestication', title: 'Dromedary' }
+{ href: '/wiki/Domestic_duck', title: 'Domestic duck' }
+{ href: '/wiki/Domestic_goat',
+  class: 'mw-redirect',
+  title: 'Domestic goat' }
+{ href: '/wiki/Domestic_goose', title: 'Domestic goose' }
+{ href: '/wiki/Domestic_guineafowl',
+  class: 'mw-redirect',
+  title: 'Domestic guineafowl' }
+{ href: '/wiki/Domesticated_hedgehog',
+  title: 'Domesticated hedgehog' }
+{ href: '/wiki/Domestic_pig', title: 'Domestic pig' }
+{ href: '/wiki/Domestic_pigeon', title: 'Domestic pigeon' }
+{ href: '/wiki/Domestic_rabbit', title: 'Domestic rabbit' }
+{ href: '/wiki/Silkworm',
+  class: 'mw-redirect',
+  title: 'Silkworm' }
+{ href: '/wiki/Domesticated_silver_fox',
+  class: 'mw-redirect',
+  title: 'Domesticated silver fox' }
+{ href: '/wiki/Domestic_turkey',
+  class: 'mw-redirect',
+  title: 'Domestic turkey' }
+{ href: '/wiki/Donkey', title: 'Donkey' }
+{ href: '/wiki/Fancy_mouse', title: 'Fancy mouse' }
+{ href: '/wiki/Fancy_rat', title: 'Fancy rat' }
+{ href: '/wiki/Ferret', title: 'Ferret' }
+{ href: '/wiki/Gayal', title: 'Gayal' }
+{ href: '/wiki/Goldfish', title: 'Goldfish' }
+{ href: '/wiki/Guinea_pig', title: 'Guinea pig' }
+{ href: '/wiki/Guppy', title: 'Guppy' }
+{ href: '/wiki/Horse', title: 'Horse' }
+{ href: '/wiki/Koi', title: 'Koi' }
+{ href: '/wiki/Llama', title: 'Llama' }
+{ href: '/wiki/Ringneck_dove',
+  class: 'mw-redirect',
+  title: 'Ringneck dove' }
+{ href: '/wiki/Domestic_sheep',
+  class: 'mw-redirect',
+  title: 'Domestic sheep' }
+{ href: '/wiki/Siamese_fighting_fish',
+  title: 'Siamese fighting fish' }
+{ href: '/wiki/Society_finch', title: 'Society finch' }
+{ href: '/wiki/Yak', title: 'Yak' }
+{ href: '/wiki/Domestic_buffalo',
+  class: 'mw-redirect',
+  title: 'Domestic buffalo' }
