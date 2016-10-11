@@ -11,8 +11,10 @@ def insertIntoTree(text, db, coll):
     for line in text:
         level = line.count('+')
         line = line.replace("+ ", "")
-        if level_temp == level:
+        if level_temp != -1 and level_temp < level:
             continue
+        if level_temp != -1 and level_temp == level:
+            level_temp = -1
         if line == parents[level-1]:
             level_temp = level
             continue
