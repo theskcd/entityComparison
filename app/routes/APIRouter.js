@@ -127,4 +127,17 @@ router.route('/getDataPlants')
 		});
 	})
 
+router.route('/getCommonOutlinks')
+	.get(function(req,res){
+		var siteUrl="https://en.wikipedia.org/wiki/Lion";
+		var systemProxy="htttp://10.3.100.207:8080";
+		request({url:siteUrl,proxy:systemProxy},function(error,responses,html){
+			$=cheerio.load(html);
+			links=$('a');
+			$(links).each(function(i,link){
+				console.log($(link).text()+":\n "+$(link).attr('href'));
+			})
+		});
+	});
+
 module.exports=router;
