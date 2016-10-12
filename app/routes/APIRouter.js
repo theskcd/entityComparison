@@ -3,8 +3,10 @@ var router = express.Router();
 var request = require('request');
 var cheerio = require('cheerio');
 var fs = require('fs');
-var Browser = require('zombie');
-var assert = require("assert");
+var path = require('path');
+var childProcess = require('child_process');
+var phantomjs = require('phantomjs-prebuilt');
+var binPath = phantomjs.path;
 
 router.use(function(req, res, next) {
     next();
@@ -132,32 +134,25 @@ router.route('/getDataPlants')
         });
     });
 
-router.route('/testZombie')
+router.route('/testPhantom')
     .get(function(req, res) {
-        Browser.localhost('https://www.ncbi.nlm.nih.gov/', 3000);
-
-        describe('Visit ncbi taxonomy page', function() {
-            const browser = new Browser();
-            before(function(done) {
-                browser.visit('/taxonomy', done);
-            });
-
-            describe('perform search', function() {
-                before(function() {
-                    browser.
-                    fill('#term', 'Lion');
-                    return browser.pressButton('#search', done);
-                });
-
-                describe('should be successful', function() {
-                    browser.assert.success();
-                });
-
-                describe('should see results page', function() {
-                    browser.assert.text('title', 'Panthera leo - Taxonomy - NCBI');
-                });
-            });
+        var spawn = childProcess.spawn;
+        var result = spawn(binPath, [
+            path.join(__dirname, 'phantomjs-script.js')
+        ]);
+        result.stderr.on('data', function(data) {
+            data = data.toString();
+            try {
+                console.log(JSON.parse(data));
+            } catch (e) {
+                throw new Error(data);
+            }
         });
+
+        result.on('exit', function() {
+            console.log('done');
+        });
+
     });
 
 module.exports = router;
