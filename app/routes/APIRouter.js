@@ -2,11 +2,10 @@ var express = require('express');
 var router = express.Router();
 var request = require('request');
 var cheerio = require('cheerio');
-var fs = require('fs');
-var path = require('path');
-var childProcess = require('child_process');
-var phantomjs = require('phantomjs-prebuilt');
-var binPath = phantomjs.path;
+var Nightmare = require('nightmare');
+var nightmare = Nightmare({
+    show: true
+})
 
 router.use(function(req, res, next) {
     next();
@@ -134,25 +133,31 @@ router.route('/getDataPlants')
         });
     });
 
-router.route('/testPhantom')
+router.route('/testNightmare')
     .get(function(req, res) {
-        var spawn = childProcess.spawn;
-        var result = spawn(binPath, [
-            path.join(__dirname, 'phantomjs-script.js')
-        ]);
-        result.stderr.on('data', function(data) {
-            data = data.toString();
-            try {
-                console.log(JSON.parse(data));
-            } catch (e) {
-                throw new Error(data);
-            }
-        });
-
-        result.on('exit', function() {
-            console.log('done');
-        });
-
+        nightmare
+            .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?term=lion')
+            .click('.rprt .title a')
+            .wait('li')
+            .evaluate(function() {
+                var els = document.getElementsByTagName("a"),
+                    result = []
+                for (var i = 0, _len = els.length; i < _len; i++) {
+                    var el = els[i]
+                    if (el.hasAttribute('title') && el.hasAttribute('alt') && el.hasAttribute('href')) {
+                        if (el.getAttribute('href').indexOf('lin=f&keep=1&srchmode=1&unlock') != -1)
+                            result.push(el.childNodes[0].data);
+                    }
+                }
+                return result
+            })
+            .end()
+            .then(function(result) {
+                console.log(result);
+            })
+            .catch(function(error) {
+                console.error('Search failed:', error);
+            });
     });
 
 module.exports = router;

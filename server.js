@@ -10,9 +10,7 @@ var path = require('path');
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
-var path = require('path');
-var childProcess = require('child_process');
-var phantomjs = require('phantomjs');
+var Nightmare = require('nightmare');
 
 var APIRouter = require('./app/routes/APIRouter');
 
