@@ -1,0 +1,498 @@
+Eukaryota
++ Opisthokonta
++ + Fungi
++ + + Morchella esculenta
++ + Metazoa
++ + + Bilateria
++ + + + Protostomia
++ + + + + Lophotrochozoa
++ + + + + + Ficus
++ + + + + Ecdysozoa
++ + + + + + Neoptera
++ + + + + + + Orthopteroidea
++ + + + + + + + Encalypta
++ + + + + + + Endopterygota
++ + + + + + + + Hymenoptera
++ + + + + + + + + Apocrita
++ + + + + + + + + + Aculeata
++ + + + + + + + + + + Prosopis
++ + + + + + + + + + Chaldicoidea group
++ + + + + + + + + + + Thymus
++ + + + + + + + Amphiesmenoptera
++ + + + + + + + + Obtectomera
++ + + + + + + + + + Hesperioidea
++ + + + + + + + + + + Viola
++ + + + + + + + + + Papilionoidea
++ + + + + + + + + + + Junonia coenia
++ + + + Deuterostomia
++ + + + + Morus
++ Viridiplantae
++ + Embryophyta
++ + + Bryophyta
++ + + + Encalypta
++ + + Tracheophyta
++ + + + Euphyllophyta
++ + + + + Moniliformopses
++ + + + + + Polypodiidae
++ + + + + + + Salviniales
++ + + + + + + + Azolla
++ + + + + + + + + Azolla caroliniana
++ + + + + + + Polypodiales
++ + + + + + + + eupolypods I
++ + + + + + + + + Polypodiaceae
++ + + + + + + + + + Polypodium scouleri
++ + + + + + + + + Lomariopsidaceae
++ + + + + + + + + + Nephrolepis
++ + + + + + + + + + + Nephrolepis obliterata
++ + + + + + + + + + + Nephrolepis exaltata
++ + + + + + + + + Dryopteridaceae
++ + + + + + + + + + Polystichum
++ + + + + + + + + + + Polystichum acrostichoides
++ + + + + + + + + + + Polystichum munitum
++ + + + + Spermatophyta
++ + + + + + Mesangiospermae
++ + + + + + + Liliopsida
++ + + + + + + + Alismatales
++ + + + + + + + + Orontioideae
++ + + + + + + + + + Lysichiton
++ + + + + + + + + + Symplocarpus
++ + + + + + + + + + + Symplocarpus foetidus
++ + + + + + + + Petrosaviidae
++ + + + + + + + + Liliales
++ + + + + + + + + + Liliaceae
++ + + + + + + + + + + Erythronium dens-canis
++ + + + + + + + + + Melanthiaceae
++ + + + + + + + + + + Veratrum
++ + + + + + + + + + + + Veratrum nigrum
++ + + + + + + + + + + + Veratrum viride
++ + + + + + + + + + + + Veratrum album
++ + + + + + + + + + + Trillium
++ + + + + + + + + Dioscoreales
++ + + + + + + + + + Dioscorea
++ + + + + + + + + Asparagales
++ + + + + + + + + + Xanthorrhoeaceae
++ + + + + + + + + + + Phormium tenax
++ + + + + + + + + + Orchidaceae
++ + + + + + + + + + + Vanilla
++ + + + + + + + + + Amaryllidaceae
++ + + + + + + + + + + Allioideae
++ + + + + + + + + + + + Allium
++ + + + + + + + + + + + + Allium canadense
++ + + + + + + + + + + + + Allium caeruleum
++ + + + + + + + + + + + + Allium moly
++ + + + + + + + + + + + + Allium giganteum
++ + + + + + + + + + + + + Allium christophii
++ + + + + + + + + + + + + Allium cernuum
++ + + + + + + + + + + Amaryllidoideae
++ + + + + + + + + + + + Galanthus
++ + + + + + + + + commelinids
++ + + + + + + + + + Zingiberales
++ + + + + + + + + + + Zingiberaceae
++ + + + + + + + + + + + Curcuma longa
++ + + + + + + + + + + Musaceae
++ + + + + + + + + + + + Musa
++ + + + + + + + + + + + + Musa x paradisiaca
++ + + + + + + + + + + + + Musa acuminata
++ + + + + + + + + + Poales
++ + + + + + + + + + + Bromeliaceae
++ + + + + + + + + + + + Ananas comosus
++ + + + + + + + + + + Poaceae
++ + + + + + + + + + + + PACMAD clade
++ + + + + + + + + + + + + Andropogoneae
++ + + + + + + + + + + + + + Tripsacinae
++ + + + + + + + + + + + + + + Zea mays
++ + + + + + + + + + + + + + + + Zea mays subsp. mays
++ + + + + + + + + + + + + + Saccharinae
++ + + + + + + + + + + + + + + Saccharum officinarum complex
++ + + + + + + + + + + + + + + + Saccharum hybrid cultivar
++ + + + + + + + + + + + + + + + Saccharum officinarum
++ + + + + + + + + + + + BOP clade
++ + + + + + + + + + + + + Bambusoideae
++ + + + + + + + + + + + + + Bambuseae
++ + + + + + + + + + + + + Pooideae
++ + + + + + + + + + + + + + Triticeae
++ + + + + + + + + + + + + + + Triticinae
++ + + + + + + + + + + + + + + + Triticum aestivum
++ + + + + + + + + + + + + + + Hordeinae
++ + + + + + + + + + + + + + + + Secale cereale
++ + + + + + + + + + + + + Oryzoideae
++ + + + + + + + + + + + + + Oryza
++ + + + + + + + + + + + + + + Oryza glaberrima
++ + + + + + + + + + + + + + + Oryza sativa
++ + + + + + + Magnoliidae
++ + + + + + + + Lauraceae
++ + + + + + + + + Cinnamomum
++ + + + + + + + + + Cinnamomum verum
++ + + + + + + + + Umbellularia
++ + + + + + + + + + Umbellularia californica
++ + + + + + + eudicotyledons
++ + + + + + + + stem eudicotyledons
++ + + + + + + + + Proteales
++ + + + + + + + + + Platanus
++ + + + + + + + + + + Platanus racemosa
++ + + + + + + + + + + Platanus occidentalis
++ + + + + + + + + Buxales
++ + + + + + + + + + Buxus
++ + + + + + + + + Ranunculales
++ + + + + + + + + + Ranunculaceae
++ + + + + + + + + + + Ranunculoideae
++ + + + + + + + + + + + Anemoneae
++ + + + + + + + + + + + + Clematis virginiana
++ + + + + + + + + + + + Helleboreae
++ + + + + + + + + + + + + Helleborus
++ + + + + + + + + + Papaveraceae
++ + + + + + + + + + + Fumarioideae
++ + + + + + + + + + + + Pseudofumaria
++ + + + + + + + + + + + + Pseudofumaria lutea
++ + + + + + + + + + + + Capnoides
++ + + + + + + + + + + + + Capnoides sempervirens
++ + + + + + + + + + + + Corydalis
++ + + + + + + + + + + + + Corydalis aurea
++ + + + + + + + + + + + + Corydalis flavula
++ + + + + + + + Gunneridae
++ + + + + + + + + Pentapetalae
++ + + + + + + + + + Saxifragales
++ + + + + + + + + + + Sempervivum tectorum
++ + + + + + + + + + asterids
++ + + + + + + + + + + Ericales
++ + + + + + + + + + + + Balsaminaceae
++ + + + + + + + + + + + + Impatiens
++ + + + + + + + + + + + + + Impatiens
++ + + + + + + + + + + + + + + Impatiens capensis
++ + + + + + + + + + + + + + Impatiens pallida
++ + + + + + + + + + + + Ericaceae
++ + + + + + + + + + + + + Vaccinioideae
++ + + + + + + + + + + + + + Vaccinium
++ + + + + + + + + + + + + + + Vaccinium parvifolium
++ + + + + + + + + + + + + + + Vaccinium ovatum
++ + + + + + + + + + + + + Arbutoideae
++ + + + + + + + + + + + + + Arbutus
++ + + + + + + + + + + + + + + Arbutus unedo
++ + + + + + + + + + + + Theaceae
++ + + + + + + + + + + + + Camellia sinensis
++ + + + + + + + + + + Cornales
++ + + + + + + + + + + + Cornus
++ + + + + + + + + + + + + Cornus amomum
++ + + + + + + + + + + + + Cornus kousa
++ + + + + + + + + + + + + Cornus florida
++ + + + + + + + + + + lamiids
++ + + + + + + + + + + + Lamiales
++ + + + + + + + + + + + + Gesneriaceae
++ + + + + + + + + + + + + + Streptocarpus sect. Saintpaulia
++ + + + + + + + + + + + + Orobanchaceae
++ + + + + + + + + + + + + + Castilleja
++ + + + + + + + + + + + + Lamiaceae
++ + + + + + + + + + + + + + Lamioideae
++ + + + + + + + + + + + + + + Lamium
++ + + + + + + + + + + + + + + + Lamium maculatum
++ + + + + + + + + + + + + + + + Lamium amplexicaule
++ + + + + + + + + + + + + + Nepetoideae
++ + + + + + + + + + + + + + + Mentheae
++ + + + + + + + + + + + + + + + Thymus
++ + + + + + + + + + + + + + + + + Thymus vulgaris
++ + + + + + + + + + + + + + + + Rosmarinus
++ + + + + + + + + + + + + + + + + Rosmarinus officinalis
++ + + + + + + + + + + + + + + Lavanduleae
++ + + + + + + + + + + + + + + + Lavandula
++ + + + + + + + + + + + + Oleaceae
++ + + + + + + + + + + + + + Fraxinus
++ + + + + + + + + + + + + + + Fraxinus pennsylvanica
++ + + + + + + + + + + + + + + Fraxinus nigra
++ + + + + + + + + + + + + + + Fraxinus americana
++ + + + + + + + + + + + + Plantaginaceae
++ + + + + + + + + + + + + + Veroniceae
++ + + + + + + + + + + + + + + Veronica arvensis
++ + + + + + + + + + + + + + Plantagineae
++ + + + + + + + + + + + + + + Plantago major
++ + + + + + + + + + + + Gentianales
++ + + + + + + + + + + + + Rubiaceae
++ + + + + + + + + + + + + + Coffea
++ + + + + + + + + + + + + Apocynaceae
++ + + + + + + + + + + + + + Asclepiadoideae
++ + + + + + + + + + + + + + + Asclepias
++ + + + + + + + + + + + + + + + Asclepias amplexicaulis
++ + + + + + + + + + + + + + + + Asclepias verticillata
++ + + + + + + + + + + + + + + + Asclepias incarnata
++ + + + + + + + + + + + + + + + Asclepias tuberosa
++ + + + + + + + + + + + + + + + Asclepias syriaca
++ + + + + + + + + + + + + + Apocynoideae
++ + + + + + + + + + + + + + + Apocynum cannabinum
++ + + + + + + + + + + + Solanales
++ + + + + + + + + + + + + Convolvulaceae
++ + + + + + + + + + + + + + Ipomoea batatas
++ + + + + + + + + + + + + Solanaceae
++ + + + + + + + + + + + + + Nicotianoideae
++ + + + + + + + + + + + + + + Nicotiana
++ + + + + + + + + + + + + + + + Nicotiana glauca
++ + + + + + + + + + + + + + Solanoideae
++ + + + + + + + + + + + + + + Solanum
++ + + + + + + + + + + + + + + + Solanum americanum
++ + + + + + + + + + + + + + + + Solanum carolinense
++ + + + + + + + + + + + + + + + Solanum dulcamara
++ + + + + + + + + + + + + + + + Solanum tuberosum
++ + + + + + + + + + + + + + + + Solanum nigrum
++ + + + + + + + + + + + + + + + Lycopersicon
++ + + + + + + + + + + + + + + + + Solanum lycopersicum
++ + + + + + + + + + + campanulids
++ + + + + + + + + + + + Aquifoliales
++ + + + + + + + + + + + + Ilex
++ + + + + + + + + + + + + + Ilex verticillata
++ + + + + + + + + + + + + + Ilex glabra
++ + + + + + + + + + + + + + Ilex decidua
++ + + + + + + + + + + + + + Ilex aquifolium
++ + + + + + + + + + + + Asterales
++ + + + + + + + + + + + + Asteraceae
++ + + + + + + + + + + + + + Cichorioideae
++ + + + + + + + + + + + + + + Sonchus
++ + + + + + + + + + + + + + + + Sonchus oleraceus
++ + + + + + + + + + + + + + + + Sonchus asper
++ + + + + + + + + + + + + + + + Sonchus arvensis
++ + + + + + + + + + + + + + Carduoideae
++ + + + + + + + + + + + + + + Carduinae
++ + + + + + + + + + + + + + + + Carduus
++ + + + + + + + + + + + + + + + + Carduus nutans
++ + + + + + + + + + + + + + + + Cirsium
++ + + + + + + + + + + + + + + + + Cirsium arvense
++ + + + + + + + + + + + + + Asteroideae
++ + + + + + + + + + + + + + + Inuleae
++ + + + + + + + + + + + + + + + Rhanterium epapposum
++ + + + + + + + + + + + + + + Astereae
++ + + + + + + + + + + + + + + + North American clade
++ + + + + + + + + + + + + + + + + Amphipappus
++ + + + + + + + + + + + + + + + Astereae incertae sedis
++ + + + + + + + + + + + + + + + + Bellis perennis
++ + + + + + + + + + + + + + + Senecioneae
++ + + + + + + + + + + + + + + + Senecioninae
++ + + + + + + + + + + + + + + + + Jacobaea
++ + + + + + + + + + + + + + + + + + Jacobaea maritima
++ + + + + + + + + + + + + + + + + + Jacobaea erucifolia
++ + + + + + + + + + + + + + + + + + Jacobaea aquatica
++ + + + + + + + + + + + + + + + + + Jacobaea vulgaris
++ + + + + + + + + + + + + + + + + Senecio
++ + + + + + + + + + + + + + + + + + Senecio squalidus
++ + + + + + + + + + + + + + + Anthemideae
++ + + + + + + + + + + + + + + + Anthemidinae
++ + + + + + + + + + + + + + + + + Tanacetum
++ + + + + + + + + + + + + + + + + + Tanacetum vulgare
++ + + + + + + + + + + + + + + + + + Tanacetum parthenium
++ + + + + + + + + + + + + + + + Artemisiinae
++ + + + + + + + + + + + + + + + + Chrysanthemum x morifolium
++ + + + + + + + + + + + + + + + Matricariinae
++ + + + + + + + + + + + + + + + + Achillea
++ + + + + + + + + + + + + + + + + + Achillea filipendulina
++ + + + + + + + + + + + + + + + + + Achillea ptarmica
++ + + + + + + + + + + + + + + + + + Achillea millefolium complex
++ + + + + + + + + + + + + + + + + + + Achillea millefolium
++ + + + + + + + + + + + + + + Heliantheae alliance
++ + + + + + + + + + + + + + + + Helenieae
++ + + + + + + + + + + + + + + + + Helenium amarum
++ + + + + + + + + + + + + + + + Heliantheae
++ + + + + + + + + + + + + + + + + Encelia
++ + + + + + + + + + + + + + + + + + Encelia farinosa
++ + + + + + + + + + + + + + + + + Echinacea
++ + + + + + + + + + + + + + + + + + Echinacea paradoxa
++ + + + + + + + + + + + + + + + + Rudbeckia
++ + + + + + + + + + + + + + + + + + Rudbeckia fulgida
++ + + + + + + + + + + + + + + + + + Rudbeckia laciniata
++ + + + + + + + + + + + + + + + + + Rudbeckia triloba
++ + + + + + + + + + + + + + + + + + Rudbeckia hirta
++ + + + + + + + + + + + + + + + + Ambrosia
++ + + + + + + + + + + + + + + + + + Ambrosia trifida
++ + + + + + + + + + + + + + + + + + Ambrosia artemisiifolia
++ + + + + + + + + + + + Dipsacales
++ + + + + + + + + + + + + Viburnum
++ + + + + + + + + + + + + + Viburnum prunifolium
++ + + + + + + + + + + + + + Viburnum rhytidophyllum
++ + + + + + + + + + + + Apiales
++ + + + + + + + + + + + + Apioideae
++ + + + + + + + + + + + + + apioid superclade
++ + + + + + + + + + + + + + + Apieae
++ + + + + + + + + + + + + + + + Foeniculum
++ + + + + + + + + + + + + + + + + Foeniculum vulgare
++ + + + + + + + + + + + + + + + Petroselinum
++ + + + + + + + + + + + + + + + + Petroselinum crispum
++ + + + + + + + + + + + + + + Tordylieae
++ + + + + + + + + + + + + + + + Pastinaca sativa
++ + + + + + + + + + + + + + Scandiceae
++ + + + + + + + + + + + + + + Scandicinae
++ + + + + + + + + + + + + + + + Anthriscus sylvestris
++ + + + + + + + + + + + + + + Daucinae
++ + + + + + + + + + + + + + + + Daucus carota
++ + + + + + + + + + Caryophyllales
++ + + + + + + + + + + Polygonaceae
++ + + + + + + + + + + + Rheum rhabarbarum
++ + + + + + + + + + + Phytolaccaceae
++ + + + + + + + + + + + Phytolacca americana
++ + + + + + + + + + rosids
++ + + + + + + + + + + rosids incertae sedis
++ + + + + + + + + + + + Vitis
++ + + + + + + + + + + fabids
++ + + + + + + + + + + + Oxalidales
++ + + + + + + + + + + + + Oxalis
++ + + + + + + + + + + + Fabales
++ + + + + + + + + + + + + Fabaceae
++ + + + + + + + + + + + + + Caesalpinioideae
++ + + + + + + + + + + + + + + Cercis
++ + + + + + + + + + + + + + + + Cercis siliquastrum
++ + + + + + + + + + + + + + Mimosoideae
++ + + + + + + + + + + + + + + Mimoseae
++ + + + + + + + + + + + + + + + Mimosa
++ + + + + + + + + + + + + + + + + Mimosa pudica
++ + + + + + + + + + + + + + + + Prosopis
++ + + + + + + + + + + + + + + + + Prosopis glandulosa
++ + + + + + + + + + + + + + Papilionoideae
++ + + + + + + + + + + + + + + Sophoreae
++ + + + + + + + + + + + + + + + Cladrastis kentukea
++ + + + + + + + + + + + + + + Fabeae
++ + + + + + + + + + + + + + + + Pisum sativum
++ + + + + + + + + + + + + + + Phaseoleae
++ + + + + + + + + + + + + + + + Pueraria
++ + + + + + + + + + + + + + + + + Pueraria montana var. lobata
++ + + + + + + + + + + + + + + + Phaseolus
++ + + + + + + + + + + + + + + Dalbergieae
++ + + + + + + + + + + + + + + + Arachis hypogaea
++ + + + + + + + + + + + Malpighiales
++ + + + + + + + + + + + + Violaceae
++ + + + + + + + + + + + + + Viola
++ + + + + + + + + + + + + Linaceae
++ + + + + + + + + + + + + + Linum usitatissimum
++ + + + + + + + + + + + + Salicaceae
++ + + + + + + + + + + + + + Saliceae
++ + + + + + + + + + + + + + + Salix
++ + + + + + + + + + + + + + + + Salix gooddingii
++ + + + + + + + + + + + + + + + Salix exigua
++ + + + + + + + + + + + + + + Populus
++ + + + + + + + + + + + Cucurbitales
++ + + + + + + + + + + + + Cucumis sativus
++ + + + + + + + + + + + + + Cucumis sativus var. sativus
++ + + + + + + + + + + + Fagales
++ + + + + + + + + + + + + Fagaceae
++ + + + + + + + + + + + + + Quercus
++ + + + + + + + + + + + + + + Quercus bicolor
++ + + + + + + + + + + + + + + Quercus canariensis
++ + + + + + + + + + + + + + + Quercus macrocarpa
++ + + + + + + + + + + + + + + Quercus velutina
++ + + + + + + + + + + + + + + Quercus douglasii
++ + + + + + + + + + + + + + + Quercus coccinea
++ + + + + + + + + + + + + + + Quercus palustris
++ + + + + + + + + + + + + + + Quercus robur
++ + + + + + + + + + + + + + + Quercus petraea
++ + + + + + + + + + + + + + + Quercus alba
++ + + + + + + + + + + + + + + Quercus rubra
++ + + + + + + + + + + + + Betulaceae
++ + + + + + + + + + + + + + Alnus
++ + + + + + + + + + + + + + + Alnus glutinosa
++ + + + + + + + + + + + + + + Alnus incana
++ + + + + + + + + + + + + + Betula
++ + + + + + + + + + + + + + + Betula lenta
++ + + + + + + + + + + + + + + Betula alleghaniensis
++ + + + + + + + + + + + + + + Betula nigra
++ + + + + + + + + + + + + + + Betula papyrifera
++ + + + + + + + + + + + + + + Betula pendula
++ + + + + + + + + + + + Rosales
++ + + + + + + + + + + + + Rosaceae
++ + + + + + + + + + + + + + Maloideae
++ + + + + + + + + + + + + + + Amygdaloideae incertae sedis
++ + + + + + + + + + + + + + + + Lyonothamnus floribundus
++ + + + + + + + + + + + + + + Amygdaleae
++ + + + + + + + + + + + + + + + Prunus
++ + + + + + + + + + + + + + + + + Prunus avium
++ + + + + + + + + + + + + + + + + Prunus armeniaca
++ + + + + + + + + + + + + + + + + Prunus serotina
++ + + + + + + + + + + + + + + + + Prunus persica
++ + + + + + + + + + + + + + + + + Prunus dulcis
++ + + + + + + + + + + + + + + Maleae
++ + + + + + + + + + + + + + + + Pyrus
++ + + + + + + + + + + + + + + + + Pyrus communis
++ + + + + + + + + + + + + + + + Amelanchier
++ + + + + + + + + + + + + + + + + Amelanchier canadensis
++ + + + + + + + + + + + + + + + + Amelanchier arborea
++ + + + + + + + + + + + + + + + + Amelanchier alnifolia
++ + + + + + + + + + + + + + + + Malus
++ + + + + + + + + + + + + + + + + Malus domestica
++ + + + + + + + + + + + + + Rosoideae
++ + + + + + + + + + + + + + + Rosoideae unplaced
++ + + + + + + + + + + + + + + + Rosa
++ + + + + + + + + + + + + + + + + Rosa multiflora
++ + + + + + + + + + + + + + + + + Rosa virginiana
++ + + + + + + + + + + + + + + + Rubus
++ + + + + + + + + + + + + + + + + Rubus phoenicolasius
++ + + + + + + + + + + + + + + + + Rubus pensilvanicus
++ + + + + + + + + + + + + + + + + Rubus occidentalis
++ + + + + + + + + + + + + + + + + Rubus hispidus
++ + + + + + + + + + + + + + + Potentilleae
++ + + + + + + + + + + + + + + + Fragaria x ananassa
++ + + + + + + + + + + + + Urticaceae
++ + + + + + + + + + + + + + Urtica dioica
++ + + + + + + + + + + + + Moraceae
++ + + + + + + + + + + + + + Morus
++ + + + + + + + + + + + + + + Morus rubra
++ + + + + + + + + + + + + + + Morus alba
++ + + + + + + + + + + + + + Maclura
++ + + + + + + + + + + + + + + Maclura pomifera
++ + + + + + + + + + + + + + Ficus
++ + + + + + + + + + + + + + + Ficus carica
++ + + + + + + + + + + + + Cannabaceae
++ + + + + + + + + + + + + + Cannabis
++ + + + + + + + + + + + + + + Cannabis sativa
++ + + + + + + + + + + malvids
++ + + + + + + + + + + + Myrtales
++ + + + + + + + + + + + + Myrtoideae
++ + + + + + + + + + + + + + Syzygieae
++ + + + + + + + + + + + + + + Syzygium aromaticum
++ + + + + + + + + + + + + + Eucalypteae
++ + + + + + + + + + + + + + + Eucalyptus
++ + + + + + + + + + + + Brassicales
++ + + + + + + + + + + + + Moringaceae
++ + + + + + + + + + + + + + Moringa oleifera
++ + + + + + + + + + + + + Brassicaceae
++ + + + + + + + + + + + + + Hesperideae
++ + + + + + + + + + + + + + + Hesperis matronalis
++ + + + + + + + + + + + + + Thlaspideae
++ + + + + + + + + + + + + + + Alliaria petiolata
++ + + + + + + + + + + + + + Cardamineae
++ + + + + + + + + + + + + + + Rorippa
++ + + + + + + + + + + + + + + + Rorippa sylvestris
++ + + + + + + + + + + + + + + Cardamine
++ + + + + + + + + + + + + + + + Cardamine concatenata
++ + + + + + + + + + + + + + + + Cardamine bulbosa
++ + + + + + + + + + + + + + + + Cardamine hirsuta
++ + + + + + + + + + + + + + + Barbarea
++ + + + + + + + + + + + + + + + Barbarea vulgaris
++ + + + + + + + + + + + + + + + Barbarea verna
++ + + + + + + + + + + + + + Brassiceae
++ + + + + + + + + + + + + + + Coincya
++ + + + + + + + + + + + + + + + Coincya monensis
++ + + + + + + + + + + + + + + Brassica
++ + + + + + + + + + + + + + + + Brassica oleracea
++ + + + + + + + + + + + Malvales
++ + + + + + + + + + + + + Malvaceae
++ + + + + + + + + + + + + + Bombacoideae
++ + + + + + + + + + + + + + + Adansonia
++ + + + + + + + + + + + + + Malvoideae
++ + + + + + + + + + + + + + + Gossypium
++ + + + + + + + + + + + Sapindales
++ + + + + + + + + + + + + Hippocastanaceae
++ + + + + + + + + + + + + + Aesculus californica
++ + + + + + + + + + + + + Meliaceae
++ + + + + + + + + + + + + + Azadirachta indica
++ + + + + + + + + + + + + Anacardiaceae
++ + + + + + + + + + + + + + Pistacia
++ + + + + + + + + + + + + + + Pistacia vera
++ + + + + + + + + + + + + + Toxicodendron
++ + + + + + + + + + + + + + + Toxicodendron radicans
++ + + + + + + + + + + + + + Mangifera
++ + + + + + + + + + + + + + + Mangifera indica
++ + + + + + + + + + + + + Aceraceae
++ + + + + + + + + + + + + + Acer
++ + + + + + + + + + + + + + + Acer saccharinum
++ + + + + + + + + + + + + + + Acer pensylvanicum
++ + + + + + + + + + + + + + + Acer saccharum
++ + + + + + + + + + + + + + + + Acer saccharum subsp. leucoderme
++ + + + + + + + + + + + + + + + Acer saccharum subsp. nigrum
++ + + + + + + + + + + + + + + Acer negundo
++ + + + + + + + + + + + + Rutaceae
++ + + + + + + + + + + + + + Citrus
++ + + + + + + + + + + + + + + Citrus x paradisi
++ + + + + + + + + + + + + + + Citrus limon
+-----------------------------------

@@ -1,0 +1,497 @@
+Eukaryota
++ Opisthokonta
++ + Bilateria
++ + + Deuterostomia
++ + + + Chordata
++ + + + + Vertebrata
++ + + + + + Cyclostomata
++ + + + + + + Hyperoartia
++ + + + + + + Hyperotreti
++ + + + + + Gnathostomata
++ + + + + + + Teleostomi
++ + + + + + + + Euteleostomi
++ + + + + + + + + Actinopterygii
++ + + + + + + + + + Actinopteri
++ + + + + + + + + + + Chondrostei
++ + + + + + + + + + + + Acipenser sturio
++ + + + + + + + + + + Neopterygii
++ + + + + + + + + + + + Teleostei
++ + + + + + + + + + + + + Elopocephalai
++ + + + + + + + + + + + + + Echidna
++ + + + + + + + + + + + + Osteoglossocephalai
++ + + + + + + + + + + + + + Clupeocephala
++ + + + + + + + + + + + + + + Euteleosteomorpha
++ + + + + + + + + + + + + + + + Neoteleostei
++ + + + + + + + + + + + + + + + + Acanthomorphata
++ + + + + + + + + + + + + + + + + + Euacanthomorphacea
++ + + + + + + + + + + + + + + + + + + Percomorphaceae
++ + + + + + + + + + + + + + + + + + + + Anabantaria
++ + + + + + + + + + + + + + + + + + + + + Betta splendens
++ + + + + + + + + + + + + + + + + + + + Syngnathiaria
++ + + + + + + + + + + + + + + + + + + + + Hippocampus
++ + + + + + + + + + + + + + + + + + + + Carangaria
++ + + + + + + + + + + + + + + + + + + + + Xiphias gladius
++ + + + + + + + + + + + + + + + + + + + Pelagiaria
++ + + + + + + + + + + + + + + + + + + + + Scombridae gen. sp.
++ + + + + + + + + + + + + + + + + + + + Ovalentaria
++ + + + + + + + + + + + + + + + + + + + + Poecilia reticulata
++ + + + + + + + + + + + + + + + + + + + Eupercaria
++ + + + + + + + + + + + + + + + + + + + + Labriformes
++ + + + + + + + + + + + + + + + + + + + + + Sparisoma cretense
++ + + + + + + + + + + + + + + + + + + + + Perciformes
++ + + + + + + + + + + + + + + + + + + + + + Perca
++ + + + + + + + + + + + + + + + + + + + + + + Perca fluviatilis
++ + + + + + + + + + + + + + + + + + + + + + + Perca flavescens
++ + + + + + + + + + + + + + + + + + + + + Lophiiformes
++ + + + + + + + + + + + + + + + + + + + + + Lophius
++ + + + + + + + + + + + + + + + + + + + + + + Lophius litulon
++ + + + + + + + + + + + + + + + + + + + + + + Lophius americanus
++ + + + + + + + + + + + + + + + + + Paracanthomorphacea
++ + + + + + + + + + + + + + + + + + + Melanogrammus aeglefinus
++ + + + + + + + + + + + + + + + Protacanthopterygii
++ + + + + + + + + + + + + + + + + Salmonidae
++ + + + + + + + + + + + + + + + + + Coregoninae
++ + + + + + + + + + + + + + + + + + + Coregonus
++ + + + + + + + + + + + + + + + + + Salmoninae
++ + + + + + + + + + + + + + + + + + + Oncorhynchus
++ + + + + + + + + + + + + + + + + + + + Oncorhynchus nerka
++ + + + + + + + + + + + + + + + + + + + Oncorhynchus mykiss
++ + + + + + + + + + + + + + + Otomorpha
++ + + + + + + + + + + + + + + + Otophysi
++ + + + + + + + + + + + + + + + + Characiphysae
++ + + + + + + + + + + + + + + + + + catfish
++ + + + + + + + + + + + + + + + + Cypriniphysae
++ + + + + + + + + + + + + + + + + + Cyprinidae
++ + + + + + + + + + + + + + + + + + + Cyprinus
++ + + + + + + + + + + + + + + + + + + + Cyprinus carpio
++ + + + + + + + + + + + + + + + + + + Carassius
++ + + + + + + + + + + + + + + + + + + + Carassius auratus
++ + + + + + + + + Sarcopterygii
++ + + + + + + + + + Coelacanthimorpha
++ + + + + + + + + + Dipnotetrapodomorpha
++ + + + + + + + + + + Tetrapoda
++ + + + + + + + + + + + Amniota
++ + + + + + + + + + + + + Mammalia
++ + + + + + + + + + + + + + Theria
++ + + + + + + + + + + + + + + Eutheria
++ + + + + + + + + + + + + + + + Afrotheria
++ + + + + + + + + + + + + + + + + Tubulidentata
++ + + + + + + + + + + + + + + + + + Orycteropus afer
++ + + + + + + + + + + + + + + + + Proboscidea
++ + + + + + + + + + + + + + + + + + Elephantidae
++ + + + + + + + + + + + + + + + + + + Loxodonta
++ + + + + + + + + + + + + + + + + + + + Loxodonta cyclotis
++ + + + + + + + + + + + + + + + + + + + Loxodonta africana
++ + + + + + + + + + + + + + + + + + + Elephas
++ + + + + + + + + + + + + + + + + + + + Elephas maximus
++ + + + + + + + + + + + + + + + Boreoeutheria
++ + + + + + + + + + + + + + + + + Euarchontoglires
++ + + + + + + + + + + + + + + + + + Glires
++ + + + + + + + + + + + + + + + + + + Rodentia
++ + + + + + + + + + + + + + + + + + + + Hystricognathi
++ + + + + + + + + + + + + + + + + + + + + Chinchillidae
++ + + + + + + + + + + + + + + + + + + + + + Chinchilla
++ + + + + + + + + + + + + + + + + + + + + Hydrochaeridae
++ + + + + + + + + + + + + + + + + + + + + + Hydrochoerus hydrochaeris
++ + + + + + + + + + + + + + + + + + + + + Caviidae
++ + + + + + + + + + + + + + + + + + + + + + Cavia porcellus
++ + + + + + + + + + + + + + + + + + + + Sciurognathi
++ + + + + + + + + + + + + + + + + + + + + Sciuridae
++ + + + + + + + + + + + + + + + + + + + + + Xerinae
++ + + + + + + + + + + + + + + + + + + + + Muroidea
++ + + + + + + + + + + + + + + + + + + + + + Murinae
++ + + + + + + + + + + + + + + + + + + + + + + Rattus
++ + + + + + + + + + + + + + + + + + + + + + + + Rattus norvegicus
++ + + + + + + + + + + + + + + + + + + + + + + Mus
++ + + + + + + + + + + + + + + + + + + + + + + + Mus musculus
++ + + + + + + + + + + + + + + + + + + + + Heteromyidae
++ + + + + + + + + + + + + + + + + + + + + + Dipodomys
++ + + + + + + + + + + + + + + + + + + + + + + Dipodomys panamintinus
++ + + + + + + + + + + + + + + + + + + + + + + Dipodomys heermanni
++ + + + + + + + + + + + + + + + + + + + + + + Dipodomys californicus
++ + + + + + + + + + + + + + + + + + + Lagomorpha
++ + + + + + + + + + + + + + + + + + + + Oryctolagus cuniculus
++ + + + + + + + + + + + + + + + + + Primates
++ + + + + + + + + + + + + + + + + + + Haplorrhini
++ + + + + + + + + + + + + + + + + + + + Simiiformes
++ + + + + + + + + + + + + + + + + + + + + Catarrhini
++ + + + + + + + + + + + + + + + + + + + + + Hominoidea
++ + + + + + + + + + + + + + + + + + + + + + + Hominidae
++ + + + + + + + + + + + + + + + + + + + + + + + Ponginae
++ + + + + + + + + + + + + + + + + + + + + + + + + Pongo
++ + + + + + + + + + + + + + + + + + + + + + + + + + Pongo abelii
++ + + + + + + + + + + + + + + + + + + + + + + + + + Pongo pygmaeus
++ + + + + + + + + + + + + + + + + + + + + + + + Homininae
++ + + + + + + + + + + + + + + + + + + + + + + + + Pan
++ + + + + + + + + + + + + + + + + + + + + + + + + + Pan troglodytes
++ + + + + + + + + + + + + + + + + + + + + + + + + + Pan paniscus
++ + + + + + + + + + + + + + + + + + + + + + + + + Gorilla
++ + + + + + + + + + + + + + + + + + + + + + + + + + Gorilla beringei
++ + + + + + + + + + + + + + + + + + + + + + + + + + Gorilla gorilla
++ + + + + + + + + + + + + + + + + + + + + + + Hylobatidae
++ + + + + + + + + + + + + + + + + + + + + + + + Hylobates sp.
++ + + + + + + + + + + + + + + + + + + + + + Cercopithecoidea
++ + + + + + + + + + + + + + + + + + + + + + + Cercopithecidae
++ + + + + + + + + + + + + + + + + + + + + + + + Cercopithecinae
++ + + + + + + + + + + + + + + + + + + + + + + + + Mandrillus
++ + + + + + + + + + + + + + + + + + + + + + + + + + Mandrillus sphinx
++ + + + + + + + + + + + + + + + + + + + + + + + + Papio
++ + + + + + + + + + + + + + + + + + + + + + + + + + Papio papio
++ + + + + + + + + + + + + + + + + + + + + + + + + + Papio ursinus
++ + + + + + + + + + + + + + + + + + + + + + + + + + Papio hamadryas
++ + + + + + + + + + + + + + + + + + + + + + + + + + Papio cynocephalus
++ + + + + + + + + + + + + + + + + + + + + + + + + + Papio anubis
++ + + + + + + + + + + + + + + + + + + + + Platyrrhini
++ + + + + + + + + + + + + + + + + + + + + + Ateles sp.
++ + + + + + + + + + + + + + + + + + + + Tarsiiformes
++ + + + + + + + + + + + + + + + + + + + + Tarsius
++ + + + + + + + + + + + + + + + + + + Strepsirrhini
++ + + + + + + + + + + + + + + + + + + + Lemur
++ + + + + + + + + + + + + + + + + Laurasiatheria
++ + + + + + + + + + + + + + + + + + Insectivora
++ + + + + + + + + + + + + + + + + + + Condylura cristata
++ + + + + + + + + + + + + + + + + + Perissodactyla
++ + + + + + + + + + + + + + + + + + + Rhinocerotidae
++ + + + + + + + + + + + + + + + + + + + Rhinoceros
++ + + + + + + + + + + + + + + + + + + Equidae
++ + + + + + + + + + + + + + + + + + + + Equus
++ + + + + + + + + + + + + + + + + + + + + Equus incertae sedis
++ + + + + + + + + + + + + + + + + + + + + + Equus asinus x caballus
++ + + + + + + + + + + + + + + + + + + + + Equus
++ + + + + + + + + + + + + + + + + + + + + + Equus caballus
++ + + + + + + + + + + + + + + + + + + + + Asinus
++ + + + + + + + + + + + + + + + + + + + + + Equus asinus
++ + + + + + + + + + + + + + + + + + Cetartiodactyla
++ + + + + + + + + + + + + + + + + + + Ruminantia
++ + + + + + + + + + + + + + + + + + + + Pecora
++ + + + + + + + + + + + + + + + + + + + + Bovidae
++ + + + + + + + + + + + + + + + + + + + + + Antilopinae
++ + + + + + + + + + + + + + + + + + + + + + + Gazella
++ + + + + + + + + + + + + + + + + + + + + + Caprinae
++ + + + + + + + + + + + + + + + + + + + + + + Budorcas
++ + + + + + + + + + + + + + + + + + + + + + + + Budorcas taxicolor
++ + + + + + + + + + + + + + + + + + + + + + + Ovibos
++ + + + + + + + + + + + + + + + + + + + + + + + Ovibos moschatus
++ + + + + + + + + + + + + + + + + + + + + + + Oreamnos
++ + + + + + + + + + + + + + + + + + + + + + + + Oreamnos americanus
++ + + + + + + + + + + + + + + + + + + + + + + Ovis
++ + + + + + + + + + + + + + + + + + + + + + + + Ovis vignei
++ + + + + + + + + + + + + + + + + + + + + + + + Ovis aries
++ + + + + + + + + + + + + + + + + + + + + + + Capra
++ + + + + + + + + + + + + + + + + + + + + + + + Capra hircus
++ + + + + + + + + + + + + + + + + + + + + + Bovinae
++ + + + + + + + + + + + + + + + + + + + + + + Bubalus
++ + + + + + + + + + + + + + + + + + + + + + + + Bubalus bubalis
++ + + + + + + + + + + + + + + + + + + + + + + Syncerus
++ + + + + + + + + + + + + + + + + + + + + + + + Syncerus caffer
++ + + + + + + + + + + + + + + + + + + + + + + Bos
++ + + + + + + + + + + + + + + + + + + + + + + + Bos grunniens
++ + + + + + + + + + + + + + + + + + + + + + + + Bos frontalis
++ + + + + + + + + + + + + + + + + + + + + + + + Bos taurus
++ + + + + + + + + + + + + + + + + + + + + + + Bison
++ + + + + + + + + + + + + + + + + + + + + + + + Bison bonasus
++ + + + + + + + + + + + + + + + + + + + + + + + Bison bison
++ + + + + + + + + + + + + + + + + + + + + + Aepycerotinae
++ + + + + + + + + + + + + + + + + + + + + + + Aepyceros melampus
++ + + + + + + + + + + + + + + + + + + + + Giraffidae
++ + + + + + + + + + + + + + + + + + + + + + Giraffa camelopardalis
++ + + + + + + + + + + + + + + + + + + + + Cervidae
++ + + + + + + + + + + + + + + + + + + + + + Odocoileinae
++ + + + + + + + + + + + + + + + + + + + + + + Alces
++ + + + + + + + + + + + + + + + + + + + + + + + Alces americanus
++ + + + + + + + + + + + + + + + + + + + + + + Rangifer
++ + + + + + + + + + + + + + + + + + + + + + + + Rangifer tarandus
++ + + + + + + + + + + + + + + + + + + + + + Cervinae
++ + + + + + + + + + + + + + + + + + + + + + + Cervus elaphus
++ + + + + + + + + + + + + + + + + + + Tylopoda
++ + + + + + + + + + + + + + + + + + + + Camelidae
++ + + + + + + + + + + + + + + + + + + + + Vicugna
++ + + + + + + + + + + + + + + + + + + + + + Vicugna pacos
++ + + + + + + + + + + + + + + + + + + + + + Vicugna vicugna
++ + + + + + + + + + + + + + + + + + + + + Lama
++ + + + + + + + + + + + + + + + + + + + + + Lama glama
++ + + + + + + + + + + + + + + + + + + + + + Lama guanicoe
++ + + + + + + + + + + + + + + + + + + + + Camelus
++ + + + + + + + + + + + + + + + + + + + + + Camelus dromedarius
++ + + + + + + + + + + + + + + + + + + + + + Camelus bactrianus
++ + + + + + + + + + + + + + + + + + + Hippopotamidae
++ + + + + + + + + + + + + + + + + + + + Hippopotamus amphibius
++ + + + + + + + + + + + + + + + + + + Suina
++ + + + + + + + + + + + + + + + + + + + Sus scrofa
++ + + + + + + + + + + + + + + + + + + + + Sus scrofa domesticus
++ + + + + + + + + + + + + + + + + + + Cetacea
++ + + + + + + + + + + + + + + + + + + + Mysticeti
++ + + + + + + + + + + + + + + + + + + + + Balaenopteridae
++ + + + + + + + + + + + + + + + + + + + + + Megaptera
++ + + + + + + + + + + + + + + + + + + + + + + Megaptera novaeangliae
++ + + + + + + + + + + + + + + + + + + + + + Balaenoptera
++ + + + + + + + + + + + + + + + + + + + + + + Balaenoptera musculus
++ + + + + + + + + + + + + + + + + + + + Odontoceti
++ + + + + + + + + + + + + + + + + + + + + Monodontidae
++ + + + + + + + + + + + + + + + + + + + + + Monodon monoceros
++ + + + + + + + + + + + + + + + + + + + + Physeteridae
++ + + + + + + + + + + + + + + + + + + + + + Physeter catodon
++ + + + + + + + + + + + + + + + + + + + + Delphinidae
++ + + + + + + + + + + + + + + + + + + + + + Orcinus orca
++ + + + + + + + + + + + + + + + + + Carnivora
++ + + + + + + + + + + + + + + + + + + Feliformia
++ + + + + + + + + + + + + + + + + + + + Herpestidae
++ + + + + + + + + + + + + + + + + + + + + Suricata suricatta
++ + + + + + + + + + + + + + + + + + + + Felidae
++ + + + + + + + + + + + + + + + + + + + + Acinonychinae
++ + + + + + + + + + + + + + + + + + + + + + Acinonyx jubatus
++ + + + + + + + + + + + + + + + + + + + + unclassified Felidae
++ + + + + + + + + + + + + + + + + + + + + + Smilodon fatalis
++ + + + + + + + + + + + + + + + + + + + + Pantherinae
++ + + + + + + + + + + + + + + + + + + + + + Panthera
++ + + + + + + + + + + + + + + + + + + + + + + Panthera uncia
++ + + + + + + + + + + + + + + + + + + + + + + Panthera tigris
++ + + + + + + + + + + + + + + + + + + + + + + Panthera pardus
++ + + + + + + + + + + + + + + + + + + + + + + Panthera onca
++ + + + + + + + + + + + + + + + + + + + + + + Panthera leo
++ + + + + + + + + + + + + + + + + + + + + Felinae
++ + + + + + + + + + + + + + + + + + + + + + Leopardus
++ + + + + + + + + + + + + + + + + + + + + + + Leopardus pardalis
++ + + + + + + + + + + + + + + + + + + + + + Lynx
++ + + + + + + + + + + + + + + + + + + + + + + Lynx rufus
++ + + + + + + + + + + + + + + + + + + + + + Felis
++ + + + + + + + + + + + + + + + + + + + + + + Felis catus
++ + + + + + + + + + + + + + + + + + + + Hyaenidae
++ + + + + + + + + + + + + + + + + + + + + Proteles cristatus
++ + + + + + + + + + + + + + + + + + + Caniformia
++ + + + + + + + + + + + + + + + + + + + Odobenidae
++ + + + + + + + + + + + + + + + + + + + + Odobenus rosmarus
++ + + + + + + + + + + + + + + + + + + + Mustelidae
++ + + + + + + + + + + + + + + + + + + + + Martinae
++ + + + + + + + + + + + + + + + + + + + + + Gulo gulo
++ + + + + + + + + + + + + + + + + + + + + Mustelinae
++ + + + + + + + + + + + + + + + + + + + + + Neovison
++ + + + + + + + + + + + + + + + + + + + + + + Neovison vison
++ + + + + + + + + + + + + + + + + + + + + + Mustela
++ + + + + + + + + + + + + + + + + + + + + + + Mustela erminea
++ + + + + + + + + + + + + + + + + + + + + + + Mustela putorius
++ + + + + + + + + + + + + + + + + + + + + + + + Mustela putorius furo
++ + + + + + + + + + + + + + + + + + + + + + + Mustela lutreola
++ + + + + + + + + + + + + + + + + + + + Procyonidae
++ + + + + + + + + + + + + + + + + + + + + Procyon lotor
++ + + + + + + + + + + + + + + + + + + + Ailuridae
++ + + + + + + + + + + + + + + + + + + + + Ailurus fulgens
++ + + + + + + + + + + + + + + + + + + + Ursidae
++ + + + + + + + + + + + + + + + + + + + + Ailuropoda
++ + + + + + + + + + + + + + + + + + + + + + Ailuropoda melanoleuca
++ + + + + + + + + + + + + + + + + + + + + Ursus
++ + + + + + + + + + + + + + + + + + + + + + Ursus maritimus
++ + + + + + + + + + + + + + + + + + + + + + Ursus arctos
++ + + + + + + + + + + + + + + + + + + + + + Ursus sp.
++ + + + + + + + + + + + + + + + + + + + Canidae
++ + + + + + + + + + + + + + + + + + + + + Vulpes
++ + + + + + + + + + + + + + + + + + + + + + Vulpes lagopus
++ + + + + + + + + + + + + + + + + + + + + Canis
++ + + + + + + + + + + + + + + + + + + + + + Canis lupus
++ + + + + + + + + + + + + + + + + + + + + + + Canis lupus arctos
++ + + + + + + + + + + + + + + + + + + + + + + Canis lupus dingo
++ + + + + + + + + + + + + + + + + + + + + + + Canis lupus familiaris
++ + + + + + + + + + + + + + + + + + + + + + Canis latrans
++ + + + + + + + + + + + + + + + + + Chiroptera
++ + + + + + + + + + + + + + + + + + + Desmodus rotundus
++ + + + + + + + + + + + + + + + Xenarthra
++ + + + + + + + + + + + + + + + + Dasypodidae
++ + + + + + + + + + + + + + + Metatheria
++ + + + + + + + + + + + + + + + Diprotodontia
++ + + + + + + + + + + + + + + + + Phascolarctidae
++ + + + + + + + + + + + + + + + + + Phascolarctos cinereus
++ + + + + + + + + + + + + + + + + Petauridae
++ + + + + + + + + + + + + + + + + + Petaurus breviceps
++ + + + + + + + + + + + + + + + + Vombatidae
++ + + + + + + + + + + + + + + + + + Vombatidae gen. sp.
++ + + + + + + + + + + + + + + + + Macropodidae
++ + + + + + + + + + + + + + + + + + Setonix
++ + + + + + + + + + + + + + + + + + + Setonix brachyurus
++ + + + + + + + + + + + + + + + + + Macropus
++ + + + + + + + + + + + + + + + + + + Macropus sp.
++ + + + + + + + + + + + + + + + Dasyuromorphia
++ + + + + + + + + + + + + + + + + Sarcophilus harrisii
++ + + + + + + + + + + + + + Prototheria
++ + + + + + + + + + + + + + + Ornithorhynchus anatinus
++ + + + + + + + + + + + + Sauropsida
++ + + + + + + + + + + + + + Sauria
++ + + + + + + + + + + + + + + Lepidosauria
++ + + + + + + + + + + + + + + + Bifurcata
++ + + + + + + + + + + + + + + + + Gekkota
++ + + + + + + + + + + + + + + + + + Gekko
++ + + + + + + + + + + + + + + + + Unidentata
++ + + + + + + + + + + + + + + + + + Toxicofera
++ + + + + + + + + + + + + + + + + + + Serpentes
++ + + + + + + + + + + + + + + + + + + + Colubroidea
++ + + + + + + + + + + + + + + + + + + + + Viperidae
++ + + + + + + + + + + + + + + + + + + + Henophidia
++ + + + + + + + + + + + + + + + + + + + + Pythonidae
++ + + + + + + + + + + + + + + + + + + + + Boidae
++ + + + + + + + + + + + + + + + + + + + + + Boa constrictor
++ + + + + + + + + + + + + + + + + + + Anguimorpha
++ + + + + + + + + + + + + + + + + + + + Paleoanguimorpha
++ + + + + + + + + + + + + + + + + + + + + Varanus komodoensis
++ + + + + + + + + + + + + + + + + + + + Neoanguimorpha
++ + + + + + + + + + + + + + + + + + + + + Heloderma suspectum
++ + + + + + + + + + + + + + + + + + + Iguania
++ + + + + + + + + + + + + + + + + + + + Iguana
++ + + + + + + + + + + + + + + Archelosauria
++ + + + + + + + + + + + + + + + Archosauria
++ + + + + + + + + + + + + + + + + Dinosauria
++ + + + + + + + + + + + + + + + + + Aves
++ + + + + + + + + + + + + + + + + + + Neognathae
++ + + + + + + + + + + + + + + + + + + + Phoenicopteriformes
++ + + + + + + + + + + + + + + + + + + + + Phoenicopterus roseus
++ + + + + + + + + + + + + + + + + + + + Pelecaniformes
++ + + + + + + + + + + + + + + + + + + + + Ardea herodias
++ + + + + + + + + + + + + + + + + + + + Psittaciformes
++ + + + + + + + + + + + + + + + + + + + + Psittacidae
++ + + + + + + + + + + + + + + + + + + + Passeriformes
++ + + + + + + + + + + + + + + + + + + + + Passeroidea
++ + + + + + + + + + + + + + + + + + + + + + Ploceidae
++ + + + + + + + + + + + + + + + + + + + + + + Quelea
++ + + + + + + + + + + + + + + + + + + + + + Icteridae
++ + + + + + + + + + + + + + + + + + + + + + + Dolichonyx oryzivorus
++ + + + + + + + + + + + + + + + + + + + + + Estrildidae
++ + + + + + + + + + + + + + + + + + + + + + + Taeniopygia guttata
++ + + + + + + + + + + + + + + + + + + + + Certhiidae
++ + + + + + + + + + + + + + + + + + + + + + Troglodytes troglodytes
++ + + + + + + + + + + + + + + + + + + + + Corvoidea
++ + + + + + + + + + + + + + + + + + + + + + Corvidae
++ + + + + + + + + + + + + + + + + + + + + + + Corvus
++ + + + + + + + + + + + + + + + + + + + + + + + Corvus frugilegus
++ + + + + + + + + + + + + + + + + + + + + + + Cyanocitta
++ + + + + + + + + + + + + + + + + + + + + + + + Cyanocitta cristata
++ + + + + + + + + + + + + + + + + + + + + Turdidae
++ + + + + + + + + + + + + + + + + + + + + + Luscinia
++ + + + + + + + + + + + + + + + + + + + + + + Luscinia megarhynchos
++ + + + + + + + + + + + + + + + + + + + + + Sialia
++ + + + + + + + + + + + + + + + + + + + + + Turdus
++ + + + + + + + + + + + + + + + + + + + + + + Turdus migratorius
++ + + + + + + + + + + + + + + + + + + + Gruiformes
++ + + + + + + + + + + + + + + + + + + + + Grus americana
++ + + + + + + + + + + + + + + + + + + + Falconiformes
++ + + + + + + + + + + + + + + + + + + + + Accipitridae
++ + + + + + + + + + + + + + + + + + + + + + Haliaeetus leucocephalus
++ + + + + + + + + + + + + + + + + + + + + Falconidae
++ + + + + + + + + + + + + + + + + + + + + + Falco peregrinus
++ + + + + + + + + + + + + + + + + + + + Cuculiformes
++ + + + + + + + + + + + + + + + + + + + + Geococcyx
++ + + + + + + + + + + + + + + + + + + + Columbiformes
++ + + + + + + + + + + + + + + + + + + + + Columbidae
++ + + + + + + + + + + + + + + + + + + + + + Streptopelia
++ + + + + + + + + + + + + + + + + + + + + + + Streptopelia risoria
++ + + + + + + + + + + + + + + + + + + + + + Columba
++ + + + + + + + + + + + + + + + + + + + + + + Columba livia
++ + + + + + + + + + + + + + + + + + + + Apodiformes
++ + + + + + + + + + + + + + + + + + + + + Apus apus
++ + + + + + + + + + + + + + + + + + + + Galloanserae
++ + + + + + + + + + + + + + + + + + + + + Galliformes
++ + + + + + + + + + + + + + + + + + + + + + Phasianidae
++ + + + + + + + + + + + + + + + + + + + + + + Meleagridinae
++ + + + + + + + + + + + + + + + + + + + + + + + Meleagris gallopavo
++ + + + + + + + + + + + + + + + + + + + + + + Phasianinae
++ + + + + + + + + + + + + + + + + + + + + + + + Gallus gallus
++ + + + + + + + + + + + + + + + + + + + + + Numididae
++ + + + + + + + + + + + + + + + + + + + + + + Numididae gen. sp.
++ + + + + + + + + + + + + + + + + + + + + Anseriformes
++ + + + + + + + + + + + + + + + + + + + + + Anatidae
++ + + + + + + + + + + + + + + + + + + + + + + Anser
++ + + + + + + + + + + + + + + + + + + + + + + + Anser sp.
++ + + + + + + + + + + + + + + + + + + + + + + + Anser anser
++ + + + + + + + + + + + + + + + + + + + + + + Anas
++ + + + + + + + + + + + + + + + + + + + + + + + Anas platyrhynchos
++ + + + + + + + + + + + + + + + + + + Palaeognathae
++ + + + + + + + + + + + + + + + + + + + Struthioniformes
++ + + + + + + + + + + + + + + + + + + + + Struthio camelus
++ + + + + + + + + + + + + + + + + + + + Casuariiformes
++ + + + + + + + + + + + + + + + + + + + + Dromaius novaehollandiae
++ + + + + + + + + + + + + + + + + Crocodylia
++ + + + + + + + + + + + + + + + + + Alligator
++ + + + + + + + + + + Dipnoi
++ + + + + + + Chondrichthyes
++ + + + + + + + Elasmobranchii
++ + + + + + + + + Batoidea
++ + + + + + + + + + Rajiformes
++ + + + + + + + + Selachii
++ + + + + + + + + + Galeoidea
++ + + + + + + + + + + Lamniformes
++ + + + + + + + + + + + Carcharodon carcharias
++ + + + + + + + + + + Carcharhiniformes
++ + + + + + + + + + + + Galeocerdo cuvier
++ + + + Echinodermata
++ + + + + Asteroidea
++ + + Protostomia
++ + + + Lophotrochozoa
++ + + + + Annelida
++ + + + + + Metaphire sieboldi
++ + + + + Mollusca
++ + + + + + Cephalopoda
++ + + + + + + Neocoleoidea
++ + + + + + + + Decapodiformes
++ + + + + + + + + Architeuthis dux
++ + + + + + + + Octopodiformes
++ + + + + + + + + Vampyromorpha
++ + + + + + + + + + Vampyroteuthis infernalis
++ + + + + + + + + Octopoda
++ + + + + + + + + + Octopus
++ + + + + + Bivalvia
++ + + + + + + Pectinidae
++ + + + + + + + Pectinidae gen. sp.
++ + + + + + + + Patinopecten
++ + + + + + + + + Patinopecten sp.
++ + + + Ecdysozoa
++ + + + + Panarthropoda
++ + + + + + Arthropoda
++ + + + + + + Chelicerata
++ + + + + + + + Latrodectus
++ + + + + + + Mandibulata
++ + + + + + + + Myriapoda
++ + + + + + + + + Chilopoda
++ + + + + + + + Pancrustacea
++ + + + + + + + + Hexapoda
++ + + + + + + + + + Neoptera
++ + + + + + + + + + + Paraneoptera
++ + + + + + + + + + + + Cicada
++ + + + + + + + + + + Orthopteroidea
++ + + + + + + + + + + + Mantis
++ + + + + + + + + + + Endopterygota
++ + + + + + + + + + + + Hymenoptera
++ + + + + + + + + + + + + Apis mellifera
++ + + + + + + + + + + + Amphiesmenoptera
++ + + + + + + + + + + + + Obtectomera
++ + + + + + + + + + + + + + Papilionoidea
++ + + + + + + + + + + + + + + Nymphalidae
++ + + + + + + + + + + + + + + + Heliconiinae
++ + + + + + + + + + + + + + + + + Argynnis pandora
++ + + + + + + + + + + + + + + + Nymphalinae
++ + + + + + + + + + + + + + + + + Inachis io
++ + + + + + + + + + + + + + Bombycoidea
++ + + + + + + + + + + + + + + Bombyx mori
++ + + + + + + + + Crustacea
++ + + + + + + + + + Eumalacostraca
++ + + + + + + + + + + Peracarida
++ + + + + + + + + + + + Armadillo
++ + + + + + + + + + + Eucarida
++ + + + + + + + + + + + Euphausiacea
++ + + + + + + + + + + + Decapoda
++ + + + + + + + + + + + + Pleocyemata
++ + + + + + + + + + + + + + Brachyura
++ + + + + + + + + + + + + + + Stenorhynchus seticornis
++ + + + + + + + + + + + + + Astacidea
++ + + + + + + + + + + + + + + Astacoidea
++ + + + + + + + + + + + + + unclassified Pleocyemata
++ + + + + + + + + + + + + + + lobster
++ + + + + Nematoda
++ + + + + + Caenorhabditis elegans
++ Viridiplantae
++ + Mesangiospermae
++ + + eudicotyledons
++ + + + Pentapetalae
++ + + + + Caryophyllales
++ + + + + + Opuntia tuna
++ + + + + rosids
++ + + + + + Panda
++ + + Liliopsida
++ + + + Alocasia macrorrhizos
+-----------------------------------

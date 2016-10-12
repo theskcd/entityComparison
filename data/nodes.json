@@ -1,0 +1,962 @@
+{"_id":"Eukaryota","parent":"null"}
+{"_id":"Opisthokonta","parent":"Eukaryota"}
+{"_id":"Bilateria","parent":"Opisthokonta"}
+{"_id":"Deuterostomia","parent":"Bilateria"}
+{"_id":"Chordata","parent":"Deuterostomia"}
+{"_id":"Vertebrata","parent":"Chordata"}
+{"_id":"Cyclostomata","parent":"Vertebrata"}
+{"_id":"Hyperoartia","parent":"Cyclostomata"}
+{"_id":"Hyperotreti","parent":"Cyclostomata"}
+{"_id":"Gnathostomata","parent":"Vertebrata"}
+{"_id":"Teleostomi","parent":"Gnathostomata"}
+{"_id":"Euteleostomi","parent":"Teleostomi"}
+{"_id":"Actinopterygii","parent":"Euteleostomi"}
+{"_id":"Actinopteri","parent":"Actinopterygii"}
+{"_id":"Chondrostei","parent":"Actinopteri"}
+{"_id":"Acipenser sturio","parent":"Chondrostei"}
+{"_id":"Neopterygii","parent":"Actinopteri"}
+{"_id":"Teleostei","parent":"Neopterygii"}
+{"_id":"Elopocephalai","parent":"Teleostei"}
+{"_id":"Echidna","parent":"Elopocephalai"}
+{"_id":"Osteoglossocephalai","parent":"Teleostei"}
+{"_id":"Clupeocephala","parent":"Osteoglossocephalai"}
+{"_id":"Euteleosteomorpha","parent":"Clupeocephala"}
+{"_id":"Neoteleostei","parent":"Euteleosteomorpha"}
+{"_id":"Acanthomorphata","parent":"Neoteleostei"}
+{"_id":"Euacanthomorphacea","parent":"Acanthomorphata"}
+{"_id":"Percomorphaceae","parent":"Euacanthomorphacea"}
+{"_id":"Anabantaria","parent":"Percomorphaceae"}
+{"_id":"Betta splendens","parent":"Anabantaria"}
+{"_id":"Syngnathiaria","parent":"Percomorphaceae"}
+{"_id":"Hippocampus","parent":"Syngnathiaria"}
+{"_id":"Carangaria","parent":"Percomorphaceae"}
+{"_id":"Xiphias gladius","parent":"Carangaria"}
+{"_id":"Pelagiaria","parent":"Percomorphaceae"}
+{"_id":"Scombridae gen. sp.","parent":"Pelagiaria"}
+{"_id":"Ovalentaria","parent":"Percomorphaceae"}
+{"_id":"Poecilia reticulata","parent":"Ovalentaria"}
+{"_id":"Eupercaria","parent":"Percomorphaceae"}
+{"_id":"Labriformes","parent":"Eupercaria"}
+{"_id":"Sparisoma cretense","parent":"Labriformes"}
+{"_id":"Perciformes","parent":"Eupercaria"}
+{"_id":"Perca","parent":"Perciformes"}
+{"_id":"Perca fluviatilis","parent":"Perca"}
+{"_id":"Perca flavescens","parent":"Perca"}
+{"_id":"Lophiiformes","parent":"Eupercaria"}
+{"_id":"Lophius","parent":"Lophiiformes"}
+{"_id":"Lophius litulon","parent":"Lophius"}
+{"_id":"Lophius americanus","parent":"Lophius"}
+{"_id":"Paracanthomorphacea","parent":"Acanthomorphata"}
+{"_id":"Melanogrammus aeglefinus","parent":"Paracanthomorphacea"}
+{"_id":"Protacanthopterygii","parent":"Euteleosteomorpha"}
+{"_id":"Salmonidae","parent":"Protacanthopterygii"}
+{"_id":"Coregoninae","parent":"Salmonidae"}
+{"_id":"Coregonus","parent":"Coregoninae"}
+{"_id":"Salmoninae","parent":"Salmonidae"}
+{"_id":"Oncorhynchus","parent":"Salmoninae"}
+{"_id":"Oncorhynchus nerka","parent":"Oncorhynchus"}
+{"_id":"Oncorhynchus mykiss","parent":"Oncorhynchus"}
+{"_id":"Otomorpha","parent":"Clupeocephala"}
+{"_id":"Otophysi","parent":"Otomorpha"}
+{"_id":"Characiphysae","parent":"Otophysi"}
+{"_id":"catfish","parent":"Characiphysae"}
+{"_id":"Cypriniphysae","parent":"Otophysi"}
+{"_id":"Cyprinidae","parent":"Cypriniphysae"}
+{"_id":"Cyprinus","parent":"Cyprinidae"}
+{"_id":"Cyprinus carpio","parent":"Cyprinus"}
+{"_id":"Carassius","parent":"Cyprinidae"}
+{"_id":"Carassius auratus","parent":"Carassius"}
+{"_id":"Sarcopterygii","parent":"Euteleostomi"}
+{"_id":"Coelacanthimorpha","parent":"Sarcopterygii"}
+{"_id":"Dipnotetrapodomorpha","parent":"Sarcopterygii"}
+{"_id":"Tetrapoda","parent":"Dipnotetrapodomorpha"}
+{"_id":"Amniota","parent":"Tetrapoda"}
+{"_id":"Mammalia","parent":"Amniota"}
+{"_id":"Theria","parent":"Mammalia"}
+{"_id":"Eutheria","parent":"Theria"}
+{"_id":"Afrotheria","parent":"Eutheria"}
+{"_id":"Tubulidentata","parent":"Afrotheria"}
+{"_id":"Orycteropus afer","parent":"Tubulidentata"}
+{"_id":"Proboscidea","parent":"Afrotheria"}
+{"_id":"Elephantidae","parent":"Proboscidea"}
+{"_id":"Loxodonta","parent":"Elephantidae"}
+{"_id":"Loxodonta cyclotis","parent":"Loxodonta"}
+{"_id":"Loxodonta africana","parent":"Loxodonta"}
+{"_id":"Elephas","parent":"Elephantidae"}
+{"_id":"Elephas maximus","parent":"Elephas"}
+{"_id":"Boreoeutheria","parent":"Eutheria"}
+{"_id":"Euarchontoglires","parent":"Boreoeutheria"}
+{"_id":"Glires","parent":"Euarchontoglires"}
+{"_id":"Rodentia","parent":"Glires"}
+{"_id":"Hystricognathi","parent":"Rodentia"}
+{"_id":"Chinchillidae","parent":"Hystricognathi"}
+{"_id":"Chinchilla","parent":"Chinchillidae"}
+{"_id":"Hydrochaeridae","parent":"Hystricognathi"}
+{"_id":"Hydrochoerus hydrochaeris","parent":"Hydrochaeridae"}
+{"_id":"Caviidae","parent":"Hystricognathi"}
+{"_id":"Cavia porcellus","parent":"Caviidae"}
+{"_id":"Sciurognathi","parent":"Rodentia"}
+{"_id":"Sciuridae","parent":"Sciurognathi"}
+{"_id":"Xerinae","parent":"Sciuridae"}
+{"_id":"Muroidea","parent":"Sciurognathi"}
+{"_id":"Murinae","parent":"Muroidea"}
+{"_id":"Rattus","parent":"Murinae"}
+{"_id":"Rattus norvegicus","parent":"Rattus"}
+{"_id":"Mus","parent":"Murinae"}
+{"_id":"Mus musculus","parent":"Mus"}
+{"_id":"Heteromyidae","parent":"Sciurognathi"}
+{"_id":"Dipodomys","parent":"Heteromyidae"}
+{"_id":"Dipodomys panamintinus","parent":"Dipodomys"}
+{"_id":"Dipodomys heermanni","parent":"Dipodomys"}
+{"_id":"Dipodomys californicus","parent":"Dipodomys"}
+{"_id":"Lagomorpha","parent":"Glires"}
+{"_id":"Oryctolagus cuniculus","parent":"Lagomorpha"}
+{"_id":"Primates","parent":"Euarchontoglires"}
+{"_id":"Haplorrhini","parent":"Primates"}
+{"_id":"Simiiformes","parent":"Haplorrhini"}
+{"_id":"Catarrhini","parent":"Simiiformes"}
+{"_id":"Hominoidea","parent":"Catarrhini"}
+{"_id":"Hominidae","parent":"Hominoidea"}
+{"_id":"Ponginae","parent":"Hominidae"}
+{"_id":"Pongo","parent":"Ponginae"}
+{"_id":"Pongo abelii","parent":"Pongo"}
+{"_id":"Pongo pygmaeus","parent":"Pongo"}
+{"_id":"Homininae","parent":"Hominidae"}
+{"_id":"Pan","parent":"Homininae"}
+{"_id":"Pan troglodytes","parent":"Pan"}
+{"_id":"Pan paniscus","parent":"Pan"}
+{"_id":"Gorilla","parent":"Homininae"}
+{"_id":"Gorilla beringei","parent":"Gorilla"}
+{"_id":"Gorilla gorilla","parent":"Gorilla"}
+{"_id":"Hylobatidae","parent":"Hominoidea"}
+{"_id":"Hylobates sp.","parent":"Hylobatidae"}
+{"_id":"Cercopithecoidea","parent":"Catarrhini"}
+{"_id":"Cercopithecidae","parent":"Cercopithecoidea"}
+{"_id":"Cercopithecinae","parent":"Cercopithecidae"}
+{"_id":"Mandrillus","parent":"Cercopithecinae"}
+{"_id":"Mandrillus sphinx","parent":"Mandrillus"}
+{"_id":"Papio","parent":"Cercopithecinae"}
+{"_id":"Papio papio","parent":"Papio"}
+{"_id":"Papio ursinus","parent":"Papio"}
+{"_id":"Papio hamadryas","parent":"Papio"}
+{"_id":"Papio cynocephalus","parent":"Papio"}
+{"_id":"Papio anubis","parent":"Papio"}
+{"_id":"Platyrrhini","parent":"Simiiformes"}
+{"_id":"Ateles sp.","parent":"Platyrrhini"}
+{"_id":"Tarsiiformes","parent":"Haplorrhini"}
+{"_id":"Tarsius","parent":"Tarsiiformes"}
+{"_id":"Strepsirrhini","parent":"Primates"}
+{"_id":"Lemur","parent":"Strepsirrhini"}
+{"_id":"Laurasiatheria","parent":"Boreoeutheria"}
+{"_id":"Insectivora","parent":"Laurasiatheria"}
+{"_id":"Condylura cristata","parent":"Insectivora"}
+{"_id":"Perissodactyla","parent":"Laurasiatheria"}
+{"_id":"Rhinocerotidae","parent":"Perissodactyla"}
+{"_id":"Rhinoceros","parent":"Rhinocerotidae"}
+{"_id":"Equidae","parent":"Perissodactyla"}
+{"_id":"Equus","parent":"Equidae"}
+{"_id":"Equus incertae sedis","parent":"Equus"}
+{"_id":"Equus asinus x caballus","parent":"Equus incertae sedis"}
+{"_id":"Asinus","parent":"Equus"}
+{"_id":"Equus asinus","parent":"Asinus"}
+{"_id":"Cetartiodactyla","parent":"Laurasiatheria"}
+{"_id":"Ruminantia","parent":"Cetartiodactyla"}
+{"_id":"Pecora","parent":"Ruminantia"}
+{"_id":"Bovidae","parent":"Pecora"}
+{"_id":"Antilopinae","parent":"Bovidae"}
+{"_id":"Gazella","parent":"Antilopinae"}
+{"_id":"Caprinae","parent":"Bovidae"}
+{"_id":"Budorcas","parent":"Caprinae"}
+{"_id":"Budorcas taxicolor","parent":"Budorcas"}
+{"_id":"Ovibos","parent":"Caprinae"}
+{"_id":"Ovibos moschatus","parent":"Ovibos"}
+{"_id":"Oreamnos","parent":"Caprinae"}
+{"_id":"Oreamnos americanus","parent":"Oreamnos"}
+{"_id":"Ovis","parent":"Caprinae"}
+{"_id":"Ovis vignei","parent":"Ovis"}
+{"_id":"Ovis aries","parent":"Ovis"}
+{"_id":"Capra","parent":"Caprinae"}
+{"_id":"Capra hircus","parent":"Capra"}
+{"_id":"Bovinae","parent":"Bovidae"}
+{"_id":"Bubalus","parent":"Bovinae"}
+{"_id":"Bubalus bubalis","parent":"Bubalus"}
+{"_id":"Syncerus","parent":"Bovinae"}
+{"_id":"Syncerus caffer","parent":"Syncerus"}
+{"_id":"Bos","parent":"Bovinae"}
+{"_id":"Bos grunniens","parent":"Bos"}
+{"_id":"Bos frontalis","parent":"Bos"}
+{"_id":"Bos taurus","parent":"Bos"}
+{"_id":"Bison","parent":"Bovinae"}
+{"_id":"Bison bonasus","parent":"Bison"}
+{"_id":"Bison bison","parent":"Bison"}
+{"_id":"Aepycerotinae","parent":"Bovidae"}
+{"_id":"Aepyceros melampus","parent":"Aepycerotinae"}
+{"_id":"Giraffidae","parent":"Pecora"}
+{"_id":"Giraffa camelopardalis","parent":"Giraffidae"}
+{"_id":"Cervidae","parent":"Pecora"}
+{"_id":"Odocoileinae","parent":"Cervidae"}
+{"_id":"Alces","parent":"Odocoileinae"}
+{"_id":"Alces americanus","parent":"Alces"}
+{"_id":"Rangifer","parent":"Odocoileinae"}
+{"_id":"Rangifer tarandus","parent":"Rangifer"}
+{"_id":"Cervinae","parent":"Cervidae"}
+{"_id":"Cervus elaphus","parent":"Cervinae"}
+{"_id":"Tylopoda","parent":"Cetartiodactyla"}
+{"_id":"Camelidae","parent":"Tylopoda"}
+{"_id":"Vicugna","parent":"Camelidae"}
+{"_id":"Vicugna pacos","parent":"Vicugna"}
+{"_id":"Vicugna vicugna","parent":"Vicugna"}
+{"_id":"Lama","parent":"Camelidae"}
+{"_id":"Lama glama","parent":"Lama"}
+{"_id":"Lama guanicoe","parent":"Lama"}
+{"_id":"Camelus","parent":"Camelidae"}
+{"_id":"Camelus dromedarius","parent":"Camelus"}
+{"_id":"Camelus bactrianus","parent":"Camelus"}
+{"_id":"Hippopotamidae","parent":"Cetartiodactyla"}
+{"_id":"Hippopotamus amphibius","parent":"Hippopotamidae"}
+{"_id":"Suina","parent":"Cetartiodactyla"}
+{"_id":"Sus scrofa","parent":"Suina"}
+{"_id":"Sus scrofa domesticus","parent":"Sus scrofa"}
+{"_id":"Cetacea","parent":"Cetartiodactyla"}
+{"_id":"Mysticeti","parent":"Cetacea"}
+{"_id":"Balaenopteridae","parent":"Mysticeti"}
+{"_id":"Megaptera","parent":"Balaenopteridae"}
+{"_id":"Megaptera novaeangliae","parent":"Megaptera"}
+{"_id":"Balaenoptera","parent":"Balaenopteridae"}
+{"_id":"Balaenoptera musculus","parent":"Balaenoptera"}
+{"_id":"Odontoceti","parent":"Cetacea"}
+{"_id":"Monodontidae","parent":"Odontoceti"}
+{"_id":"Monodon monoceros","parent":"Monodontidae"}
+{"_id":"Physeteridae","parent":"Odontoceti"}
+{"_id":"Physeter catodon","parent":"Physeteridae"}
+{"_id":"Delphinidae","parent":"Odontoceti"}
+{"_id":"Orcinus orca","parent":"Delphinidae"}
+{"_id":"Carnivora","parent":"Laurasiatheria"}
+{"_id":"Feliformia","parent":"Carnivora"}
+{"_id":"Herpestidae","parent":"Feliformia"}
+{"_id":"Suricata suricatta","parent":"Herpestidae"}
+{"_id":"Felidae","parent":"Feliformia"}
+{"_id":"Acinonychinae","parent":"Felidae"}
+{"_id":"Acinonyx jubatus","parent":"Acinonychinae"}
+{"_id":"unclassified Felidae","parent":"Felidae"}
+{"_id":"Smilodon fatalis","parent":"unclassified Felidae"}
+{"_id":"Pantherinae","parent":"Felidae"}
+{"_id":"Panthera","parent":"Pantherinae"}
+{"_id":"Panthera uncia","parent":"Panthera"}
+{"_id":"Panthera tigris","parent":"Panthera"}
+{"_id":"Panthera pardus","parent":"Panthera"}
+{"_id":"Panthera onca","parent":"Panthera"}
+{"_id":"Panthera leo","parent":"Panthera"}
+{"_id":"Felinae","parent":"Felidae"}
+{"_id":"Leopardus","parent":"Felinae"}
+{"_id":"Leopardus pardalis","parent":"Leopardus"}
+{"_id":"Lynx","parent":"Felinae"}
+{"_id":"Lynx rufus","parent":"Lynx"}
+{"_id":"Felis","parent":"Felinae"}
+{"_id":"Felis catus","parent":"Felis"}
+{"_id":"Hyaenidae","parent":"Feliformia"}
+{"_id":"Proteles cristatus","parent":"Hyaenidae"}
+{"_id":"Caniformia","parent":"Carnivora"}
+{"_id":"Odobenidae","parent":"Caniformia"}
+{"_id":"Odobenus rosmarus","parent":"Odobenidae"}
+{"_id":"Mustelidae","parent":"Caniformia"}
+{"_id":"Martinae","parent":"Mustelidae"}
+{"_id":"Gulo gulo","parent":"Martinae"}
+{"_id":"Mustelinae","parent":"Mustelidae"}
+{"_id":"Neovison","parent":"Mustelinae"}
+{"_id":"Neovison vison","parent":"Neovison"}
+{"_id":"Mustela","parent":"Mustelinae"}
+{"_id":"Mustela erminea","parent":"Mustela"}
+{"_id":"Mustela putorius","parent":"Mustela"}
+{"_id":"Mustela putorius furo","parent":"Mustela putorius"}
+{"_id":"Mustela lutreola","parent":"Mustela"}
+{"_id":"Procyonidae","parent":"Caniformia"}
+{"_id":"Procyon lotor","parent":"Procyonidae"}
+{"_id":"Ailuridae","parent":"Caniformia"}
+{"_id":"Ailurus fulgens","parent":"Ailuridae"}
+{"_id":"Ursidae","parent":"Caniformia"}
+{"_id":"Ailuropoda","parent":"Ursidae"}
+{"_id":"Ailuropoda melanoleuca","parent":"Ailuropoda"}
+{"_id":"Ursus","parent":"Ursidae"}
+{"_id":"Ursus maritimus","parent":"Ursus"}
+{"_id":"Ursus arctos","parent":"Ursus"}
+{"_id":"Ursus sp.","parent":"Ursus"}
+{"_id":"Canidae","parent":"Caniformia"}
+{"_id":"Vulpes","parent":"Canidae"}
+{"_id":"Vulpes lagopus","parent":"Vulpes"}
+{"_id":"Canis","parent":"Canidae"}
+{"_id":"Canis lupus","parent":"Canis"}
+{"_id":"Canis lupus arctos","parent":"Canis lupus"}
+{"_id":"Canis lupus dingo","parent":"Canis lupus"}
+{"_id":"Canis lupus familiaris","parent":"Canis lupus"}
+{"_id":"Canis latrans","parent":"Canis"}
+{"_id":"Chiroptera","parent":"Laurasiatheria"}
+{"_id":"Desmodus rotundus","parent":"Chiroptera"}
+{"_id":"Xenarthra","parent":"Eutheria"}
+{"_id":"Dasypodidae","parent":"Xenarthra"}
+{"_id":"Metatheria","parent":"Theria"}
+{"_id":"Diprotodontia","parent":"Metatheria"}
+{"_id":"Phascolarctidae","parent":"Diprotodontia"}
+{"_id":"Phascolarctos cinereus","parent":"Phascolarctidae"}
+{"_id":"Petauridae","parent":"Diprotodontia"}
+{"_id":"Petaurus breviceps","parent":"Petauridae"}
+{"_id":"Vombatidae","parent":"Diprotodontia"}
+{"_id":"Vombatidae gen. sp.","parent":"Vombatidae"}
+{"_id":"Macropodidae","parent":"Diprotodontia"}
+{"_id":"Setonix","parent":"Macropodidae"}
+{"_id":"Setonix brachyurus","parent":"Setonix"}
+{"_id":"Macropus","parent":"Macropodidae"}
+{"_id":"Macropus sp.","parent":"Macropus"}
+{"_id":"Dasyuromorphia","parent":"Metatheria"}
+{"_id":"Sarcophilus harrisii","parent":"Dasyuromorphia"}
+{"_id":"Prototheria","parent":"Mammalia"}
+{"_id":"Ornithorhynchus anatinus","parent":"Prototheria"}
+{"_id":"Sauropsida","parent":"Amniota"}
+{"_id":"Sauria","parent":"Sauropsida"}
+{"_id":"Lepidosauria","parent":"Sauria"}
+{"_id":"Bifurcata","parent":"Lepidosauria"}
+{"_id":"Gekkota","parent":"Bifurcata"}
+{"_id":"Gekko","parent":"Gekkota"}
+{"_id":"Unidentata","parent":"Bifurcata"}
+{"_id":"Toxicofera","parent":"Unidentata"}
+{"_id":"Serpentes","parent":"Toxicofera"}
+{"_id":"Colubroidea","parent":"Serpentes"}
+{"_id":"Viperidae","parent":"Colubroidea"}
+{"_id":"Henophidia","parent":"Serpentes"}
+{"_id":"Pythonidae","parent":"Henophidia"}
+{"_id":"Boidae","parent":"Henophidia"}
+{"_id":"Boa constrictor","parent":"Boidae"}
+{"_id":"Anguimorpha","parent":"Toxicofera"}
+{"_id":"Paleoanguimorpha","parent":"Anguimorpha"}
+{"_id":"Varanus komodoensis","parent":"Paleoanguimorpha"}
+{"_id":"Neoanguimorpha","parent":"Anguimorpha"}
+{"_id":"Heloderma suspectum","parent":"Neoanguimorpha"}
+{"_id":"Iguania","parent":"Toxicofera"}
+{"_id":"Iguana","parent":"Iguania"}
+{"_id":"Archelosauria","parent":"Sauria"}
+{"_id":"Archosauria","parent":"Archelosauria"}
+{"_id":"Dinosauria","parent":"Archosauria"}
+{"_id":"Aves","parent":"Dinosauria"}
+{"_id":"Neognathae","parent":"Aves"}
+{"_id":"Phoenicopteriformes","parent":"Neognathae"}
+{"_id":"Phoenicopterus roseus","parent":"Phoenicopteriformes"}
+{"_id":"Pelecaniformes","parent":"Neognathae"}
+{"_id":"Ardea herodias","parent":"Pelecaniformes"}
+{"_id":"Psittaciformes","parent":"Neognathae"}
+{"_id":"Psittacidae","parent":"Psittaciformes"}
+{"_id":"Passeriformes","parent":"Neognathae"}
+{"_id":"Passeroidea","parent":"Passeriformes"}
+{"_id":"Ploceidae","parent":"Passeroidea"}
+{"_id":"Quelea","parent":"Ploceidae"}
+{"_id":"Icteridae","parent":"Passeroidea"}
+{"_id":"Dolichonyx oryzivorus","parent":"Icteridae"}
+{"_id":"Estrildidae","parent":"Passeroidea"}
+{"_id":"Taeniopygia guttata","parent":"Estrildidae"}
+{"_id":"Certhiidae","parent":"Passeriformes"}
+{"_id":"Troglodytes troglodytes","parent":"Certhiidae"}
+{"_id":"Corvoidea","parent":"Passeriformes"}
+{"_id":"Corvidae","parent":"Corvoidea"}
+{"_id":"Corvus","parent":"Corvidae"}
+{"_id":"Corvus frugilegus","parent":"Corvus"}
+{"_id":"Cyanocitta","parent":"Corvidae"}
+{"_id":"Cyanocitta cristata","parent":"Cyanocitta"}
+{"_id":"Turdidae","parent":"Passeriformes"}
+{"_id":"Luscinia","parent":"Turdidae"}
+{"_id":"Luscinia megarhynchos","parent":"Luscinia"}
+{"_id":"Sialia","parent":"Turdidae"}
+{"_id":"Turdus","parent":"Turdidae"}
+{"_id":"Turdus migratorius","parent":"Turdus"}
+{"_id":"Gruiformes","parent":"Neognathae"}
+{"_id":"Grus americana","parent":"Gruiformes"}
+{"_id":"Falconiformes","parent":"Neognathae"}
+{"_id":"Accipitridae","parent":"Falconiformes"}
+{"_id":"Haliaeetus leucocephalus","parent":"Accipitridae"}
+{"_id":"Falconidae","parent":"Falconiformes"}
+{"_id":"Falco peregrinus","parent":"Falconidae"}
+{"_id":"Cuculiformes","parent":"Neognathae"}
+{"_id":"Geococcyx","parent":"Cuculiformes"}
+{"_id":"Columbiformes","parent":"Neognathae"}
+{"_id":"Columbidae","parent":"Columbiformes"}
+{"_id":"Streptopelia","parent":"Columbidae"}
+{"_id":"Streptopelia risoria","parent":"Streptopelia"}
+{"_id":"Columba","parent":"Columbidae"}
+{"_id":"Columba livia","parent":"Columba"}
+{"_id":"Apodiformes","parent":"Neognathae"}
+{"_id":"Apus apus","parent":"Apodiformes"}
+{"_id":"Galloanserae","parent":"Neognathae"}
+{"_id":"Galliformes","parent":"Galloanserae"}
+{"_id":"Phasianidae","parent":"Galliformes"}
+{"_id":"Meleagridinae","parent":"Phasianidae"}
+{"_id":"Meleagris gallopavo","parent":"Meleagridinae"}
+{"_id":"Phasianinae","parent":"Phasianidae"}
+{"_id":"Gallus gallus","parent":"Phasianinae"}
+{"_id":"Numididae","parent":"Galliformes"}
+{"_id":"Numididae gen. sp.","parent":"Numididae"}
+{"_id":"Anseriformes","parent":"Galloanserae"}
+{"_id":"Anatidae","parent":"Anseriformes"}
+{"_id":"Anser","parent":"Anatidae"}
+{"_id":"Anser sp.","parent":"Anser"}
+{"_id":"Anser anser","parent":"Anser"}
+{"_id":"Anas","parent":"Anatidae"}
+{"_id":"Anas platyrhynchos","parent":"Anas"}
+{"_id":"Palaeognathae","parent":"Aves"}
+{"_id":"Struthioniformes","parent":"Palaeognathae"}
+{"_id":"Struthio camelus","parent":"Struthioniformes"}
+{"_id":"Casuariiformes","parent":"Palaeognathae"}
+{"_id":"Dromaius novaehollandiae","parent":"Casuariiformes"}
+{"_id":"Crocodylia","parent":"Archosauria"}
+{"_id":"Alligator","parent":"Crocodylia"}
+{"_id":"Dipnoi","parent":"Dipnotetrapodomorpha"}
+{"_id":"Chondrichthyes","parent":"Gnathostomata"}
+{"_id":"Elasmobranchii","parent":"Chondrichthyes"}
+{"_id":"Batoidea","parent":"Elasmobranchii"}
+{"_id":"Rajiformes","parent":"Batoidea"}
+{"_id":"Selachii","parent":"Elasmobranchii"}
+{"_id":"Galeoidea","parent":"Selachii"}
+{"_id":"Lamniformes","parent":"Galeoidea"}
+{"_id":"Carcharodon carcharias","parent":"Lamniformes"}
+{"_id":"Carcharhiniformes","parent":"Galeoidea"}
+{"_id":"Galeocerdo cuvier","parent":"Carcharhiniformes"}
+{"_id":"Echinodermata","parent":"Deuterostomia"}
+{"_id":"Asteroidea","parent":"Echinodermata"}
+{"_id":"Protostomia","parent":"Bilateria"}
+{"_id":"Lophotrochozoa","parent":"Protostomia"}
+{"_id":"Annelida","parent":"Lophotrochozoa"}
+{"_id":"Metaphire sieboldi","parent":"Annelida"}
+{"_id":"Mollusca","parent":"Lophotrochozoa"}
+{"_id":"Cephalopoda","parent":"Mollusca"}
+{"_id":"Neocoleoidea","parent":"Cephalopoda"}
+{"_id":"Decapodiformes","parent":"Neocoleoidea"}
+{"_id":"Architeuthis dux","parent":"Decapodiformes"}
+{"_id":"Octopodiformes","parent":"Neocoleoidea"}
+{"_id":"Vampyromorpha","parent":"Octopodiformes"}
+{"_id":"Vampyroteuthis infernalis","parent":"Vampyromorpha"}
+{"_id":"Octopoda","parent":"Octopodiformes"}
+{"_id":"Octopus","parent":"Octopoda"}
+{"_id":"Bivalvia","parent":"Mollusca"}
+{"_id":"Pectinidae","parent":"Bivalvia"}
+{"_id":"Pectinidae gen. sp.","parent":"Pectinidae"}
+{"_id":"Patinopecten","parent":"Pectinidae"}
+{"_id":"Patinopecten sp.","parent":"Patinopecten"}
+{"_id":"Ecdysozoa","parent":"Protostomia"}
+{"_id":"Panarthropoda","parent":"Ecdysozoa"}
+{"_id":"Arthropoda","parent":"Panarthropoda"}
+{"_id":"Chelicerata","parent":"Arthropoda"}
+{"_id":"Latrodectus","parent":"Chelicerata"}
+{"_id":"Mandibulata","parent":"Arthropoda"}
+{"_id":"Myriapoda","parent":"Mandibulata"}
+{"_id":"Chilopoda","parent":"Myriapoda"}
+{"_id":"Pancrustacea","parent":"Mandibulata"}
+{"_id":"Hexapoda","parent":"Pancrustacea"}
+{"_id":"Neoptera","parent":"Hexapoda"}
+{"_id":"Paraneoptera","parent":"Neoptera"}
+{"_id":"Cicada","parent":"Paraneoptera"}
+{"_id":"Orthopteroidea","parent":"Neoptera"}
+{"_id":"Mantis","parent":"Orthopteroidea"}
+{"_id":"Endopterygota","parent":"Neoptera"}
+{"_id":"Hymenoptera","parent":"Endopterygota"}
+{"_id":"Apis mellifera","parent":"Hymenoptera"}
+{"_id":"Amphiesmenoptera","parent":"Endopterygota"}
+{"_id":"Obtectomera","parent":"Amphiesmenoptera"}
+{"_id":"Papilionoidea","parent":"Obtectomera"}
+{"_id":"Nymphalidae","parent":"Papilionoidea"}
+{"_id":"Heliconiinae","parent":"Nymphalidae"}
+{"_id":"Argynnis pandora","parent":"Heliconiinae"}
+{"_id":"Nymphalinae","parent":"Nymphalidae"}
+{"_id":"Inachis io","parent":"Nymphalinae"}
+{"_id":"Bombycoidea","parent":"Obtectomera"}
+{"_id":"Bombyx mori","parent":"Bombycoidea"}
+{"_id":"Crustacea","parent":"Pancrustacea"}
+{"_id":"Eumalacostraca","parent":"Crustacea"}
+{"_id":"Peracarida","parent":"Eumalacostraca"}
+{"_id":"Armadillo","parent":"Peracarida"}
+{"_id":"Eucarida","parent":"Eumalacostraca"}
+{"_id":"Euphausiacea","parent":"Eucarida"}
+{"_id":"Decapoda","parent":"Eucarida"}
+{"_id":"Pleocyemata","parent":"Decapoda"}
+{"_id":"Brachyura","parent":"Pleocyemata"}
+{"_id":"Stenorhynchus seticornis","parent":"Brachyura"}
+{"_id":"Astacidea","parent":"Pleocyemata"}
+{"_id":"Astacoidea","parent":"Astacidea"}
+{"_id":"unclassified Pleocyemata","parent":"Pleocyemata"}
+{"_id":"lobster","parent":"unclassified Pleocyemata"}
+{"_id":"Nematoda","parent":"Ecdysozoa"}
+{"_id":"Caenorhabditis elegans","parent":"Nematoda"}
+{"_id":"Viridiplantae","parent":"Eukaryota"}
+{"_id":"Mesangiospermae","parent":"Viridiplantae"}
+{"_id":"eudicotyledons","parent":"Mesangiospermae"}
+{"_id":"Pentapetalae","parent":"eudicotyledons"}
+{"_id":"Caryophyllales","parent":"Pentapetalae"}
+{"_id":"Opuntia tuna","parent":"Caryophyllales"}
+{"_id":"rosids","parent":"Pentapetalae"}
+{"_id":"Panda","parent":"rosids"}
+{"_id":"Liliopsida","parent":"Mesangiospermae"}
+{"_id":"Alocasia macrorrhizos","parent":"Liliopsida"}
+{"_id":"Fungi","parent":"Opisthokonta"}
+{"_id":"Morchella esculenta","parent":"Fungi"}
+{"_id":"Metazoa","parent":"Opisthokonta"}
+{"_id":"Ficus","parent":"Lophotrochozoa"}
+{"_id":"Encalypta","parent":"Orthopteroidea"}
+{"_id":"Apocrita","parent":"Hymenoptera"}
+{"_id":"Aculeata","parent":"Apocrita"}
+{"_id":"Prosopis","parent":"Aculeata"}
+{"_id":"Chaldicoidea group","parent":"Apocrita"}
+{"_id":"Thymus","parent":"Chaldicoidea group"}
+{"_id":"Hesperioidea","parent":"Obtectomera"}
+{"_id":"Viola","parent":"Hesperioidea"}
+{"_id":"Junonia coenia","parent":"Papilionoidea"}
+{"_id":"Morus","parent":"Deuterostomia"}
+{"_id":"Embryophyta","parent":"Viridiplantae"}
+{"_id":"Bryophyta","parent":"Embryophyta"}
+{"_id":"Tracheophyta","parent":"Embryophyta"}
+{"_id":"Euphyllophyta","parent":"Tracheophyta"}
+{"_id":"Moniliformopses","parent":"Euphyllophyta"}
+{"_id":"Polypodiidae","parent":"Moniliformopses"}
+{"_id":"Salviniales","parent":"Polypodiidae"}
+{"_id":"Azolla","parent":"Salviniales"}
+{"_id":"Azolla caroliniana","parent":"Azolla"}
+{"_id":"Polypodiales","parent":"Polypodiidae"}
+{"_id":"eupolypods I","parent":"Polypodiales"}
+{"_id":"Polypodiaceae","parent":"eupolypods I"}
+{"_id":"Polypodium scouleri","parent":"Polypodiaceae"}
+{"_id":"Lomariopsidaceae","parent":"eupolypods I"}
+{"_id":"Nephrolepis","parent":"Lomariopsidaceae"}
+{"_id":"Nephrolepis obliterata","parent":"Nephrolepis"}
+{"_id":"Nephrolepis exaltata","parent":"Nephrolepis"}
+{"_id":"Dryopteridaceae","parent":"eupolypods I"}
+{"_id":"Polystichum","parent":"Dryopteridaceae"}
+{"_id":"Polystichum acrostichoides","parent":"Polystichum"}
+{"_id":"Polystichum munitum","parent":"Polystichum"}
+{"_id":"Spermatophyta","parent":"Euphyllophyta"}
+{"_id":"Alismatales","parent":"Liliopsida"}
+{"_id":"Orontioideae","parent":"Alismatales"}
+{"_id":"Lysichiton","parent":"Orontioideae"}
+{"_id":"Symplocarpus","parent":"Orontioideae"}
+{"_id":"Symplocarpus foetidus","parent":"Symplocarpus"}
+{"_id":"Petrosaviidae","parent":"Liliopsida"}
+{"_id":"Liliales","parent":"Petrosaviidae"}
+{"_id":"Liliaceae","parent":"Liliales"}
+{"_id":"Erythronium dens-canis","parent":"Liliaceae"}
+{"_id":"Melanthiaceae","parent":"Liliales"}
+{"_id":"Veratrum","parent":"Melanthiaceae"}
+{"_id":"Veratrum nigrum","parent":"Veratrum"}
+{"_id":"Veratrum viride","parent":"Veratrum"}
+{"_id":"Veratrum album","parent":"Veratrum"}
+{"_id":"Trillium","parent":"Melanthiaceae"}
+{"_id":"Dioscoreales","parent":"Petrosaviidae"}
+{"_id":"Dioscorea","parent":"Dioscoreales"}
+{"_id":"Asparagales","parent":"Petrosaviidae"}
+{"_id":"Xanthorrhoeaceae","parent":"Asparagales"}
+{"_id":"Phormium tenax","parent":"Xanthorrhoeaceae"}
+{"_id":"Orchidaceae","parent":"Asparagales"}
+{"_id":"Vanilla","parent":"Orchidaceae"}
+{"_id":"Amaryllidaceae","parent":"Asparagales"}
+{"_id":"Allioideae","parent":"Amaryllidaceae"}
+{"_id":"Allium","parent":"Allioideae"}
+{"_id":"Allium canadense","parent":"Allium"}
+{"_id":"Allium caeruleum","parent":"Allium"}
+{"_id":"Allium moly","parent":"Allium"}
+{"_id":"Allium giganteum","parent":"Allium"}
+{"_id":"Allium christophii","parent":"Allium"}
+{"_id":"Allium cernuum","parent":"Allium"}
+{"_id":"Amaryllidoideae","parent":"Amaryllidaceae"}
+{"_id":"Galanthus","parent":"Amaryllidoideae"}
+{"_id":"commelinids","parent":"Petrosaviidae"}
+{"_id":"Zingiberales","parent":"commelinids"}
+{"_id":"Zingiberaceae","parent":"Zingiberales"}
+{"_id":"Curcuma longa","parent":"Zingiberaceae"}
+{"_id":"Musaceae","parent":"Zingiberales"}
+{"_id":"Musa","parent":"Musaceae"}
+{"_id":"Musa x paradisiaca","parent":"Musa"}
+{"_id":"Musa acuminata","parent":"Musa"}
+{"_id":"Poales","parent":"commelinids"}
+{"_id":"Bromeliaceae","parent":"Poales"}
+{"_id":"Ananas comosus","parent":"Bromeliaceae"}
+{"_id":"Poaceae","parent":"Poales"}
+{"_id":"PACMAD clade","parent":"Poaceae"}
+{"_id":"Andropogoneae","parent":"PACMAD clade"}
+{"_id":"Tripsacinae","parent":"Andropogoneae"}
+{"_id":"Zea mays","parent":"Tripsacinae"}
+{"_id":"Zea mays subsp. mays","parent":"Zea mays"}
+{"_id":"Saccharinae","parent":"Andropogoneae"}
+{"_id":"Saccharum officinarum complex","parent":"Saccharinae"}
+{"_id":"Saccharum hybrid cultivar","parent":"Saccharum officinarum complex"}
+{"_id":"Saccharum officinarum","parent":"Saccharum officinarum complex"}
+{"_id":"BOP clade","parent":"Poaceae"}
+{"_id":"Bambusoideae","parent":"BOP clade"}
+{"_id":"Bambuseae","parent":"Bambusoideae"}
+{"_id":"Pooideae","parent":"BOP clade"}
+{"_id":"Triticeae","parent":"Pooideae"}
+{"_id":"Triticinae","parent":"Triticeae"}
+{"_id":"Triticum aestivum","parent":"Triticinae"}
+{"_id":"Hordeinae","parent":"Triticeae"}
+{"_id":"Secale cereale","parent":"Hordeinae"}
+{"_id":"Oryzoideae","parent":"BOP clade"}
+{"_id":"Oryza","parent":"Oryzoideae"}
+{"_id":"Oryza glaberrima","parent":"Oryza"}
+{"_id":"Oryza sativa","parent":"Oryza"}
+{"_id":"Magnoliidae","parent":"Mesangiospermae"}
+{"_id":"Lauraceae","parent":"Magnoliidae"}
+{"_id":"Cinnamomum","parent":"Lauraceae"}
+{"_id":"Cinnamomum verum","parent":"Cinnamomum"}
+{"_id":"Umbellularia","parent":"Lauraceae"}
+{"_id":"Umbellularia californica","parent":"Umbellularia"}
+{"_id":"stem eudicotyledons","parent":"eudicotyledons"}
+{"_id":"Proteales","parent":"stem eudicotyledons"}
+{"_id":"Platanus","parent":"Proteales"}
+{"_id":"Platanus racemosa","parent":"Platanus"}
+{"_id":"Platanus occidentalis","parent":"Platanus"}
+{"_id":"Buxales","parent":"stem eudicotyledons"}
+{"_id":"Buxus","parent":"Buxales"}
+{"_id":"Ranunculales","parent":"stem eudicotyledons"}
+{"_id":"Ranunculaceae","parent":"Ranunculales"}
+{"_id":"Ranunculoideae","parent":"Ranunculaceae"}
+{"_id":"Anemoneae","parent":"Ranunculoideae"}
+{"_id":"Clematis virginiana","parent":"Anemoneae"}
+{"_id":"Helleboreae","parent":"Ranunculoideae"}
+{"_id":"Helleborus","parent":"Helleboreae"}
+{"_id":"Papaveraceae","parent":"Ranunculales"}
+{"_id":"Fumarioideae","parent":"Papaveraceae"}
+{"_id":"Pseudofumaria","parent":"Fumarioideae"}
+{"_id":"Pseudofumaria lutea","parent":"Pseudofumaria"}
+{"_id":"Capnoides","parent":"Fumarioideae"}
+{"_id":"Capnoides sempervirens","parent":"Capnoides"}
+{"_id":"Corydalis","parent":"Fumarioideae"}
+{"_id":"Corydalis aurea","parent":"Corydalis"}
+{"_id":"Corydalis flavula","parent":"Corydalis"}
+{"_id":"Gunneridae","parent":"eudicotyledons"}
+{"_id":"Saxifragales","parent":"Pentapetalae"}
+{"_id":"Sempervivum tectorum","parent":"Saxifragales"}
+{"_id":"asterids","parent":"Pentapetalae"}
+{"_id":"Ericales","parent":"asterids"}
+{"_id":"Balsaminaceae","parent":"Ericales"}
+{"_id":"Impatiens","parent":"Balsaminaceae"}
+{"_id":"Impatiens pallida","parent":"Impatiens"}
+{"_id":"Ericaceae","parent":"Ericales"}
+{"_id":"Vaccinioideae","parent":"Ericaceae"}
+{"_id":"Vaccinium","parent":"Vaccinioideae"}
+{"_id":"Vaccinium parvifolium","parent":"Vaccinium"}
+{"_id":"Vaccinium ovatum","parent":"Vaccinium"}
+{"_id":"Arbutoideae","parent":"Ericaceae"}
+{"_id":"Arbutus","parent":"Arbutoideae"}
+{"_id":"Arbutus unedo","parent":"Arbutus"}
+{"_id":"Theaceae","parent":"Ericales"}
+{"_id":"Camellia sinensis","parent":"Theaceae"}
+{"_id":"Cornales","parent":"asterids"}
+{"_id":"Cornus","parent":"Cornales"}
+{"_id":"Cornus amomum","parent":"Cornus"}
+{"_id":"Cornus kousa","parent":"Cornus"}
+{"_id":"Cornus florida","parent":"Cornus"}
+{"_id":"lamiids","parent":"asterids"}
+{"_id":"Lamiales","parent":"lamiids"}
+{"_id":"Gesneriaceae","parent":"Lamiales"}
+{"_id":"Streptocarpus sect. Saintpaulia","parent":"Gesneriaceae"}
+{"_id":"Orobanchaceae","parent":"Lamiales"}
+{"_id":"Castilleja","parent":"Orobanchaceae"}
+{"_id":"Lamiaceae","parent":"Lamiales"}
+{"_id":"Lamioideae","parent":"Lamiaceae"}
+{"_id":"Lamium","parent":"Lamioideae"}
+{"_id":"Lamium maculatum","parent":"Lamium"}
+{"_id":"Lamium amplexicaule","parent":"Lamium"}
+{"_id":"Nepetoideae","parent":"Lamiaceae"}
+{"_id":"Mentheae","parent":"Nepetoideae"}
+{"_id":"Thymus vulgaris","parent":"Thymus"}
+{"_id":"Rosmarinus","parent":"Mentheae"}
+{"_id":"Rosmarinus officinalis","parent":"Rosmarinus"}
+{"_id":"Lavanduleae","parent":"Nepetoideae"}
+{"_id":"Lavandula","parent":"Lavanduleae"}
+{"_id":"Oleaceae","parent":"Lamiales"}
+{"_id":"Fraxinus","parent":"Oleaceae"}
+{"_id":"Fraxinus pennsylvanica","parent":"Fraxinus"}
+{"_id":"Fraxinus nigra","parent":"Fraxinus"}
+{"_id":"Fraxinus americana","parent":"Fraxinus"}
+{"_id":"Plantaginaceae","parent":"Lamiales"}
+{"_id":"Veroniceae","parent":"Plantaginaceae"}
+{"_id":"Veronica arvensis","parent":"Veroniceae"}
+{"_id":"Plantagineae","parent":"Plantaginaceae"}
+{"_id":"Plantago major","parent":"Plantagineae"}
+{"_id":"Gentianales","parent":"lamiids"}
+{"_id":"Rubiaceae","parent":"Gentianales"}
+{"_id":"Coffea","parent":"Rubiaceae"}
+{"_id":"Apocynaceae","parent":"Gentianales"}
+{"_id":"Asclepiadoideae","parent":"Apocynaceae"}
+{"_id":"Asclepias","parent":"Asclepiadoideae"}
+{"_id":"Asclepias amplexicaulis","parent":"Asclepias"}
+{"_id":"Asclepias verticillata","parent":"Asclepias"}
+{"_id":"Asclepias incarnata","parent":"Asclepias"}
+{"_id":"Asclepias tuberosa","parent":"Asclepias"}
+{"_id":"Asclepias syriaca","parent":"Asclepias"}
+{"_id":"Apocynoideae","parent":"Apocynaceae"}
+{"_id":"Apocynum cannabinum","parent":"Apocynoideae"}
+{"_id":"Solanales","parent":"lamiids"}
+{"_id":"Convolvulaceae","parent":"Solanales"}
+{"_id":"Ipomoea batatas","parent":"Convolvulaceae"}
+{"_id":"Solanaceae","parent":"Solanales"}
+{"_id":"Nicotianoideae","parent":"Solanaceae"}
+{"_id":"Nicotiana","parent":"Nicotianoideae"}
+{"_id":"Nicotiana glauca","parent":"Nicotiana"}
+{"_id":"Solanoideae","parent":"Solanaceae"}
+{"_id":"Solanum","parent":"Solanoideae"}
+{"_id":"Solanum americanum","parent":"Solanum"}
+{"_id":"Solanum carolinense","parent":"Solanum"}
+{"_id":"Solanum dulcamara","parent":"Solanum"}
+{"_id":"Solanum tuberosum","parent":"Solanum"}
+{"_id":"Solanum nigrum","parent":"Solanum"}
+{"_id":"Lycopersicon","parent":"Solanum"}
+{"_id":"Solanum lycopersicum","parent":"Lycopersicon"}
+{"_id":"campanulids","parent":"asterids"}
+{"_id":"Aquifoliales","parent":"campanulids"}
+{"_id":"Ilex","parent":"Aquifoliales"}
+{"_id":"Ilex verticillata","parent":"Ilex"}
+{"_id":"Ilex glabra","parent":"Ilex"}
+{"_id":"Ilex decidua","parent":"Ilex"}
+{"_id":"Ilex aquifolium","parent":"Ilex"}
+{"_id":"Asterales","parent":"campanulids"}
+{"_id":"Asteraceae","parent":"Asterales"}
+{"_id":"Cichorioideae","parent":"Asteraceae"}
+{"_id":"Sonchus","parent":"Cichorioideae"}
+{"_id":"Sonchus oleraceus","parent":"Sonchus"}
+{"_id":"Sonchus asper","parent":"Sonchus"}
+{"_id":"Sonchus arvensis","parent":"Sonchus"}
+{"_id":"Carduoideae","parent":"Asteraceae"}
+{"_id":"Carduinae","parent":"Carduoideae"}
+{"_id":"Carduus","parent":"Carduinae"}
+{"_id":"Carduus nutans","parent":"Carduus"}
+{"_id":"Cirsium","parent":"Carduinae"}
+{"_id":"Cirsium arvense","parent":"Cirsium"}
+{"_id":"Asteroideae","parent":"Asteraceae"}
+{"_id":"Inuleae","parent":"Asteroideae"}
+{"_id":"Rhanterium epapposum","parent":"Inuleae"}
+{"_id":"Astereae","parent":"Asteroideae"}
+{"_id":"North American clade","parent":"Astereae"}
+{"_id":"Amphipappus","parent":"North American clade"}
+{"_id":"Astereae incertae sedis","parent":"Astereae"}
+{"_id":"Bellis perennis","parent":"Astereae incertae sedis"}
+{"_id":"Senecioneae","parent":"Asteroideae"}
+{"_id":"Senecioninae","parent":"Senecioneae"}
+{"_id":"Jacobaea","parent":"Senecioninae"}
+{"_id":"Jacobaea maritima","parent":"Jacobaea"}
+{"_id":"Jacobaea erucifolia","parent":"Jacobaea"}
+{"_id":"Jacobaea aquatica","parent":"Jacobaea"}
+{"_id":"Jacobaea vulgaris","parent":"Jacobaea"}
+{"_id":"Senecio","parent":"Senecioninae"}
+{"_id":"Senecio squalidus","parent":"Senecio"}
+{"_id":"Anthemideae","parent":"Asteroideae"}
+{"_id":"Anthemidinae","parent":"Anthemideae"}
+{"_id":"Tanacetum","parent":"Anthemidinae"}
+{"_id":"Tanacetum vulgare","parent":"Tanacetum"}
+{"_id":"Tanacetum parthenium","parent":"Tanacetum"}
+{"_id":"Artemisiinae","parent":"Anthemideae"}
+{"_id":"Chrysanthemum x morifolium","parent":"Artemisiinae"}
+{"_id":"Matricariinae","parent":"Anthemideae"}
+{"_id":"Achillea","parent":"Matricariinae"}
+{"_id":"Achillea filipendulina","parent":"Achillea"}
+{"_id":"Achillea ptarmica","parent":"Achillea"}
+{"_id":"Achillea millefolium complex","parent":"Achillea"}
+{"_id":"Achillea millefolium","parent":"Achillea millefolium complex"}
+{"_id":"Heliantheae alliance","parent":"Asteroideae"}
+{"_id":"Helenieae","parent":"Heliantheae alliance"}
+{"_id":"Helenium amarum","parent":"Helenieae"}
+{"_id":"Heliantheae","parent":"Heliantheae alliance"}
+{"_id":"Encelia","parent":"Heliantheae"}
+{"_id":"Encelia farinosa","parent":"Encelia"}
+{"_id":"Echinacea","parent":"Heliantheae"}
+{"_id":"Echinacea paradoxa","parent":"Echinacea"}
+{"_id":"Rudbeckia","parent":"Heliantheae"}
+{"_id":"Rudbeckia fulgida","parent":"Rudbeckia"}
+{"_id":"Rudbeckia laciniata","parent":"Rudbeckia"}
+{"_id":"Rudbeckia triloba","parent":"Rudbeckia"}
+{"_id":"Rudbeckia hirta","parent":"Rudbeckia"}
+{"_id":"Ambrosia","parent":"Heliantheae"}
+{"_id":"Ambrosia trifida","parent":"Ambrosia"}
+{"_id":"Ambrosia artemisiifolia","parent":"Ambrosia"}
+{"_id":"Dipsacales","parent":"campanulids"}
+{"_id":"Viburnum","parent":"Dipsacales"}
+{"_id":"Viburnum prunifolium","parent":"Viburnum"}
+{"_id":"Viburnum rhytidophyllum","parent":"Viburnum"}
+{"_id":"Apiales","parent":"campanulids"}
+{"_id":"Apioideae","parent":"Apiales"}
+{"_id":"apioid superclade","parent":"Apioideae"}
+{"_id":"Apieae","parent":"apioid superclade"}
+{"_id":"Foeniculum","parent":"Apieae"}
+{"_id":"Foeniculum vulgare","parent":"Foeniculum"}
+{"_id":"Petroselinum","parent":"Apieae"}
+{"_id":"Petroselinum crispum","parent":"Petroselinum"}
+{"_id":"Tordylieae","parent":"apioid superclade"}
+{"_id":"Pastinaca sativa","parent":"Tordylieae"}
+{"_id":"Scandiceae","parent":"Apioideae"}
+{"_id":"Scandicinae","parent":"Scandiceae"}
+{"_id":"Anthriscus sylvestris","parent":"Scandicinae"}
+{"_id":"Daucinae","parent":"Scandiceae"}
+{"_id":"Daucus carota","parent":"Daucinae"}
+{"_id":"Polygonaceae","parent":"Caryophyllales"}
+{"_id":"Rheum rhabarbarum","parent":"Polygonaceae"}
+{"_id":"Phytolaccaceae","parent":"Caryophyllales"}
+{"_id":"Phytolacca americana","parent":"Phytolaccaceae"}
+{"_id":"rosids incertae sedis","parent":"rosids"}
+{"_id":"Vitis","parent":"rosids incertae sedis"}
+{"_id":"fabids","parent":"rosids"}
+{"_id":"Oxalidales","parent":"fabids"}
+{"_id":"Oxalis","parent":"Oxalidales"}
+{"_id":"Fabales","parent":"fabids"}
+{"_id":"Fabaceae","parent":"Fabales"}
+{"_id":"Caesalpinioideae","parent":"Fabaceae"}
+{"_id":"Cercis","parent":"Caesalpinioideae"}
+{"_id":"Cercis siliquastrum","parent":"Cercis"}
+{"_id":"Mimosoideae","parent":"Fabaceae"}
+{"_id":"Mimoseae","parent":"Mimosoideae"}
+{"_id":"Mimosa","parent":"Mimoseae"}
+{"_id":"Mimosa pudica","parent":"Mimosa"}
+{"_id":"Prosopis glandulosa","parent":"Prosopis"}
+{"_id":"Papilionoideae","parent":"Fabaceae"}
+{"_id":"Sophoreae","parent":"Papilionoideae"}
+{"_id":"Cladrastis kentukea","parent":"Sophoreae"}
+{"_id":"Fabeae","parent":"Papilionoideae"}
+{"_id":"Pisum sativum","parent":"Fabeae"}
+{"_id":"Phaseoleae","parent":"Papilionoideae"}
+{"_id":"Pueraria","parent":"Phaseoleae"}
+{"_id":"Pueraria montana var. lobata","parent":"Pueraria"}
+{"_id":"Phaseolus","parent":"Phaseoleae"}
+{"_id":"Dalbergieae","parent":"Papilionoideae"}
+{"_id":"Arachis hypogaea","parent":"Dalbergieae"}
+{"_id":"Malpighiales","parent":"fabids"}
+{"_id":"Violaceae","parent":"Malpighiales"}
+{"_id":"Linaceae","parent":"Malpighiales"}
+{"_id":"Linum usitatissimum","parent":"Linaceae"}
+{"_id":"Salicaceae","parent":"Malpighiales"}
+{"_id":"Saliceae","parent":"Salicaceae"}
+{"_id":"Salix","parent":"Saliceae"}
+{"_id":"Salix gooddingii","parent":"Salix"}
+{"_id":"Salix exigua","parent":"Salix"}
+{"_id":"Populus","parent":"Saliceae"}
+{"_id":"Cucurbitales","parent":"fabids"}
+{"_id":"Cucumis sativus","parent":"Cucurbitales"}
+{"_id":"Cucumis sativus var. sativus","parent":"Cucumis sativus"}
+{"_id":"Fagales","parent":"fabids"}
+{"_id":"Fagaceae","parent":"Fagales"}
+{"_id":"Quercus","parent":"Fagaceae"}
+{"_id":"Quercus bicolor","parent":"Quercus"}
+{"_id":"Quercus canariensis","parent":"Quercus"}
+{"_id":"Quercus macrocarpa","parent":"Quercus"}
+{"_id":"Quercus velutina","parent":"Quercus"}
+{"_id":"Quercus douglasii","parent":"Quercus"}
+{"_id":"Quercus coccinea","parent":"Quercus"}
+{"_id":"Quercus palustris","parent":"Quercus"}
+{"_id":"Quercus robur","parent":"Quercus"}
+{"_id":"Quercus petraea","parent":"Quercus"}
+{"_id":"Quercus alba","parent":"Quercus"}
+{"_id":"Quercus rubra","parent":"Quercus"}
+{"_id":"Betulaceae","parent":"Fagales"}
+{"_id":"Alnus","parent":"Betulaceae"}
+{"_id":"Alnus glutinosa","parent":"Alnus"}
+{"_id":"Alnus incana","parent":"Alnus"}
+{"_id":"Betula","parent":"Betulaceae"}
+{"_id":"Betula lenta","parent":"Betula"}
+{"_id":"Betula alleghaniensis","parent":"Betula"}
+{"_id":"Betula nigra","parent":"Betula"}
+{"_id":"Betula papyrifera","parent":"Betula"}
+{"_id":"Betula pendula","parent":"Betula"}
+{"_id":"Rosales","parent":"fabids"}
+{"_id":"Rosaceae","parent":"Rosales"}
+{"_id":"Maloideae","parent":"Rosaceae"}
+{"_id":"Amygdaloideae incertae sedis","parent":"Maloideae"}
+{"_id":"Lyonothamnus floribundus","parent":"Amygdaloideae incertae sedis"}
+{"_id":"Amygdaleae","parent":"Maloideae"}
+{"_id":"Prunus","parent":"Amygdaleae"}
+{"_id":"Prunus avium","parent":"Prunus"}
+{"_id":"Prunus armeniaca","parent":"Prunus"}
+{"_id":"Prunus serotina","parent":"Prunus"}
+{"_id":"Prunus persica","parent":"Prunus"}
+{"_id":"Prunus dulcis","parent":"Prunus"}
+{"_id":"Maleae","parent":"Maloideae"}
+{"_id":"Pyrus","parent":"Maleae"}
+{"_id":"Pyrus communis","parent":"Pyrus"}
+{"_id":"Amelanchier","parent":"Maleae"}
+{"_id":"Amelanchier canadensis","parent":"Amelanchier"}
+{"_id":"Amelanchier arborea","parent":"Amelanchier"}
+{"_id":"Amelanchier alnifolia","parent":"Amelanchier"}
+{"_id":"Malus","parent":"Maleae"}
+{"_id":"Malus domestica","parent":"Malus"}
+{"_id":"Rosoideae","parent":"Rosaceae"}
+{"_id":"Rosoideae unplaced","parent":"Rosoideae"}
+{"_id":"Rosa","parent":"Rosoideae unplaced"}
+{"_id":"Rosa multiflora","parent":"Rosa"}
+{"_id":"Rosa virginiana","parent":"Rosa"}
+{"_id":"Rubus","parent":"Rosoideae unplaced"}
+{"_id":"Rubus phoenicolasius","parent":"Rubus"}
+{"_id":"Rubus pensilvanicus","parent":"Rubus"}
+{"_id":"Rubus occidentalis","parent":"Rubus"}
+{"_id":"Rubus hispidus","parent":"Rubus"}
+{"_id":"Potentilleae","parent":"Rosoideae"}
+{"_id":"Fragaria x ananassa","parent":"Potentilleae"}
+{"_id":"Urticaceae","parent":"Rosales"}
+{"_id":"Urtica dioica","parent":"Urticaceae"}
+{"_id":"Moraceae","parent":"Rosales"}
+{"_id":"Morus rubra","parent":"Morus"}
+{"_id":"Morus alba","parent":"Morus"}
+{"_id":"Maclura","parent":"Moraceae"}
+{"_id":"Maclura pomifera","parent":"Maclura"}
+{"_id":"Ficus carica","parent":"Ficus"}
+{"_id":"Cannabaceae","parent":"Rosales"}
+{"_id":"Cannabis","parent":"Cannabaceae"}
+{"_id":"Cannabis sativa","parent":"Cannabis"}
+{"_id":"malvids","parent":"rosids"}
+{"_id":"Myrtales","parent":"malvids"}
+{"_id":"Myrtoideae","parent":"Myrtales"}
+{"_id":"Syzygieae","parent":"Myrtoideae"}
+{"_id":"Syzygium aromaticum","parent":"Syzygieae"}
+{"_id":"Eucalypteae","parent":"Myrtoideae"}
+{"_id":"Eucalyptus","parent":"Eucalypteae"}
+{"_id":"Brassicales","parent":"malvids"}
+{"_id":"Moringaceae","parent":"Brassicales"}
+{"_id":"Moringa oleifera","parent":"Moringaceae"}
+{"_id":"Brassicaceae","parent":"Brassicales"}
+{"_id":"Hesperideae","parent":"Brassicaceae"}
+{"_id":"Hesperis matronalis","parent":"Hesperideae"}
+{"_id":"Thlaspideae","parent":"Brassicaceae"}
+{"_id":"Alliaria petiolata","parent":"Thlaspideae"}
+{"_id":"Cardamineae","parent":"Brassicaceae"}
+{"_id":"Rorippa","parent":"Cardamineae"}
+{"_id":"Rorippa sylvestris","parent":"Rorippa"}
+{"_id":"Cardamine","parent":"Cardamineae"}
+{"_id":"Cardamine concatenata","parent":"Cardamine"}
+{"_id":"Cardamine bulbosa","parent":"Cardamine"}
+{"_id":"Cardamine hirsuta","parent":"Cardamine"}
+{"_id":"Barbarea","parent":"Cardamineae"}
+{"_id":"Barbarea vulgaris","parent":"Barbarea"}
+{"_id":"Barbarea verna","parent":"Barbarea"}
+{"_id":"Brassiceae","parent":"Brassicaceae"}
+{"_id":"Coincya","parent":"Brassiceae"}
+{"_id":"Coincya monensis","parent":"Coincya"}
+{"_id":"Brassica","parent":"Brassiceae"}
+{"_id":"Brassica oleracea","parent":"Brassica"}
+{"_id":"Malvales","parent":"malvids"}
+{"_id":"Malvaceae","parent":"Malvales"}
+{"_id":"Bombacoideae","parent":"Malvaceae"}
+{"_id":"Adansonia","parent":"Bombacoideae"}
+{"_id":"Malvoideae","parent":"Malvaceae"}
+{"_id":"Gossypium","parent":"Malvoideae"}
+{"_id":"Sapindales","parent":"malvids"}
+{"_id":"Hippocastanaceae","parent":"Sapindales"}
+{"_id":"Aesculus californica","parent":"Hippocastanaceae"}
+{"_id":"Meliaceae","parent":"Sapindales"}
+{"_id":"Azadirachta indica","parent":"Meliaceae"}
+{"_id":"Anacardiaceae","parent":"Sapindales"}
+{"_id":"Pistacia","parent":"Anacardiaceae"}
+{"_id":"Pistacia vera","parent":"Pistacia"}
+{"_id":"Toxicodendron","parent":"Anacardiaceae"}
+{"_id":"Toxicodendron radicans","parent":"Toxicodendron"}
+{"_id":"Mangifera","parent":"Anacardiaceae"}
+{"_id":"Mangifera indica","parent":"Mangifera"}
+{"_id":"Aceraceae","parent":"Sapindales"}
+{"_id":"Acer","parent":"Aceraceae"}
+{"_id":"Acer saccharinum","parent":"Acer"}
+{"_id":"Acer pensylvanicum","parent":"Acer"}
+{"_id":"Acer saccharum","parent":"Acer"}
+{"_id":"Acer saccharum subsp. leucoderme","parent":"Acer saccharum"}
+{"_id":"Acer saccharum subsp. nigrum","parent":"Acer saccharum"}
+{"_id":"Acer negundo","parent":"Acer"}
+{"_id":"Rutaceae","parent":"Sapindales"}
+{"_id":"Citrus","parent":"Rutaceae"}
+{"_id":"Citrus x paradisi","parent":"Citrus"}
+{"_id":"Citrus limon","parent":"Citrus"}
