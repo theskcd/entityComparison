@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sandeepkumarpani888/entityComparison#readme",
   "dependencies": {
+    "async": "^2.1.1",
     "body-parser": "^1.15.2",
     "cheerio": "^0.22.0",
     "cookie-parser": "^1.4.3",
