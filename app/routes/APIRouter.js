@@ -134,29 +134,28 @@ router.route('/getDataPlants')
     });
 
 router.route('/getCommonOutLinks/')
-	.get(function(req,res){
+    .get(function(req, res) {
         console.log('teting');
         // console.log(req);
-		var siteUrl="https://en.wikipedia.org/wiki/";
-		var systemProxy="htttp://10.3.100.207:8080";
-        var linkSetFirst=[];
-        var linkSetSecond=[];
-        var getSameLinks=function(){
-            console.log(linkSetFirst.length+ " " + linkSetSecond.length);
+        var siteUrl = "https://en.wikipedia.org/wiki/";
+        var systemProxy = "htttp://10.3.100.207:8080";
+        var linkSetFirst = [];
+        var linkSetSecond = [];
+        var getSameLinks = function() {
+            console.log(linkSetFirst.length + " " + linkSetSecond.length);
             var sameLinks;
-            sameLinks=0;
-            var compareBoth=function(){
-                for(var indexFirst=0;indexFirst<=linkSetFirst.length;indexFirst++){
-                    if(indexFirst==linkSetFirst.length){
+            sameLinks = 0;
+            var compareBoth = function() {
+                for (var indexFirst = 0; indexFirst <= linkSetFirst.length; indexFirst++) {
+                    if (indexFirst == linkSetFirst.length) {
                         res.send({
-                            'lengthCommon' : sameLinks,
-                            'lengthFirstSet' : linkSetFirst.length,
-                            'lengthSecondSet' : linkSetSecond.length
+                            'lengthCommon': sameLinks,
+                            'lengthFirstSet': linkSetFirst.length,
+                            'lengthSecondSet': linkSetSecond.length
                         });
-                    }
-                    else{
-                        for(var indexSecond=0;indexSecond<linkSetSecond.length;indexSecond++){
-                            if(linkSetFirst[indexFirst]==linkSetSecond[indexSecond]){
+                    } else {
+                        for (var indexSecond = 0; indexSecond < linkSetSecond.length; indexSecond++) {
+                            if (linkSetFirst[indexFirst] == linkSetSecond[indexSecond]) {
                                 sameLinks++;
                                 break;
                             }
@@ -167,37 +166,41 @@ router.route('/getCommonOutLinks/')
             compareBoth();
         };
 
-        var jsonPromies=new Promise(function(resolve,reject){
-            request({url:siteUrl+"tiger",proxy:systemProxy},function(error,responses,html){
-                $=cheerio.load(html);
-                links=$('a');
+        var jsonPromies = new Promise(function(resolve, reject) {
+            request({
+                url: siteUrl + "tiger",
+                proxy: systemProxy
+            }, function(error, responses, html) {
+                $ = cheerio.load(html);
+                links = $('a');
                 // console.log(links.length+ " tiger");
-                for(var i=0;i<=links.length;i++){
-                    if(i==links.length){
-                        var nextPromise=new Promise(function(resolve,reject){
-                            request({url:siteUrl+"lion",proxy:systemProxy},function(error,responses,html){
-                                $=cheerio.load(html);
-                                links=$('a');
-                                console.log(links.length+ " lion");
-                                for (var i=0;i<=links.length;i++) {
-                                    if(i==links.length){
+                for (var i = 0; i <= links.length; i++) {
+                    if (i == links.length) {
+                        var nextPromise = new Promise(function(resolve, reject) {
+                            request({
+                                url: siteUrl + "lion",
+                                proxy: systemProxy
+                            }, function(error, responses, html) {
+                                $ = cheerio.load(html);
+                                links = $('a');
+                                console.log(links.length + " lion");
+                                for (var i = 0; i <= links.length; i++) {
+                                    if (i == links.length) {
                                         resolve('done with the first part');
-                                    }
-                                    else{
-                                        if(links[i].attribs!=undefined && links[i].attribs.href!=undefined){
+                                    } else {
+                                        if (links[i].attribs != undefined && links[i].attribs.href != undefined) {
                                             linkSetFirst.push(links[i].attribs.href);
                                         }
                                     }
                                 };
                             });
                         });
-                        nextPromise.then(function(){
+                        nextPromise.then(function() {
                             resolve('done');
                         })
-                    }
-                    else{
+                    } else {
                         // console.log(links[i].attribs);
-                        if(links[i].attribs!=undefined && links[i].attribs.href!=undefined){
+                        if (links[i].attribs != undefined && links[i].attribs.href != undefined) {
                             linkSetSecond.push(links[i].attribs.href);
                             // console.log(links[i].attribs.href);
                         }
@@ -205,17 +208,17 @@ router.route('/getCommonOutLinks/')
                 }
             });
         });
-        jsonPromies.then(function(){
+        jsonPromies.then(function() {
             getSameLinks();
         });
-	});
+    });
 
 
 router.route('/getTaxonomy/:name')
     .get(function(req, res) {
-    	console.log(req.body.name);
+        console.log(req.body.name);
         nightmare
-            .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?'+ "term=" + req.body.name)
+            .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?' + "term=" + req.body.name)
             .click('.rprt .title a')
             .wait('li')
             .evaluate(function() {
@@ -237,6 +240,60 @@ router.route('/getTaxonomy/:name')
             .catch(function(error) {
                 console.error('Search failed:', error);
             });
+    });
+
+router.route('/getCommonInLinks')
+    .get(function(req, res) {
+        var siteUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=backlinks&blnamespace=0&blfilterredir=nonredirects&bllimit=250&blredirect=1";
+        var systemProxy = "htttp://10.3.100.207:8080";
+        var searchTerms = ["&bltitle=Guinea_baboon", "&bltitle=Tiger"];
+        var res1 = [],
+            res2 = [];
+        var continueId, JsonReponse;
+
+        function traverse(o) {
+            for (var i in o) {
+                console.log(o[i].pageid + " : " + o[i].title);
+                if (o[i] !== null && typeof(o[i]) == "object" && o[i].hasOwnProperty('redirlinks')) {
+                    traverse(o[i].redirlinks);
+                }
+            }
+        }
+
+        for (var i = 0; i < 2; i++) {
+            var searchTerm = siteUrl + searchTerms[i];
+            console.log(searchTerm);
+            request({
+                url: searchTerm,
+                proxy: systemProxy
+            }, function(error, response, body) {
+                if (!error) {
+                    console.log('no error');
+                    JsonReponse = JSON.parse(body);
+                    console.log(JSON.stringify(JsonReponse, null, 2));
+                    // console.log("******************************");
+                    // traverse(JsonReponse.query.backlinks);
+                    while (JsonReponse.hasOwnProperty('continue')) {
+                        continueId = JsonReponse.continue.blcontinue;
+                        var nextSearchTerm = searchTerm + continueId;
+                        request({
+                            url: nextSearchTerm,
+                            proxy: systemProxy
+                        }, function(error, response, body) {
+                            if (!error) {
+                                JsonReponse = JsonReponse.parse(body);
+                                console.log(JSON.stringify(JsonReponse, null, 2));
+                                // console.log("******************************");
+                            } else {
+                                console.log(error + ' error!');
+                            }
+                        });
+                    }
+                } else {
+                    console.log(error + ' error!');
+                }
+            });
+        }
     });
 
 module.exports = router;
