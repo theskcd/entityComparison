@@ -141,57 +141,73 @@ router.route('/getCommonOutLinks/')
 		var systemProxy="htttp://10.3.100.207:8080";
         var linkSetFirst=[];
         var linkSetSecond=[];
-        var fillLists=function(){
-        	var callitIn=function(){
-                console.log("inside callitIn");
-                request({url:siteUrl+"lion",proxy:systemProxy},function(error,responses,html){
-        			$=cheerio.load(html);
-        			links=$('a');
-        			$(links).each(function(i,link){
-                        linkSetFirst.push($(link).attr('href'));
-        				// console.log($(link).text()+":\n "+$(link).attr('href'));
-        			})
-        		});
-                request({url:siteUrl+"tiger",proxy:systemProxy},function(error,responses,html){
-                    $=cheerio.load(html);
-                    links=$('a');
-                    $(links).each(function(i,link){
-                        linkSetSecond.push($(link).attr('href'));
-                        // console.log($(link).text()+":\n "+$(link).attr('href'));
-                    })
-                });
-            };
-            callitIn();
-        };
-        var comapreLists=function(){
-            console.log('get going');
-            fillLists(function(){
-                console.log(linkSetFirst.length+ " " + linkSetSecond.length);
-                var sameLinks;
-                sameLinks=0;
-                var compareBoth=function(){
-                    for(var indexFirst=0;indexFirst<=linkSetFirst.length;indexFirst++){
-                        if(indexFirst==linkSetFirst.length){
-                            res.send({
-                                'lengthCommon' : sameLinks,
-                                'lengthFirstSet' : linkSetFirst.length,
-                                'lengthSecondSet' : linkSetSecond.length
-                            });
-                        }
-                        else{
-                            for(var indexSecond=0;indexSecond<linkSetSecond.length;indexSecond++){
-                                if(linkSetFirst[indexFirst]==linkSetSecond[indexSecond]){
-                                    sameLinks++;
-                                    break;
-                                }
+        var getSameLinks=function(){
+            console.log(linkSetFirst.length+ " " + linkSetSecond.length);
+            var sameLinks;
+            sameLinks=0;
+            var compareBoth=function(){
+                for(var indexFirst=0;indexFirst<=linkSetFirst.length;indexFirst++){
+                    if(indexFirst==linkSetFirst.length){
+                        res.send({
+                            'lengthCommon' : sameLinks,
+                            'lengthFirstSet' : linkSetFirst.length,
+                            'lengthSecondSet' : linkSetSecond.length
+                        });
+                    }
+                    else{
+                        for(var indexSecond=0;indexSecond<linkSetSecond.length;indexSecond++){
+                            if(linkSetFirst[indexFirst]==linkSetSecond[indexSecond]){
+                                sameLinks++;
+                                break;
                             }
                         }
                     }
                 }
-                compareBoth();
-            });
+            }
+            compareBoth();
         };
-        comapreLists();
+
+        var jsonPromies=new Promise(function(resolve,reject){
+            request({url:siteUrl+"tiger",proxy:systemProxy},function(error,responses,html){
+                $=cheerio.load(html);
+                links=$('a');
+                // console.log(links.length+ " tiger");
+                for(var i=0;i<=links.length;i++){
+                    if(i==links.length){
+                        var nextPromise=new Promise(function(resolve,reject){
+                            request({url:siteUrl+"lion",proxy:systemProxy},function(error,responses,html){
+                                $=cheerio.load(html);
+                                links=$('a');
+                                console.log(links.length+ " lion");
+                                for (var i=0;i<=links.length;i++) {
+                                    if(i==links.length){
+                                        resolve('done with the first part');
+                                    }
+                                    else{
+                                        if(links[i].attribs!=undefined && links[i].attribs.href!=undefined){
+                                            linkSetFirst.push(links[i].attribs.href);
+                                        }
+                                    }
+                                };
+                            });
+                        });
+                        nextPromise.then(function(){
+                            resolve('done');
+                        })
+                    }
+                    else{
+                        // console.log(links[i].attribs);
+                        if(links[i].attribs!=undefined && links[i].attribs.href!=undefined){
+                            linkSetSecond.push(links[i].attribs.href);
+                            // console.log(links[i].attribs.href);
+                        }
+                    }
+                }
+            });
+        });
+        jsonPromies.then(function(){
+            getSameLinks();
+        });
 	});
 
 
