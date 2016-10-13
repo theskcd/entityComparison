@@ -8,6 +8,37 @@ var nightmare = Nightmare({
 });
 var async = require('async');
 
+function sortNumber(a, b) {
+    return a - b;
+}
+
+var linkSetFirst = [];
+var linkSetSecond = [];
+var getSameLinks = function(res) {
+    console.log(linkSetFirst.length + " " + linkSetSecond.length);
+    var sameLinks;
+    sameLinks = 0;
+    var compareBoth = function() {
+        for (var indexFirst = 0; indexFirst <= linkSetFirst.length; indexFirst++) {
+            if (indexFirst == linkSetFirst.length) {
+                res.send({
+                    'lengthCommon': sameLinks,
+                    'lengthFirstSet': linkSetFirst.length,
+                    'lengthSecondSet': linkSetSecond.length
+                });
+            } else {
+                for (var indexSecond = 0; indexSecond < linkSetSecond.length; indexSecond++) {
+                    if (linkSetFirst[indexFirst] == linkSetSecond[indexSecond]) {
+                        sameLinks++;
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    compareBoth();
+};
+
 router.use(function(req, res, next) {
     next();
 });
@@ -136,36 +167,11 @@ router.route('/getDataPlants')
 
 router.route('/getCommonOutLinks/')
     .get(function(req, res) {
-        console.log('teting');
-        // console.log(req);
+        console.log('testing');
         var siteUrl = "https://en.wikipedia.org/wiki/";
         var systemProxy = "htttp://10.3.100.207:8080";
-        var linkSetFirst = [];
-        var linkSetSecond = [];
-        var getSameLinks = function() {
-            console.log(linkSetFirst.length + " " + linkSetSecond.length);
-            var sameLinks;
-            sameLinks = 0;
-            var compareBoth = function() {
-                for (var indexFirst = 0; indexFirst <= linkSetFirst.length; indexFirst++) {
-                    if (indexFirst == linkSetFirst.length) {
-                        res.send({
-                            'lengthCommon': sameLinks,
-                            'lengthFirstSet': linkSetFirst.length,
-                            'lengthSecondSet': linkSetSecond.length
-                        });
-                    } else {
-                        for (var indexSecond = 0; indexSecond < linkSetSecond.length; indexSecond++) {
-                            if (linkSetFirst[indexFirst] == linkSetSecond[indexSecond]) {
-                                sameLinks++;
-                                break;
-                            }
-                        }
-                    }
-                }
-            }
-            compareBoth();
-        };
+        linkSetFirst = [];
+        linkSetSecond = [];
 
         var jsonPromies = new Promise(function(resolve, reject) {
             request({
@@ -210,7 +216,7 @@ router.route('/getCommonOutLinks/')
             });
         });
         jsonPromies.then(function() {
-            getSameLinks();
+            getSameLinks(res);
         });
     });
 
@@ -248,12 +254,12 @@ router.route('/getCommonInLinks')
         var siteUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=backlinks&blnamespace=0&blfilterredir=nonredirects&bllimit=250&blredirect=1";
         var systemProxy = "htttp://10.3.100.207:8080";
         var searchTerms = ["&bltitle=Guinea_baboon", "&bltitle=Tiger"];
-        var linkSetFirst = [],
-            linkSetSecond = [];
+        linkSetFirst = [];
+        linkSetSecond = [];
         var continueId, JsonReponse, o;
 
-        (function loopingOverInput(i){
-            var jsonPromise=new Promise(function(resolve,reject){
+        (function loopingOverInput(i) {
+            var jsonPromise = new Promise(function(resolve, reject) {
                 var searchTerm = siteUrl + searchTerms[i];
                 console.log(searchTerm);
                 request({
@@ -263,7 +269,7 @@ router.route('/getCommonInLinks')
                     if (!error) {
                         console.log('no error');
                         JsonReponse = JSON.parse(body);
-                        console.log(JSON.stringify(JsonReponse, null, 2));
+                        // console.log(JSON.stringify(JsonReponse, null, 2));
                         o = JsonReponse.query.backlinks;
                         traverse = function(o) {
                             for (var j in o) {
@@ -288,7 +294,7 @@ router.route('/getCommonInLinks')
                                 }, function(errorIn, responseIn, bodyIn) {
                                     if (!errorIn) {
                                         JsonReponse = JSON.parse(bodyIn);
-                                        console.log(JSON.stringify(JsonReponse, null, 2));
+                                        // console.log(JSON.stringify(JsonReponse, null, 2));
                                         o = JsonReponse.query.backlinks;
                                         traverseMore = function(o) {
                                             for (var k in o) {
@@ -308,8 +314,7 @@ router.route('/getCommonInLinks')
                                     }
                                     more_results();
                                 });
-                            }
-                            else{
+                            } else {
                                 //return promise over here
                                 resolve('done');
                             }
@@ -319,13 +324,14 @@ router.route('/getCommonInLinks')
                     }
                 });
             });
-            jsonPromise.then(function(){
-                console.log(linkSetFirst.length+ " " +linkSetSecond.length);
-                if(i<1){
-                    loopingOverInput(i+1);
-                }
-                else if(i==2){
-                    //qwe
+            jsonPromise.then(function() {
+                if (i < 1) {
+                    ++i;
+                    loopingOverInput(i);
+                } else {
+                    linkSetFirst.sort(sortNumber);
+                    linkSetSecond.sort(sortNumber);
+                    getSameLinks(res);
                 }
             })
         })(0);
