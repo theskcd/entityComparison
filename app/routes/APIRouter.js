@@ -252,68 +252,83 @@ router.route('/getCommonInLinks')
             linkSetSecond = [];
         var continueId, JsonReponse, o;
 
-        for (var i = 0; i < 2; i++) {
-            var searchTerm = siteUrl + searchTerms[i];
-            console.log(searchTerm);
-            request({
-                url: searchTerm,
-                proxy: systemProxy
-            }, function(error, response, body) {
-                if (!error) {
-                    console.log('no error');
-                    JsonReponse = JSON.parse(body);
-                    console.log(JSON.stringify(JsonReponse, null, 2));
-                    o = JsonReponse.query.backlinks;
-                    traverse = function(o) {
-                        for (var j in o) {
-                            if (i == 0) {
-                                linkSetFirst.push(parseInt(o[j].pageid, 10));
-                            } else {
-                                linkSetSecond.push(parseInt(o[j].pageid, 10));
-                            }
-                            if (o[j] !== null && typeof(o[j]) == "object" && o[j].hasOwnProperty('redirlinks')) {
-                                traverse(o[j].redirlinks);
+        (function loopingOverInput(i){
+            var jsonPromise=new Promise(function(resolve,reject){
+                var searchTerm = siteUrl + searchTerms[i];
+                console.log(searchTerm);
+                request({
+                    url: searchTerm,
+                    proxy: systemProxy
+                }, function(error, response, body) {
+                    if (!error) {
+                        console.log('no error');
+                        JsonReponse = JSON.parse(body);
+                        console.log(JSON.stringify(JsonReponse, null, 2));
+                        o = JsonReponse.query.backlinks;
+                        traverse = function(o) {
+                            for (var j in o) {
+                                if (i == 0) {
+                                    linkSetFirst.push(parseInt(o[j].pageid, 10));
+                                } else {
+                                    linkSetSecond.push(parseInt(o[j].pageid, 10));
+                                }
+                                if (o[j] !== null && typeof(o[j]) == "object" && o[j].hasOwnProperty('redirlinks')) {
+                                    traverse(o[j].redirlinks);
+                                }
                             }
                         }
-                    }
-                    traverse(o);
-                    (function more_results() {
-                        if (JsonReponse.hasOwnProperty('continue')) {
-                            continueId = JsonReponse.continue.blcontinue;
-                            var nextSearchTerm = searchTerm + "&blcontinue=" + continueId;
-                            request({
-                                url: nextSearchTerm,
-                                proxy: systemProxy
-                            }, function(errorIn, responseIn, bodyIn) {
-                                if (!errorIn) {
-                                    JsonReponse = JSON.parse(bodyIn);
-                                    console.log(JSON.stringify(JsonReponse, null, 2));
-                                    o = JsonReponse.query.backlinks;
-                                    traverseMore = function(o) {
-                                        for (var k in o) {
-                                            if (i == 0) {
-                                                linkSetFirst.push(parseInt(o[k].pageid, 10));
-                                            } else {
-                                                linkSetSecond.push(parseInt(o[k].pageid, 10));
-                                            }
-                                            if (o[k] !== null && typeof(o[k]) == "object" && o[k].hasOwnProperty('redirlinks')) {
-                                                traverseMore(o[k].redirlinks);
+                        traverse(o);
+                        (function more_results() {
+                            if (JsonReponse.hasOwnProperty('continue')) {
+                                continueId = JsonReponse.continue.blcontinue;
+                                var nextSearchTerm = searchTerm + "&blcontinue=" + continueId;
+                                request({
+                                    url: nextSearchTerm,
+                                    proxy: systemProxy
+                                }, function(errorIn, responseIn, bodyIn) {
+                                    if (!errorIn) {
+                                        JsonReponse = JSON.parse(bodyIn);
+                                        console.log(JSON.stringify(JsonReponse, null, 2));
+                                        o = JsonReponse.query.backlinks;
+                                        traverseMore = function(o) {
+                                            for (var k in o) {
+                                                if (i == 0) {
+                                                    linkSetFirst.push(parseInt(o[k].pageid, 10));
+                                                } else {
+                                                    linkSetSecond.push(parseInt(o[k].pageid, 10));
+                                                }
+                                                if (o[k] !== null && typeof(o[k]) == "object" && o[k].hasOwnProperty('redirlinks')) {
+                                                    traverseMore(o[k].redirlinks);
+                                                }
                                             }
                                         }
+                                        traverseMore(o);
+                                    } else {
+                                        console.log(errorIn + ' error!');
                                     }
-                                    traverseMore(o);
-                                } else {
-                                    console.log(errorIn + ' error!');
-                                }
-                                more_results();
-                            });
-                        }
-                    }());
-                } else {
-                    console.log(error + ' error!');
-                }
+                                    more_results();
+                                });
+                            }
+                            else{
+                                //return promise over here
+                                resolve('done');
+                            }
+                        }());
+                    } else {
+                        console.log(error + ' error!');
+                    }
+                });
             });
-        }
+            jsonPromise.then(function(){
+                console.log(linkSetFirst.length+ " " +linkSetSecond.length);
+                if(i<1){
+                    loopingOverInput(i+1);
+                }
+                else if(i==2){
+                    //qwe
+                }
+            })
+        })(0);
     });
 
 module.exports = router;
