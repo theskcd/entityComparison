@@ -133,17 +133,65 @@ router.route('/getDataPlants')
         });
     });
 
-router.route('/getCommonOutlinks')
+router.route('/getCommonOutLinks/')
 	.get(function(req,res){
-		var siteUrl="https://en.wikipedia.org/wiki/Lion";
+        console.log('teting');
+        // console.log(req);
+		var siteUrl="https://en.wikipedia.org/wiki/";
 		var systemProxy="htttp://10.3.100.207:8080";
-		request({url:siteUrl,proxy:systemProxy},function(error,responses,html){
-			$=cheerio.load(html);
-			links=$('a');
-			$(links).each(function(i,link){
-				console.log($(link).text()+":\n "+$(link).attr('href'));
-			})
-		});
+        var linkSetFirst=[];
+        var linkSetSecond=[];
+        var fillLists=function(){
+        	var callitIn=function(){
+                console.log("inside callitIn");
+                request({url:siteUrl+"lion",proxy:systemProxy},function(error,responses,html){
+        			$=cheerio.load(html);
+        			links=$('a');
+        			$(links).each(function(i,link){
+                        linkSetFirst.push($(link).attr('href'));
+        				// console.log($(link).text()+":\n "+$(link).attr('href'));
+        			})
+        		});
+                request({url:siteUrl+"tiger",proxy:systemProxy},function(error,responses,html){
+                    $=cheerio.load(html);
+                    links=$('a');
+                    $(links).each(function(i,link){
+                        linkSetSecond.push($(link).attr('href'));
+                        // console.log($(link).text()+":\n "+$(link).attr('href'));
+                    })
+                });
+            };
+            callitIn();
+        };
+        var comapreLists=function(){
+            console.log('get going');
+            fillLists(function(){
+                console.log(linkSetFirst.length+ " " + linkSetSecond.length);
+                var sameLinks;
+                sameLinks=0;
+                var compareBoth=function(){
+                    for(var indexFirst=0;indexFirst<=linkSetFirst.length;indexFirst++){
+                        if(indexFirst==linkSetFirst.length){
+                            res.send({
+                                'lengthCommon' : sameLinks,
+                                'lengthFirstSet' : linkSetFirst.length,
+                                'lengthSecondSet' : linkSetSecond.length
+                            });
+                        }
+                        else{
+                            for(var indexSecond=0;indexSecond<linkSetSecond.length;indexSecond++){
+                                if(linkSetFirst[indexFirst]==linkSetSecond[indexSecond]){
+                                    sameLinks++;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                compareBoth();
+            });
+        };
+        comapreLists();
 	});
 
 
