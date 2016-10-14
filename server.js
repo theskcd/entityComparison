@@ -12,7 +12,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var Nightmare = require('nightmare');
 
-var APIRouter = require('./app/routes/APIRouter');
+var APIRouter = require('./public/routes/APIRouter');
 
 app.use(morgan('dev'));
 app.use(cookieParser());
