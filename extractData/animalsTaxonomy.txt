@@ -157,8 +157,7 @@ Eukaryota
 + + + + + + + + + + + + + + + + + + + + Equus
 + + + + + + + + + + + + + + + + + + + + + Equus incertae sedis
 + + + + + + + + + + + + + + + + + + + + + + Equus asinus x caballus
-+ + + + + + + + + + + + + + + + + + + + + Equus
-+ + + + + + + + + + + + + + + + + + + + + + Equus caballus
++ + + + + + + + + + + + + + + + + + + + + Equus caballus
 + + + + + + + + + + + + + + + + + + + + + Asinus
 + + + + + + + + + + + + + + + + + + + + + + Equus asinus
 + + + + + + + + + + + + + + + + + + Cetartiodactyla

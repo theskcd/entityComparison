@@ -157,8 +157,7 @@ Eukaryota
 + + + + + + + + + + + Ericales
 + + + + + + + + + + + + Balsaminaceae
 + + + + + + + + + + + + + Impatiens
-+ + + + + + + + + + + + + + Impatiens
-+ + + + + + + + + + + + + + + Impatiens capensis
++ + + + + + + + + + + + + + Impatiens capensis
 + + + + + + + + + + + + + + Impatiens pallida
 + + + + + + + + + + + + Ericaceae
 + + + + + + + + + + + + + Vaccinioideae

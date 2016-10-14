@@ -1,6 +1,6 @@
 {"_id":"Eukaryota","parent":"null"}
 {"_id":"Opisthokonta","parent":"Eukaryota"}
-{"_id":"Bilateria","parent":"Opisthokonta"}
+{"_id":"Bilateria","parent":"Metazoa"}
 {"_id":"Deuterostomia","parent":"Bilateria"}
 {"_id":"Chordata","parent":"Deuterostomia"}
 {"_id":"Vertebrata","parent":"Chordata"}
@@ -157,6 +157,7 @@
 {"_id":"Equus","parent":"Equidae"}
 {"_id":"Equus incertae sedis","parent":"Equus"}
 {"_id":"Equus asinus x caballus","parent":"Equus incertae sedis"}
+{"_id":"Equus caballus","parent":"Equus"}
 {"_id":"Asinus","parent":"Equus"}
 {"_id":"Equus asinus","parent":"Asinus"}
 {"_id":"Cetartiodactyla","parent":"Laurasiatheria"}
@@ -483,9 +484,9 @@
 {"_id":"Nematoda","parent":"Ecdysozoa"}
 {"_id":"Caenorhabditis elegans","parent":"Nematoda"}
 {"_id":"Viridiplantae","parent":"Eukaryota"}
-{"_id":"Mesangiospermae","parent":"Viridiplantae"}
+{"_id":"Mesangiospermae","parent":"Spermatophyta"}
 {"_id":"eudicotyledons","parent":"Mesangiospermae"}
-{"_id":"Pentapetalae","parent":"eudicotyledons"}
+{"_id":"Pentapetalae","parent":"Gunneridae"}
 {"_id":"Caryophyllales","parent":"Pentapetalae"}
 {"_id":"Opuntia tuna","parent":"Caryophyllales"}
 {"_id":"rosids","parent":"Pentapetalae"}
@@ -631,6 +632,7 @@
 {"_id":"Ericales","parent":"asterids"}
 {"_id":"Balsaminaceae","parent":"Ericales"}
 {"_id":"Impatiens","parent":"Balsaminaceae"}
+{"_id":"Impatiens capensis","parent":"Impatiens"}
 {"_id":"Impatiens pallida","parent":"Impatiens"}
 {"_id":"Ericaceae","parent":"Ericales"}
 {"_id":"Vaccinioideae","parent":"Ericaceae"}
