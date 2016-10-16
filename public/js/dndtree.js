@@ -384,7 +384,7 @@ treeJSON = d3.json(treeLocation, function(error, treeData) {
             .attr('class', 'nodeCircle')
             .attr("r", 0)
             .style("fill", function(d) {
-                return d._children ? "#708AFF" : "#fff";
+                return d._children ? "#3A38B5" : "#fff";
             });
 
         nodeEnter.append("text")
@@ -431,7 +431,7 @@ treeJSON = d3.json(treeLocation, function(error, treeData) {
         node.select("circle.nodeCircle")
             .attr("r", 4.5)
             .style("fill", function(d) {
-                return d._children ? "#708AFF" : "#fff";
+                return d._children ? "#3A38B5" : "#fff";
             });
 
         // Transition nodes to their new position.

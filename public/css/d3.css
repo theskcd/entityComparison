@@ -3,23 +3,24 @@
 }
 
 .overlay {
-    background-color: #efefef;
+    background-color: #2D3C54;
 }
 
 .node circle {
     fill: #fff;
-    stroke: steelblue;
+    stroke: #bbb;
     stroke-width: 1.5px;
 }
 
 .node text {
     font-size: 16px;
     font-family: sans-serif;
+    fill: white;
 }
 
 .link {
     fill: none;
-    stroke: #ccc;
+    stroke: #708AFF;
     stroke-width: 1.5px;
 }
 
