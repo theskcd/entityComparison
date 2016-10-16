@@ -1,0 +1,19 @@
+html,
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1D2938;
+}
+
+body {
+    padding-top: 7.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    min-height: 100vh;
+}
+
+.navbar-custom {
+    background-color: #2D3C54;
+    padding-left: 40px;
+}

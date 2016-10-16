@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="entityComparison">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Optimize mobile viewport -->
+    <title>Entity Comparison</title>
+    <!-- SCROLLS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <!-- load bootstrap -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/d3.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans">
+    <!-- SPELLS -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <!-- load angular -->
+    <script src="js/controllers/main.js"></script>
+    <!-- load up our controller -->
+    <script src="js/services/nodes.js"></script>
+    <!-- load our node service -->
+    <script src="js/core.js"></script>
+    <!-- load our main application -->
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="js/dndtree.js"></script>
+    <!-- load D3 -->
+</head>
+<!-- SET THE CONTROLLER -->
+
+<body ng-controller="mainController">
+    <nav class="navbar navbar-fixed-top navbar-dark navbar-custom">
+        <div class="row row-bottom-margin">
+            <a class="navbar-brand" href="#">
+                <font style="font-size: 25px">E</font>ntity
+                <font style="font-size: 25px">C</font>omparision</a>
+        </div>
+        <div class="row" style="padding-bottom: 10px;">
+            <font style="color: #708AFF;">Entity Comparison using ncbi taxonomy and Wikipedia</font>
+        </div>
+    </nav>
+    <container-fluid>
+        <h3 style="color: white;">The complete tree</h3>
+        <div id="tree-container"></div>
+    </container-fluid>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+</body>
+
+</html>
