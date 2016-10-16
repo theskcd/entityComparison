@@ -1,0 +1,15 @@
+html,
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 4.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar {
+    padding: 0.7rem;
+}

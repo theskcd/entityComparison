@@ -1,12 +1,24 @@
+var Todo = require('./models/node');
 var express = require('express');
 var router = express.Router();
 var request = require('request');
 var cheerio = require('cheerio');
 var Nightmare = require('nightmare');
 var nightmare = Nightmare({
-    show: true
+    show: false
 });
-var async = require('async');
+
+function getNodes(res) {
+    Todo.find(function(err, nodes) {
+
+        // if there is an error retrieving, send the error. nothing after res.send(err) will execute
+        if (err) {
+            res.send(err);
+        }
+
+        res.json(nodes); // return all nodes in JSON format
+    });
+};
 
 function sortNumber(a, b) {
     return a - b;
@@ -39,12 +51,16 @@ var getSameLinks = function(res) {
     compareBoth();
 };
 
-router.use(function(req, res, next) {
-    next();
-});
+module.exports = function(app) {
 
-router.route('/getDataAnimals')
-    .get(function(req, res) {
+    /////////////////////////////////////// API ///////////////////////////////////////
+    // get all nodes
+    app.get('/api/nodes', function(req, res) {
+        // use mongoose to get all nodes in the database
+        getNodes(res);
+    });
+
+    app.get('/api/getDataAnimals', function(req, res) {
         var siteUrl = "https://en.wikipedia.org/wiki/List_of_animals_by_common_name";
         var systemProxy = "htttp://10.3.100.207:8080";
         console.log(siteUrl);
@@ -87,8 +103,7 @@ router.route('/getDataAnimals')
         });
     });
 
-router.route('/getDataPlants')
-    .get(function(req, res) {
+    app.get('/api/getDataPlants', function(req, res) {
         var siteUrl = "https://en.wikipedia.org/wiki/List_of_plants_by_common_name";
         var systemProxy = "htttp://10.3.100.207:8080";
         console.log(siteUrl);
@@ -165,8 +180,7 @@ router.route('/getDataPlants')
         });
     });
 
-router.route('/getCommonOutLinks/')
-    .get(function(req, res) {
+    app.get('/api/getCommonOutLinks', function(req, res) {
         console.log('testing');
         var siteUrl = "https://en.wikipedia.org/wiki/";
         var systemProxy = "htttp://10.3.100.207:8080";
@@ -221,8 +235,7 @@ router.route('/getCommonOutLinks/')
     });
 
 
-router.route('/getTaxonomy/:name')
-    .get(function(req, res) {
+    app.get('/api/getTaxonomy/:name', function(req, res) {
         console.log(req.body.name);
         nightmare
             .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?' + "term=" + req.body.name)
@@ -249,8 +262,7 @@ router.route('/getTaxonomy/:name')
             });
     });
 
-router.route('/getCommonInLinks')
-    .get(function(req, res) {
+    app.get('/api/getCommonInLinks', function(req, res) {
         var siteUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=backlinks&blnamespace=0&blfilterredir=nonredirects&bllimit=250&blredirect=1";
         var systemProxy = "htttp://10.3.100.207:8080";
         var searchTerms = ["&bltitle=Guinea_baboon", "&bltitle=Tiger"];
@@ -337,4 +349,8 @@ router.route('/getCommonInLinks')
         })(0);
     });
 
-module.exports = router;
+    /////////////////////////////////// Application ///////////////////////////////////
+    app.get('*', function(req, res) {
+        res.sendFile(__dirname + '/public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    });
+};

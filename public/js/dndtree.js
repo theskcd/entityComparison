@@ -1,5 +1,5 @@
 // Get JSON data
-treeLocation = "tree.json"
+treeLocation = "js/tree.json"
 treeJSON = d3.json(treeLocation, function(error, treeData) {
 
     // Calculate total nodes, max label length
@@ -17,8 +17,8 @@ treeJSON = d3.json(treeLocation, function(error, treeData) {
     var root;
 
     // size of the diagram
-    var viewerWidth = $(document).width();
-    var viewerHeight = $(document).height();
+    var viewerWidth = $("body").width();
+    var viewerHeight = $("body").height()*0.4;
 
     var tree = d3.layout.tree()
         .size([viewerHeight, viewerWidth]);
@@ -350,7 +350,7 @@ treeJSON = d3.json(treeLocation, function(error, treeData) {
             }
         };
         childCount(0, root);
-        var newHeight = d3.max(levelWidth) * 25; // 25 pixels per line
+        var newHeight = d3.max(levelWidth) * 75; // 75 pixels per line
         tree = tree.size([newHeight, viewerWidth]);
 
         // Compute the new tree layout.
@@ -384,7 +384,7 @@ treeJSON = d3.json(treeLocation, function(error, treeData) {
             .attr('class', 'nodeCircle')
             .attr("r", 0)
             .style("fill", function(d) {
-                return d._children ? "lightsteelblue" : "#fff";
+                return d._children ? "#708AFF" : "#fff";
             });
 
         nodeEnter.append("text")
@@ -431,7 +431,7 @@ treeJSON = d3.json(treeLocation, function(error, treeData) {
         node.select("circle.nodeCircle")
             .attr("r", 4.5)
             .style("fill", function(d) {
-                return d._children ? "lightsteelblue" : "#fff";
+                return d._children ? "#708AFF" : "#fff";
             });
 
         // Transition nodes to their new position.

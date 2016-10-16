@@ -1,52 +1,55 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style type="text/css">
-    .node {
-        cursor: pointer;
-    }
+<!doctype html>
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="entityComparison">
 
-    .overlay {
-        background-color: #EEE;
-    }
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Optimize mobile viewport -->
+    <title>Entity Comparison</title>
+    <!-- SCROLLS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <!-- load bootstrap -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/d3.css">
+    <!-- SPELLS -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <!-- load angular -->
+    <script src="js/controllers/main.js"></script>
+    <!-- load up our controller -->
+    <script src="js/services/nodes.js"></script>
+    <!-- load our node service -->
+    <script src="js/core.js"></script>
+    <!-- load our main application -->
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="js/dndtree.js"></script>
+    <!-- load D3 -->
+</head>
+<!-- SET THE CONTROLLER -->
 
-    .node circle {
-        fill: #fff;
-        stroke: steelblue;
-        stroke-width: 1.5px;
-    }
-
-    .node text {
-        font-size: 10px;
-        font-family: sans-serif;
-    }
-
-    .link {
-        fill: none;
-        stroke: #ccc;
-        stroke-width: 1.5px;
-    }
-
-    .templink {
-        fill: none;
-        stroke: red;
-        stroke-width: 3px;
-    }
-
-    .ghostCircle.show {
-        display: block;
-    }
-
-    .ghostCircle,
-    .activeDrag .ghostCircle {
-        display: none;
-    }
-</style>
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="js/dndtree.js"></script>
-
-<body>
-    <div id="tree-container"></div>
+<body ng-controller="mainController">
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+        <a class="navbar-brand" href="#">Entity Comparision</a>
+    </nav>
+    <div id="node-list" class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <!-- LOOP OVER THE NODES IN $scope.nodes -->
+            <div class="checkbox" ng-repeat="node in nodes">
+                <label>
+                    <input type="checkbox"> {{ node._id }}
+                </label>
+            </div>
+            <p class="text-center" ng-show="loading">
+                <span class="fa fa-spinner fa-spin fa-3x"></span>
+            </p>
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 </body>
 
 </html>
