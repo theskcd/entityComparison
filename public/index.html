@@ -20,8 +20,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <!-- load angular -->
     <script src="js/controllers/main.js"></script>
+    <script src="js/controllers/search.js"></script>
     <!-- load up our controller -->
     <script src="js/services/nodes.js"></script>
+    <script src="js/services/taxo.js"></script>
     <!-- load our node service -->
     <script src="js/core.js"></script>
     <!-- load our main application -->
@@ -46,15 +48,23 @@
         <div class="row">
             <h3 style="color: white;">Enter 2 entities to compare</h3>
             <div class="col-xs-6">
-                <input type="text" class="form-control" id="firstEntity" placeholder="Entity 1">
+                <input type="text" ng-model="search" ng-model-options="{ debounce: 800 }" onclick="select()" class="form-control" id="firstEntity" placeholder="Entity 1" autofocus>
             </div>
             <div class="col-xs-6">
                 <input type="text" class="form-control" id="secondEntity" placeholder="Entity 2">
             </div>
-            <br/><br/>
-            <div class="col-xs-12">
-            <button type="button" class="btn btn-block btn-outline-secondary">Start!</button>
+            <br/>
+            <br/>
+            <!-- <div class="col-xs-12">
+            <button type="button" class="btn btn-block btn-outline-secondary">Start!</button> -->
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div id="taxo-information" ng-include="'partials/taxo-information.html'"></div>
             </div>
+            <div class="col-xs-12 col-md-6">
+            </div>
+        </div>
         </div>
         <br/>
         <div class="row treeContainer">
