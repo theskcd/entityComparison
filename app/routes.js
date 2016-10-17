@@ -266,6 +266,7 @@ module.exports = function(app) {
             });
     });
 
+    /// make the http call by sending request as $http.post(endpoint/{firstName:"name1", secondName:"name2"});
     app.get('/api/getCommonInLinks', function(req, res) {
         var siteUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=backlinks&blnamespace=0&blfilterredir=nonredirects&bllimit=250&blredirect=1";
         var systemProxy = "htttp://10.3.100.207:8080";
