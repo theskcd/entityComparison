@@ -4,16 +4,11 @@ angular.module('taxoService', [])
             get: function(searchTerm) {
                 return $http.get('/api/getTaxonomy/' + searchTerm);
             },
-            getCounts: function(newData) {
-                linksInput = {};
-                linksOutput = [];
-                linksInput['firstName'] = newData[0];
-                linksInput['secondName'] = newData[1];
-                outLinksJson = $http.get('/api/getCommonOutLinks/' + linksInput);
-                inLinksJson = $http.get('/api/getCommonInLinks/' + linksInput);
-                linksOutput.push(outLinksJson);
-                linksOutput.push(inLinksJson);
-                return linksOutput;
+            getInCounts: function(newData) {
+                return $http.get('/api/getCommonInLinks/' + JSON.stringify({ 'firstName': newData[0], 'secondName': newData[1] }));
+            },
+            getOutCounts: function(newData) {
+                return $http.get('/api/getCommonOutLinks/' + JSON.stringify({ 'firstName': newData[0], 'secondName': newData[1] }));
             }
         }
     }])

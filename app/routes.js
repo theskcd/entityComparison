@@ -174,61 +174,6 @@ module.exports = function(app) {
         });
     });
 
-    app.get('/api/getCommonOutLinks', function(req, res) {
-        console.log('outLinksTesting');
-        var siteUrl = "https://en.wikipedia.org/wiki/";
-        var systemProxy = "htttp://10.3.100.207:8080";
-        linkSetFirst = [];
-        linkSetSecond = [];
-
-        var jsonPromies = new Promise(function(resolve, reject) {
-            request({
-                url: siteUrl + req.body.firstName,
-                proxy: systemProxy
-            }, function(error, responses, html) {
-                $ = cheerio.load(html);
-                links = $('a');
-                // console.log(links.length+ " tiger");
-                for (var i = 0; i <= links.length; i++) {
-                    if (i == links.length) {
-                        var nextPromise = new Promise(function(resolve, reject) {
-                            request({
-                                url: siteUrl + req.body.secondName,
-                                proxy: systemProxy
-                            }, function(error, responses, html) {
-                                $ = cheerio.load(html);
-                                links = $('a');
-                                console.log(links.length + req.body.secondName);
-                                for (var i = 0; i <= links.length; i++) {
-                                    if (i == links.length) {
-                                        resolve('done with the first part');
-                                    } else {
-                                        if (links[i].attribs != undefined && links[i].attribs.href != undefined) {
-                                            linkSetFirst.push(links[i].attribs.href);
-                                        }
-                                    }
-                                };
-                            });
-                        });
-                        nextPromise.then(function() {
-                            resolve('done');
-                        })
-                    } else {
-                        // console.log(links[i].attribs);
-                        if (links[i].attribs != undefined && links[i].attribs.href != undefined) {
-                            linkSetSecond.push(links[i].attribs.href);
-                            // console.log(links[i].attribs.href);
-                        }
-                    }
-                }
-            });
-        });
-        jsonPromies.then(function() {
-            getSameLinks(res);
-        });
-    });
-
-
     app.get('/api/getTaxonomy/:name', function(req, res) {
         console.log(req.params.name);
         var nightmare = Nightmare({
@@ -266,12 +211,67 @@ module.exports = function(app) {
             });
     });
 
+    app.get('/api/getCommonOutLinks/:newData', function(req, res) {
+        console.log('outLinksTesting');
+        var siteUrl = "https://en.wikipedia.org/wiki/";
+        var systemProxy = "htttp://10.3.100.207:8080";
+        var data = JSON.parse(decodeURIComponent(req.params.newData));
+        linkSetFirst = [];
+        linkSetSecond = [];
+
+        var jsonPromies = new Promise(function(resolve, reject) {
+            request({
+                url: siteUrl + data.firstName,
+                proxy: systemProxy
+            }, function(error, responses, html) {
+                $ = cheerio.load(html);
+                links = $('a');
+                for (var i = 0; i <= links.length; i++) {
+                    if (i == links.length) {
+                        var nextPromise = new Promise(function(resolve, reject) {
+                            request({
+                                url: siteUrl + data.secondName,
+                                proxy: systemProxy
+                            }, function(error, responses, html) {
+                                $ = cheerio.load(html);
+                                links = $('a');
+                                console.log(links.length + data.secondName);
+                                for (var i = 0; i <= links.length; i++) {
+                                    if (i == links.length) {
+                                        resolve('done with the first part');
+                                    } else {
+                                        if (links[i].attribs != undefined && links[i].attribs.href != undefined) {
+                                            linkSetFirst.push(links[i].attribs.href);
+                                        }
+                                    }
+                                };
+                            });
+                        });
+                        nextPromise.then(function() {
+                            resolve('done');
+                        })
+                    } else {
+                        if (links[i].attribs != undefined && links[i].attribs.href != undefined) {
+                            linkSetSecond.push(links[i].attribs.href);
+                        }
+                    }
+                }
+            });
+        });
+        jsonPromies.then(function() {
+            getSameLinks(res);
+        });
+    });
+
+
     /// make the http call by sending request as $http.post(endpoint/{firstName:"name1", secondName:"name2"});
-    app.get('/api/getCommonInLinks', function(req, res) {
+    app.get('/api/getCommonInLinks/:newData', function(req, res) {
         console.log('inLinksTesting');
         var siteUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=backlinks&blnamespace=0&blfilterredir=nonredirects&bllimit=250&blredirect=1";
         var systemProxy = "htttp://10.3.100.207:8080";
-        var searchTerms = ["&bltitle=" + req.body.firstName, "&bltitle=" + req.body.secondName];
+        var data = JSON.parse(decodeURIComponent(req.params.newData));
+        console.log(data);
+        var searchTerms = ["&bltitle=" + data.firstName, "&bltitle=" + data.secondName];
         linkSetFirst = [];
         linkSetSecond = [];
         var continueId, JsonReponse, o;
@@ -287,7 +287,6 @@ module.exports = function(app) {
                     if (!error) {
                         console.log('no error');
                         JsonReponse = JSON.parse(body);
-                        // console.log(JSON.stringify(JsonReponse, null, 2));
                         o = JsonReponse.query.backlinks;
                         traverse = function(o) {
                             for (var j in o) {
@@ -312,7 +311,6 @@ module.exports = function(app) {
                                 }, function(errorIn, responseIn, bodyIn) {
                                     if (!errorIn) {
                                         JsonReponse = JSON.parse(bodyIn);
-                                        // console.log(JSON.stringify(JsonReponse, null, 2));
                                         o = JsonReponse.query.backlinks;
                                         traverseMore = function(o) {
                                             for (var k in o) {
