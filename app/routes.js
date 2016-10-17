@@ -1,21 +1,16 @@
-var Todo = require('./models/node');
+var Node = require('./models/node');
 var express = require('express');
 var router = express.Router();
 var request = require('request');
 var cheerio = require('cheerio');
 var Nightmare = require('nightmare');
-var nightmare = Nightmare({
-    show: false
-});
 
 function getNodes(res) {
-    Todo.find(function(err, nodes) {
-
+    Node.find(function(err, nodes) {
         // if there is an error retrieving, send the error. nothing after res.send(err) will execute
         if (err) {
             res.send(err);
         }
-
         res.json(nodes); // return all nodes in JSON format
     });
 };
@@ -52,7 +47,6 @@ var getSameLinks = function(res) {
 };
 
 module.exports = function(app) {
-
     /////////////////////////////////////// API ///////////////////////////////////////
     // get all nodes
     app.get('/api/nodes', function(req, res) {
@@ -236,19 +230,28 @@ module.exports = function(app) {
 
 
     app.get('/api/getTaxonomy/:name', function(req, res) {
-        console.log(req.body.name);
+        console.log(req.params.name);
+        var nightmare = Nightmare({
+            show: false
+        });
         nightmare
-            .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?' + "term=" + req.body.name)
+            .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?' + "term=" + req.params.name)
             .click('.rprt .title a')
             .wait('li')
             .evaluate(function() {
                 var els = document.getElementsByTagName("a"),
-                    result = []
+                    result = {
+                        levels: []
+                    };
                 for (var i = 0, _len = els.length; i < _len; i++) {
                     var el = els[i]
                     if (el.hasAttribute('title') && el.hasAttribute('alt') && el.hasAttribute('href')) {
-                        if (el.getAttribute('href').indexOf('lin=f&keep=1&srchmode=1&unlock') != -1)
-                            result.push(el.childNodes[0].data);
+                        if (el.getAttribute('href').indexOf('lin=f&keep=1&srchmode=1&unlock') != -1) {
+                            var jsonData = {};
+                            jsonData['rank'] = el.title;
+                            jsonData['name'] = el.childNodes[0].data;
+                            result.levels.push(jsonData);
+                        }
                     }
                 }
                 return result
@@ -256,6 +259,7 @@ module.exports = function(app) {
             .end()
             .then(function(result) {
                 console.log(result);
+                res.json(result);
             })
             .catch(function(error) {
                 console.error('Search failed:', error);
