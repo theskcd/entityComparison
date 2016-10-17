@@ -1,4 +1,4 @@
-<div ng-if="taxonomylevels.levels.length>0 && search.length>0">
+<div ng-if="taxonomylevels2.levels.length>0 && search2.length>0">
     <table class="table table-striped table-sm table-custom">
         <thead class="thead">
             <tr>
@@ -7,7 +7,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="level in taxonomylevels.levels">
+            <tr ng-repeat="level in taxonomylevels2.levels">
                 <td>{{level.rank}}</td>
                 <td>{{level.name}}</td>
             </tr>

@@ -4,9 +4,6 @@ var router = express.Router();
 var request = require('request');
 var cheerio = require('cheerio');
 var Nightmare = require('nightmare');
-var nightmare = Nightmare({
-    show: false
-});
 
 function getNodes(res) {
     Node.find(function(err, nodes) {
@@ -234,6 +231,9 @@ module.exports = function(app) {
 
     app.get('/api/getTaxonomy/:name', function(req, res) {
         console.log(req.params.name);
+        var nightmare = Nightmare({
+            show: false
+        });
         nightmare
             .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?' + "term=" + req.params.name)
             .click('.rprt .title a')
