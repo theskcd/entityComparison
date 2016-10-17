@@ -183,7 +183,7 @@ module.exports = function(app) {
 
         var jsonPromies = new Promise(function(resolve, reject) {
             request({
-                url: siteUrl + "tiger",
+                url: siteUrl + req.body.firstName,
                 proxy: systemProxy
             }, function(error, responses, html) {
                 $ = cheerio.load(html);
@@ -193,12 +193,12 @@ module.exports = function(app) {
                     if (i == links.length) {
                         var nextPromise = new Promise(function(resolve, reject) {
                             request({
-                                url: siteUrl + "lion",
+                                url: siteUrl + req.body.secondName,
                                 proxy: systemProxy
                             }, function(error, responses, html) {
                                 $ = cheerio.load(html);
                                 links = $('a');
-                                console.log(links.length + " lion");
+                                console.log(links.length + req.body.secondName);
                                 for (var i = 0; i <= links.length; i++) {
                                     if (i == links.length) {
                                         resolve('done with the first part');
@@ -269,7 +269,7 @@ module.exports = function(app) {
     app.get('/api/getCommonInLinks', function(req, res) {
         var siteUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=backlinks&blnamespace=0&blfilterredir=nonredirects&bllimit=250&blredirect=1";
         var systemProxy = "htttp://10.3.100.207:8080";
-        var searchTerms = ["&bltitle=Guinea_baboon", "&bltitle=Tiger"];
+        var searchTerms = ["&bltitle="+req.body.firstName, "&bltitle="+req.body.secondName];
         linkSetFirst = [];
         linkSetSecond = [];
         var continueId, JsonReponse, o;
