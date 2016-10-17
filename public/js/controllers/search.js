@@ -31,6 +31,16 @@ angular.module('searchController', [])
                 });
         }
 
+        $scope.$watchGroup(['search1', 'search2'], function(newData) {
+            if ($scope.search1 != "" && $scope.search2 != "") {
+                TaxonomyLevels.getCounts(newData)
+                    .success(function(data) {
+                        console.log(data[0]);
+                        console.log(data[1]);
+                    });
+            }
+        });
+
         $scope.select = function() {
             this.setSelectionRange(0, this.value.length);
         }
