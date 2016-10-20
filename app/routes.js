@@ -377,23 +377,48 @@ module.exports = function(app) {
                                     for(var k=0;k<data.children()[3].children[i].children[3].children[j].children.length;k++){
                                         if(data.children()[3].children[i].children[3].children[j].children[k]!=undefined && 
                                             data.children()[3].children[i].children[3].children[j].children[k].children!=undefined){
-                                            for(var l=0;l<=data.children()[3].children[i].children[3].children[j].children[k].children.length;l++){
+                                            // for(var l=0;l<=data.children()[3].children[i].children[3].children[j].children[k].children.length;l++){
+                                            //     var jsonPromise=new Promise(function(resolve,reject){
+                                            //         if(data.children()[3].children[i].children[3].children[j].children[k].children[l]!=undefined && 
+                                            //             data.children()[3].children[i].children[3].children[j].children[k].children[l].name!=undefined && 
+                                            //             data.children()[3].children[i].children[3].children[j].children[k].children[l].name=="span"){
+                                            //             if(data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs!=undefined && 
+                                            //                 data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs.class=="toctext"){
+                                            //                 result.add({'tag':data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data});
+                                            //                 resolve('done');
+                                            //                 console.log(data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data);
+                                            //             }
+                                            //         }
+                                            //     });
+                                            //     jsonPromise.then(function(){
+                                            //         //Code from here
+                                            //     })
+                                            // }
+
+                                            (function loopingOverInput(index){
                                                 var jsonPromise=new Promise(function(resolve,reject){
-                                                    if(data.children()[3].children[i].children[3].children[j].children[k].children[l]!=undefined && 
-                                                        data.children()[3].children[i].children[3].children[j].children[k].children[l].name!=undefined && 
-                                                        data.children()[3].children[i].children[3].children[j].children[k].children[l].name=="span"){
-                                                        if(data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs!=undefined && 
-                                                            data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs.class=="toctext"){
-                                                            result.add({'tag':data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data});
+                                                    if(data.children()[3].children[i].children[3].children[j].children[k].children[index]!=undefined && 
+                                                        data.children()[3].children[i].children[3].children[j].children[k].children[index].name!=undefined && 
+                                                        data.children()[3].children[i].children[3].children[j].children[k].children[index].name=="span"){
+                                                        if(data.children()[3].children[i].children[3].children[j].children[k].children[index].attribs!=undefined && 
+                                                            data.children()[3].children[i].children[3].children[j].children[k].children[index].attribs.class=="toctext"){
+                                                            result.add({'tag':data.children()[3].children[i].children[3].children[j].children[k].children[index].children[0].data});
                                                             resolve('done');
-                                                            console.log(data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data);
+                                                            console.log(data.children()[3].children[i].children[3].children[j].children[k].children[index].children[0].data);
                                                         }
                                                     }
                                                 });
                                                 jsonPromise.then(function(){
-                                                    //Code from here
+                                                    if(i<data.children()[3].children[i].children[3].children[j].children[k].children.length){
+                                                        index++;
+                                                        loopingOverInput(index);
+                                                    }
+                                                    else{
+                                                        console.log(result);
+                                                        res.send(result);
+                                                    }
                                                 })
-                                            }
+                                            })(0);
                                         }
                                     }
                                 }
