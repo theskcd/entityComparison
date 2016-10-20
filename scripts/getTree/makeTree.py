@@ -1,3 +1,4 @@
+import os
 import re
 import codecs
 import sys
@@ -47,10 +48,10 @@ def main(args):
     db = client['bioTree']
     coll = db['nodes']
     coll.create_index("parent")
-    with codecs.open('../extractData/animalsTaxonomy.txt', encoding='utf-8', mode='r') as infile:
+    with codecs.open(os.path.join(os.path.dirname(sys.argv[0]),'../extractData/animalsTaxonomy.txt'), encoding='utf-8', mode='r') as infile:
         text = [line.rstrip('\n') for line in infile]
     insertIntoTree(text, db, coll)
-    with codecs.open('../extractData/plantsTaxonomy.txt', encoding='utf-8', mode='r') as infile:
+    with codecs.open(os.path.join(os.path.dirname(sys.argv[0]),'../extractData/plantsTaxonomy.txt'), encoding='utf-8', mode='r') as infile:
         text = [line.rstrip('\n') for line in infile]
     text.pop(0)
     insertIntoTree(text, db, coll)

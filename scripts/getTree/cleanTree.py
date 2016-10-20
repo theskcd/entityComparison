@@ -1,3 +1,4 @@
+import os
 import re
 import codecs
 import sys
@@ -27,7 +28,7 @@ def main(args):
     parent = coll.find_one({'parent': 'null'})['_id'];
     tree['name'] = parent
     createTree(coll, tree, parent)
-    treeFile = open("../data/tree.json", "w")
+    treeFile = open(os.path.join(os.path.dirname(sys.argv[0]),"../data/tree.json"), "w")
     treeFile.write(json.dumps(tree, indent = 4, sort_keys = True))
     treeFile.close()
 
