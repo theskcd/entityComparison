@@ -400,6 +400,17 @@ module.exports = function(app) {
         });
     });
 
+    app.get('/api/getSummary/:name',function(req,res){
+        var siteUrl="https://en.wikipedia.org/api/rest_v1/page/summary/"+req.params.name;
+        request({
+            url:siteUrl,
+            proxy:systemProxy
+        }, function(error,response,body){
+            var jsonResponse=JSON.parse(body);
+            res.send({'data':jsonResponse.extract});
+        })
+    })
+
     /////////////////////////////////// Application ///////////////////////////////////
     // app.get('*', function(req, res) {
     //     res.sendFile(__dirname + '/public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
