@@ -27,4 +27,4 @@ require('./app/routes.js')(app);
 
 // listen (start app with node server.js) ======================================
 app.listen(port);
-console.log("Hacking begins on port " + port);
+console.log("The magic begins on port " + port);

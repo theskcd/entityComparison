@@ -19,12 +19,12 @@ The project is still in active development.
 ### Completed
 - [x] Building the dataset.
 - [x] Extraction of inlinks and outlinks.
+- [x] Building a front-end for displaying the information.
 
 ### TODO
 - [ ] Using information from Wikipedia abstracts to assert comparability.
 - [ ] Finding metrics for actual comparison, once comparability is established.
 - [ ] Successfully doing an in-depth comparison of the given entities.
-- [ ] Building a front-end for displaying the information.
 
 ## Contributors
 - Sandeep Kumar Pani (Github: [sandeepkumarpani888](https://github.com/sandeepkumarpani888))
