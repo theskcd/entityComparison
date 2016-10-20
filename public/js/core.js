@@ -1,1 +1,1 @@
-angular.module('entityComparison', ['nodeController', 'nodeService', 'searchController', 'taxoService']);
+angular.module('entityComparison', ['searchController', 'taxoService']);

@@ -350,8 +350,8 @@ module.exports = function(app) {
         })(0);
     });
 
-    app.get('/api/getTable/:name',function(req,res){
-        var siteUrl="https://en.wikipedia.org/wiki/"+req.params.name;
+    app.get('/api/getTable/:name', function(req, res) {
+        var siteUrl = "https://en.wikipedia.org/wiki/" + req.params.name;
         request({
             url: siteUrl,
             proxy: systemProxy
@@ -359,33 +359,32 @@ module.exports = function(app) {
             if (!error) {
                 console.log('no error');
                 var $ = cheerio.load(html);
-                var result=[];
+                var result = [];
                 $('.mw-body-content').each(function(i, element) {
                     var data = $(this);
                     // console.log(data.children());
                     for (var i = 0; i <= data.children()[3].children.length - 1; i++) {
                         if (data.children()[3].children[i].attribs != undefined &&
                             data.children()[3].children[i].attribs.class == "toc") {
-                            for (var j = 0; j < data.children()[3].children[i].children[3].children.length;j++){
-                                if(data.children()[3].children[i].children[3].children[j].children!=undefined){
-                                    var lengthArray=data.children()[3].children[i].children[3].children[j].children.length;
-                                    (function loopingOverInput(index){
-                                        var jsonPromise=new Promise(function(resolve,reject){
-                                            if(data.children()[3].children[i].children[3].children[j].children[index]!=undefined && 
-                                                data.children()[3].children[i].children[3].children[j].children[index].children!=undefined){
-                                                var lengthArray=data.children()[3].children[i].children[3].children[j].children[index].children.length;
-                                                var lotsOfData=data.children()[3].children[i].children[3].children[j].children[index];
-                                                if(lotsOfData.type=="tag" && lotsOfData.name=="a"){
-                                                    result.push({'tag':lotsOfData.children[2].children[0].data});
+                            for (var j = 0; j < data.children()[3].children[i].children[3].children.length; j++) {
+                                if (data.children()[3].children[i].children[3].children[j].children != undefined) {
+                                    var lengthArray = data.children()[3].children[i].children[3].children[j].children.length;
+                                    (function loopingOverInput(index) {
+                                        var jsonPromise = new Promise(function(resolve, reject) {
+                                            if (data.children()[3].children[i].children[3].children[j].children[index] != undefined &&
+                                                data.children()[3].children[i].children[3].children[j].children[index].children != undefined) {
+                                                var lengthArray = data.children()[3].children[i].children[3].children[j].children[index].children.length;
+                                                var lotsOfData = data.children()[3].children[i].children[3].children[j].children[index];
+                                                if (lotsOfData.type == "tag" && lotsOfData.name == "a") {
+                                                    result.push({ 'tag': lotsOfData.children[2].children[0].data });
                                                 }
                                             }
                                             resolve('done');
                                         });
-                                        jsonPromise.then(function(){
-                                            if(index+1<lengthArray){
-                                                loopingOverInput(index+1);
-                                            }
-                                            else{
+                                        jsonPromise.then(function() {
+                                            if (index + 1 < lengthArray) {
+                                                loopingOverInput(index + 1);
+                                            } else {
                                                 res.send(result);
                                                 console.log(result);
                                             }
@@ -399,16 +398,6 @@ module.exports = function(app) {
             } else {
                 console.log(error + ' stupid error!');
             }
-        });
-    });
-
-    app.get('/api/getFirstParagraph/:name',function(req,res){
-        var siteUrl="https://en.wikipedia.org/api/rest_v1/page/summary/";
-        request({
-            url:siteUrl+req.params.name,
-            proxy:systemProxy
-        },function(error,response,body){
-            console.log(response);
         });
     });
 
