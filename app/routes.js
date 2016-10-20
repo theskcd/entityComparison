@@ -261,7 +261,6 @@ module.exports = function(app) {
         });
     });
 
-
     /// make the http call by sending request as $http.post(endpoint/{firstName:"name1", secondName:"name2"});
     app.get('/api/getCommonInLinks/:newData', function(req, res) {
         console.log('inLinksTesting');
