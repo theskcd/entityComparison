@@ -4,6 +4,7 @@ var router = express.Router();
 var request = require('request');
 var cheerio = require('cheerio');
 var Nightmare = require('nightmare');
+var systemProxy = "htttp://10.3.100.207:8080";
 
 function getNodes(res) {
     Node.find(function(err, nodes) {
@@ -56,7 +57,6 @@ module.exports = function(app) {
 
     app.get('/api/getDataAnimals', function(req, res) {
         var siteUrl = "https://en.wikipedia.org/wiki/List_of_animals_by_common_name";
-        var systemProxy = "htttp://10.3.100.207:8080";
         console.log(siteUrl);
         request({
             url: siteUrl,
@@ -99,7 +99,6 @@ module.exports = function(app) {
 
     app.get('/api/getDataPlants', function(req, res) {
         var siteUrl = "https://en.wikipedia.org/wiki/List_of_plants_by_common_name";
-        var systemProxy = "htttp://10.3.100.207:8080";
         console.log(siteUrl);
         request({
             url: siteUrl,
@@ -214,7 +213,6 @@ module.exports = function(app) {
     app.get('/api/getCommonOutLinks/:newData', function(req, res) {
         console.log('outLinksTesting');
         var siteUrl = "https://en.wikipedia.org/wiki/";
-        var systemProxy = "htttp://10.3.100.207:8080";
         var data = JSON.parse(decodeURIComponent(req.params.newData));
         linkSetFirst = [];
         linkSetSecond = [];
@@ -268,7 +266,6 @@ module.exports = function(app) {
     app.get('/api/getCommonInLinks/:newData', function(req, res) {
         console.log('inLinksTesting');
         var siteUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=backlinks&blnamespace=0&blfilterredir=nonredirects&bllimit=250&blredirect=1";
-        var systemProxy = "htttp://10.3.100.207:8080";
         var data = JSON.parse(decodeURIComponent(req.params.newData));
         console.log(data);
         var searchTerms = ["&bltitle=" + data.firstName, "&bltitle=" + data.secondName];
@@ -353,15 +350,14 @@ module.exports = function(app) {
         })(0);
     });
 
-    app.get('/api/getTable/',function(req,res){
-        var siteUrl="https://en.wikipedia.org/wiki/Lion";
-        var systemProxy = "htttp://10.3.100.207:8080";
+    app.get('/api/getTable/:name',function(req,res){
+        var siteUrl="https://en.wikipedia.org/wiki/"+req.params.name;
         request({
             url: siteUrl,
             proxy: systemProxy
         }, function(error, responses, html) {
             if (!error) {
-                // console.log('no error');
+                console.log('no error');
                 var $ = cheerio.load(html);
                 var result=[];
                 $('.mw-body-content').each(function(i, element) {
@@ -370,57 +366,31 @@ module.exports = function(app) {
                     for (var i = 0; i <= data.children()[3].children.length - 1; i++) {
                         if (data.children()[3].children[i].attribs != undefined &&
                             data.children()[3].children[i].attribs.class == "toc") {
-                            // console.log(data.children()[3].children[i].children[3]);
-                            // console.log("class is written as " + data.children()[3].children[i].attribs.class);
                             for (var j = 0; j < data.children()[3].children[i].children[3].children.length;j++){
                                 if(data.children()[3].children[i].children[3].children[j].children!=undefined){
-                                    for(var k=0;k<data.children()[3].children[i].children[3].children[j].children.length;k++){
-                                        if(data.children()[3].children[i].children[3].children[j].children[k]!=undefined && 
-                                            data.children()[3].children[i].children[3].children[j].children[k].children!=undefined){
-                                            // for(var l=0;l<=data.children()[3].children[i].children[3].children[j].children[k].children.length;l++){
-                                            //     var jsonPromise=new Promise(function(resolve,reject){
-                                            //         if(data.children()[3].children[i].children[3].children[j].children[k].children[l]!=undefined && 
-                                            //             data.children()[3].children[i].children[3].children[j].children[k].children[l].name!=undefined && 
-                                            //             data.children()[3].children[i].children[3].children[j].children[k].children[l].name=="span"){
-                                            //             if(data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs!=undefined && 
-                                            //                 data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs.class=="toctext"){
-                                            //                 result.add({'tag':data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data});
-                                            //                 resolve('done');
-                                            //                 console.log(data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data);
-                                            //             }
-                                            //         }
-                                            //     });
-                                            //     jsonPromise.then(function(){
-                                            //         //Code from here
-                                            //     })
-                                            // }
-
-                                            (function loopingOverInput(index){
-                                                var jsonPromise=new Promise(function(resolve,reject){
-                                                    if(data.children()[3].children[i].children[3].children[j].children[k].children[index]!=undefined && 
-                                                        data.children()[3].children[i].children[3].children[j].children[k].children[index].name!=undefined && 
-                                                        data.children()[3].children[i].children[3].children[j].children[k].children[index].name=="span"){
-                                                        if(data.children()[3].children[i].children[3].children[j].children[k].children[index].attribs!=undefined && 
-                                                            data.children()[3].children[i].children[3].children[j].children[k].children[index].attribs.class=="toctext"){
-                                                            result.add({'tag':data.children()[3].children[i].children[3].children[j].children[k].children[index].children[0].data});
-                                                            resolve('done');
-                                                            console.log(data.children()[3].children[i].children[3].children[j].children[k].children[index].children[0].data);
-                                                        }
-                                                    }
-                                                });
-                                                jsonPromise.then(function(){
-                                                    if(i<data.children()[3].children[i].children[3].children[j].children[k].children.length){
-                                                        index++;
-                                                        loopingOverInput(index);
-                                                    }
-                                                    else{
-                                                        console.log(result);
-                                                        res.send(result);
-                                                    }
-                                                })
-                                            })(0);
-                                        }
-                                    }
+                                    var lengthArray=data.children()[3].children[i].children[3].children[j].children.length;
+                                    (function loopingOverInput(index){
+                                        var jsonPromise=new Promise(function(resolve,reject){
+                                            if(data.children()[3].children[i].children[3].children[j].children[index]!=undefined && 
+                                                data.children()[3].children[i].children[3].children[j].children[index].children!=undefined){
+                                                var lengthArray=data.children()[3].children[i].children[3].children[j].children[index].children.length;
+                                                var lotsOfData=data.children()[3].children[i].children[3].children[j].children[index];
+                                                if(lotsOfData.type=="tag" && lotsOfData.name=="a"){
+                                                    result.push({'tag':lotsOfData.children[2].children[0].data});
+                                                }
+                                            }
+                                            resolve('done');
+                                        });
+                                        jsonPromise.then(function(){
+                                            if(index+1<lengthArray){
+                                                loopingOverInput(index+1);
+                                            }
+                                            else{
+                                                res.send(result);
+                                                console.log(result);
+                                            }
+                                        })
+                                    })(0);
                                 }
                             }
                         }
