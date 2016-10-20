@@ -353,8 +353,62 @@ module.exports = function(app) {
         })(0);
     });
 
-    /////////////////////////////////// Application ///////////////////////////////////
-    app.get('*', function(req, res) {
-        res.sendFile(__dirname + '/public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    app.get('/api/getTable/',function(req,res){
+        var siteUrl="https://en.wikipedia.org/wiki/Lion";
+        var systemProxy = "htttp://10.3.100.207:8080";
+        request({
+            url: siteUrl,
+            proxy: systemProxy
+        }, function(error, responses, html) {
+            if (!error) {
+                // console.log('no error');
+                var $ = cheerio.load(html);
+                var result=[];
+                $('.mw-body-content').each(function(i, element) {
+                    var data = $(this);
+                    // console.log(data.children());
+                    for (var i = 0; i <= data.children()[3].children.length - 1; i++) {
+                        if (data.children()[3].children[i].attribs != undefined &&
+                            data.children()[3].children[i].attribs.class == "toc") {
+                            // console.log(data.children()[3].children[i].children[3]);
+                            // console.log("class is written as " + data.children()[3].children[i].attribs.class);
+                            for (var j = 0; j < data.children()[3].children[i].children[3].children.length;j++){
+                                if(data.children()[3].children[i].children[3].children[j].children!=undefined){
+                                    for(var k=0;k<data.children()[3].children[i].children[3].children[j].children.length;k++){
+                                        if(data.children()[3].children[i].children[3].children[j].children[k]!=undefined && 
+                                            data.children()[3].children[i].children[3].children[j].children[k].children!=undefined){
+                                            for(var l=0;l<=data.children()[3].children[i].children[3].children[j].children[k].children.length;l++){
+                                                var jsonPromise=new Promise(function(resolve,reject){
+                                                    if(data.children()[3].children[i].children[3].children[j].children[k].children[l]!=undefined && 
+                                                        data.children()[3].children[i].children[3].children[j].children[k].children[l].name!=undefined && 
+                                                        data.children()[3].children[i].children[3].children[j].children[k].children[l].name=="span"){
+                                                        if(data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs!=undefined && 
+                                                            data.children()[3].children[i].children[3].children[j].children[k].children[l].attribs.class=="toctext"){
+                                                            result.add({'tag':data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data});
+                                                            resolve('done');
+                                                            console.log(data.children()[3].children[i].children[3].children[j].children[k].children[l].children[0].data);
+                                                        }
+                                                    }
+                                                });
+                                                jsonPromise.then(function(){
+                                                    //Code from here
+                                                })
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    };
+                })
+            } else {
+                console.log(error + ' stupid error!');
+            }
+        });
     });
+
+    /////////////////////////////////// Application ///////////////////////////////////
+    // app.get('*', function(req, res) {
+    //     res.sendFile(__dirname + '/public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    // });
 };
