@@ -21,6 +21,7 @@
     "mongoose": "^4.4.12",
     "morgan": "^1.1.1",
     "nightmare": "^2.7.0",
+    "python-shell": "^0.4.0",
     "request": "^2.75.0"
   }
 }
