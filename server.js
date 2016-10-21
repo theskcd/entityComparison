@@ -21,9 +21,8 @@ app.use(methodOverride('X-HTTP-Method-Override')); // override with the X-HTTP-M
 // redirections
 app.use('/scripts', express.static(__dirname + '/scripts/'));
 
-
 // routes ======================================================================
-require('./app/routes.js')(app);
+require('./app/routes')(app);
 
 // listen (start app with node server.js) ======================================
 app.listen(port);
