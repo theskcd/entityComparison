@@ -376,7 +376,7 @@ module.exports = function(app) {
                                                 var lengthArray = data.children()[3].children[i].children[3].children[j].children[index].children.length;
                                                 var lotsOfData = data.children()[3].children[i].children[3].children[j].children[index];
                                                 if (lotsOfData.type == "tag" && lotsOfData.name == "a") {
-                                                    result.push({ 'tag': lotsOfData.children[2].children[0].data });
+                                                    result.push(lotsOfData.children[2].children[0].data);
                                                 }
                                             }
                                             resolve('done');
