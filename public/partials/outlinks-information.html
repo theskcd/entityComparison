@@ -1,0 +1,10 @@
+<div ng-if="search1.length>0 && search2.length>0">
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            Out-links information
+        </a>
+        <div ng-repeat="(key, value) in outLinksInfo">
+            <a href="#" class="list-group-item list-group-item-action">{{key}}: {{value}}</a>
+        </div>
+    </div>
+</div>

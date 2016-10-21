@@ -35,11 +35,11 @@ angular.module('searchController', [])
             if ($scope.search1 != "" && $scope.search2 != "") {
                 TaxonomyLevels.getInCounts(newData)
                     .success(function(data) {
-                        console.log(data);
+                        $scope.inLinksInfo = data;
                     });
                 TaxonomyLevels.getOutCounts(newData)
                     .success(function(data) {
-                        console.log(data);
+                        $scope.outLinksInfo = data;
                     });
             }
         });
