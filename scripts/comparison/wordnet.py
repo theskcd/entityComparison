@@ -3,9 +3,6 @@ from gensim import corpora, models, similarities
 from pprint import pprint  # pretty-printer
 from collections import defaultdict
 
-# documents1 = ["Etymology","Taxonomy and evolution","Characteristics","Behaviour","Distribution and habitat","Population and conservation status","Cultural significance","Heraldic depictions","See also","References","External links"] 
-# documents2 = ["Taxonomy and etymology","Description","Distribution and habitat","Biology and behaviour","Conservation efforts","Relation with humans","Cultural depictions","See also","References","Bibliography","External links"]
-
 def main(args):
 	documents1 = args[0].split(',')
 	documents2 = args[1].split(',')
@@ -30,7 +27,8 @@ def main(args):
 			if val > 0.5:
 				# print(documents1[idx])
 				temp.append(documents1[idx])
-		result[doc] = temp
+		if temp:
+			result[doc] = temp
 	print(json.dumps(result))
 
 if __name__ == '__main__':

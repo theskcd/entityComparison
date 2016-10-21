@@ -4,7 +4,7 @@
             TOC similarity - Using gensim
         </a>
         <div ng-repeat="(key, value) in genSimResult">
-            <a href="#" class="list-group-item list-group-item-action">{{key}}: {{value}}</a>
+            <a href="#" class="list-group-item list-group-item-action"><b>{{key}}</b><div ng-repeat="v in value">{{v}}</div></a>
         </div>
     </div>
 </div>
