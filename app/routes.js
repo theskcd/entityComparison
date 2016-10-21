@@ -5,6 +5,7 @@ var path = require('path');
 var request = require('request');
 var cheerio = require('cheerio');
 var Nightmare = require('nightmare');
+var PythonShell = require('python-shell');
 var systemProxy = "htttp://10.3.100.207:8080";
 
 function getNodes(res) {
@@ -386,7 +387,7 @@ module.exports = function(app) {
                                                 loopingOverInput(index + 1);
                                             } else {
                                                 res.send(result);
-                                                console.log(result);
+                                                // console.log(result);
                                             }
                                         })
                                     })(0);
@@ -410,7 +411,27 @@ module.exports = function(app) {
             var jsonResponse = JSON.parse(body);
             res.send({ 'data': jsonResponse.extract });
         })
-    })
+    });
+
+    app.get('/api/getGenSim/:newTOCs', function(req, res) {
+        console.log('Begin Gensim');
+        var data = JSON.parse(decodeURIComponent(req.params.newTOCs));
+        console.log(data);
+        var options = {
+            mode: 'json',
+            scriptPath: 'scripts/comparison',
+            args: [data.TOC1, data.TOC2]
+        };
+        var pyshell = new PythonShell('Wordnet.py', options);
+        pyshell.on('message', function(message) {
+            res.send(message);
+        });
+
+        pyshell.end(function(err) {
+            if (err) throw err;
+            console.log('finished');
+        });
+    });
 
     /////////////////////////////////// Application ///////////////////////////////////
     app.get('*', function(req, res) {

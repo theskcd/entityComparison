@@ -19,7 +19,7 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse applica
 app.use(methodOverride('X-HTTP-Method-Override')); // override with the X-HTTP-Method-Override header in the request
 
 // redirections
-// app.use('/scripts', express.static(__dirname + '/node_modules/'));
+app.use('/scripts', express.static(__dirname + '/scripts/'));
 
 
 // routes ======================================================================

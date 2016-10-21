@@ -1,5 +1,5 @@
 angular.module('searchController', [])
-    .controller('mainController', ['$scope', '$http', 'TaxonomyLevels', function($scope, $http, TaxonomyLevels) {
+    .controller('mainController', ['$scope', '$http', 'TaxonomyLevels', 'comparisonMetrics', function($scope, $http, TaxonomyLevels, comparisonMetrics) {
         $scope.$watch('search1', function() {
             if ($scope.search1 != "")
                 fetch1();
@@ -20,6 +20,11 @@ angular.module('searchController', [])
                     console.log(data);
                     $scope.taxonomylevels1 = data;
                 });
+            TaxonomyLevels.getTOC($scope.search1)
+                .success(function(data) {
+                    console.log(data);
+                    $scope.entity1TOC = data;
+                });
         }
 
         function fetch2() {
@@ -28,6 +33,11 @@ angular.module('searchController', [])
                 .success(function(data) {
                     console.log(data);
                     $scope.taxonomylevels2 = data;
+                });
+            TaxonomyLevels.getTOC($scope.search2)
+                .success(function(data) {
+                    console.log(data);
+                    $scope.entity2TOC = data;
                 });
         }
 
@@ -40,6 +50,15 @@ angular.module('searchController', [])
                 TaxonomyLevels.getOutCounts(newData)
                     .success(function(data) {
                         $scope.outLinksInfo = data;
+                    });
+            }
+        });
+
+        $scope.$watchGroup(['entity1TOC', 'entity2TOC'], function(newTOCs) {
+            if (Object.prototype.toString.call($scope.entity1TOC) === '[object Array]' && Object.prototype.toString.call($scope.entity2TOC) === '[object Array]') {
+                comparisonMetrics.getGensim(newTOCs)
+                    .success(function(data) {
+                        $scope.genSimResult = data;
                     });
             }
         });

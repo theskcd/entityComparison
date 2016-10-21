@@ -9,6 +9,9 @@ angular.module('taxoService', [])
             },
             getOutCounts: function(newData) {
                 return $http.get('/api/getCommonOutLinks/' + JSON.stringify({ 'firstName': newData[0], 'secondName': newData[1] }));
+            },
+            getTOC: function(searchTerm){
+                return $http.get('/api/getTable/' + searchTerm);
             }
         }
     }])

@@ -19,11 +19,10 @@
     <!-- SPELLS -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <!-- load angular -->
-    <script src="js/controllers/main.js"></script>
     <script src="js/controllers/search.js"></script>
     <!-- load up our controller -->
-    <script src="js/services/nodes.js"></script>
     <script src="js/services/taxo.js"></script>
+    <script src="js/services/comparison.js"></script>
     <!-- load our node service -->
     <script src="js/core.js"></script>
     <!-- load our main application -->
@@ -71,6 +70,12 @@
             </div>
             <div class="col-xs-12 col-md-6">
                 <div id="outlinks-info" ng-include="'partials/outlinks-information.html'"></div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="gensim-results" ng-include="'partials/gensim-results.html'"></div>
             </div>
         </div>
         <br/>
