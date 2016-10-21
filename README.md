@@ -3,9 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/npm/v/npm.svg?maxAge=2592000" alt="npm version">
 
-  <img src="https://img.shields.io/teamcity/codebetter/bt428.svg?maxAge=2592000" alt="Build Status">
-
-  <img src="https://img.shields.io/jenkins/c/https/jenkins.qa.ubuntu.com/address-book-service-utopic-i386-ci.svg?maxAge=2592000" alt="Coverage">
+  <img src="https://travis-ci.org/ghostwriternr/entityComparison.svg?branch=master" alt="Build Status">
 
   <img src="https://img.shields.io/waffle/label/evancohen/smart-mirror/in%20progress.svg?maxAge=2592000" alt="Current Progress">
 </p>
