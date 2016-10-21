@@ -12,7 +12,7 @@ module.exports = function(app) {
             show: false
         });
         nightmare
-            .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?' + "term=" + req.params.name)
+            .goto('https://www.ncbi.nlm.nih.gov/taxonomy/?' + "term=" + req.params.name.replace(/_/g, ' '))
             .click('.rprt .title a')
             .wait('li')
             .evaluate(function() {
@@ -23,7 +23,12 @@ module.exports = function(app) {
                 for (var i = 0, _len = els.length; i < _len; i++) {
                     var el = els[i]
                     if (el.hasAttribute('title') && el.hasAttribute('alt') && el.hasAttribute('href')) {
-                        if (el.getAttribute('href').indexOf('lin=f&keep=1&srchmode=1&unlock') != -1) {
+                        if (el.getAttribute('href').indexOf('lin=f&keep=1&srchmode=1&unlock') != -1 && el.getAttribute('href').indexOf('wwwtax.cgi?mode=Root') == -1) {
+                            var jsonData = {};
+                            jsonData['rank'] = el.title;
+                            jsonData['name'] = el.childNodes[0].data;
+                            result.levels.push(jsonData);
+                        } else if (el.getAttribute('href').indexOf('lvl=3&keep=1&srchmode=1&unlock&lin=s') == -1 && el.getAttribute('href').indexOf('lvl=3&keep=1&srchmode=1&unlock') != -1) {
                             var jsonData = {};
                             jsonData['rank'] = el.title;
                             jsonData['name'] = el.childNodes[0].data;

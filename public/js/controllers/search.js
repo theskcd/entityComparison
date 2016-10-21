@@ -15,12 +15,12 @@ angular.module('searchController', [])
 
         function fetch1() {
             console.log("Initiating search for " + $scope.search1);
-            TaxonomyLevels.get($scope.search1)
+            TaxonomyLevels.get($scope.search1.replace(/\W+/g, '_'))
                 .success(function(data) {
                     console.log(data);
                     $scope.taxonomylevels1 = data;
                 });
-            TaxonomyLevels.getTOC($scope.search1)
+            TaxonomyLevels.getTOC($scope.search1.replace(/\W+/g, '_'))
                 .success(function(data) {
                     console.log(data);
                     $scope.entity1TOC = data;
@@ -29,12 +29,12 @@ angular.module('searchController', [])
 
         function fetch2() {
             console.log("Initiating search for " + $scope.search2);
-            TaxonomyLevels.get($scope.search2)
+            TaxonomyLevels.get($scope.search2.replace(/\W+/g, '_'))
                 .success(function(data) {
                     console.log(data);
                     $scope.taxonomylevels2 = data;
                 });
-            TaxonomyLevels.getTOC($scope.search2)
+            TaxonomyLevels.getTOC($scope.search2.replace(/\W+/g, '_'))
                 .success(function(data) {
                     console.log(data);
                     $scope.entity2TOC = data;
@@ -42,6 +42,8 @@ angular.module('searchController', [])
         }
 
         $scope.$watchGroup(['search1', 'search2'], function(newData) {
+            for(var d in newData)
+                newData[d] = newData[d].replace(/\W+/g, '_');
             if ($scope.search1 != "" && $scope.search2 != "") {
                 TaxonomyLevels.getInCounts(newData)
                     .success(function(data) {
