@@ -28,6 +28,11 @@
         "jshint": "^2.9.4"
     },
     "scripts": {
+        "start": "node server.js",
         "test": "jshint server.js"
+    },
+    "engines": {
+        "node": "4.5.0",
+        "npm": "3.10.9"
     }
 }
