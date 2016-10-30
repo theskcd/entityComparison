@@ -26,4 +26,4 @@ require('./app/routes')(app);
 
 // listen (start app with node server.js) ======================================
 app.listen(port);
-console.log("The magic begins on port " + port);
+console.log("What might be considered magic by mortals, is just another hack for us. Watch it live on port " + port);
