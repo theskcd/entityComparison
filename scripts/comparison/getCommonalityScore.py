@@ -73,19 +73,28 @@ def getImportant(valWord):
 	# assuming that we need just 30 words right now
 	k=30
 	# print s
+	listWords={}
 
-	for i in range(k):
+	while len(listWords)<10:
 		maxIndex=numpy.argmax(s)
 		# print s
 		# print (maxIndex)
-		print (listOfWords[maxIndex] +"\n")
+		listWords[listOfWords[maxIndex]]=1
+		# print (listOfWords[maxIndex] +"\n")
+		# print (str(maxIndex) + "\n")
+		# print (str(s[maxIndex]) + "\n")
 		tempVal=numpy.zeros(shape=(sizeOfMatrix,1))
 		for j in range(sizeOfMatrix):
 			tempVal[j]=S[j][maxIndex]
 		tempVal=numpy.multiply(tempVal,r)
 		tempVal=numpy.multiply(2*r[maxIndex],tempVal)
+		# print (str(tempVal[maxIndex]) + "\n")
+		# print tempVal
 		s=s-tempVal
-		s[maxIndex]=0
+		# s[maxIndex]=0
+	
+	for x in listWords:
+		print x
 
 if __name__ == "__main__":
 	reload(sys)
@@ -131,7 +140,7 @@ if __name__ == "__main__":
 			for word in wordsPresent:
 				val=(0.5 + (0.5*wordsPresent[word])/maxValue)
 				val=val*val
-				val1=math.log(12.0/countWordDoc[word]*1.0,2)
+				val1=math.log(300.0/countWordDoc[word]*1.0,2)
 				val=val*val1
 				valWord[word]=val
 
