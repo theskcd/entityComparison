@@ -4,6 +4,7 @@ import os
 import re
 import math
 from nltk.corpus import stopwords
+from nltk.stem.wordnet import WordNetLemmatizer
 import editdistance
 import numpy
 
@@ -58,7 +59,6 @@ def getImportant(valWord):
 
 	for i in range(sizeOfMatrix):
 		for j in range(sizeOfMatrix):
-			# S[i][j]=1.0-((1.0*editdistance.eval(listOfWords[i],listOfWords[j]))/(1.0+max(len(listOfWords[i]),len(listOfWords[j]))))
 			S[i][j]=editdistance.eval(listOfWords[i],listOfWords[j])
 
 	r=numpy.zeros(shape=(sizeOfMatrix,1))
@@ -74,24 +74,19 @@ def getImportant(valWord):
 	k=30
 	# print s
 	listWords={}
+	iterations=0
 
 	while len(listWords)<10:
 		maxIndex=numpy.argmax(s)
-		# print s
-		# print (maxIndex)
 		listWords[listOfWords[maxIndex]]=1
-		# print (listOfWords[maxIndex] +"\n")
-		# print (str(maxIndex) + "\n")
-		# print (str(s[maxIndex]) + "\n")
+		print listWords
 		tempVal=numpy.zeros(shape=(sizeOfMatrix,1))
 		for j in range(sizeOfMatrix):
 			tempVal[j]=S[j][maxIndex]
 		tempVal=numpy.multiply(tempVal,r)
 		tempVal=numpy.multiply(2*r[maxIndex],tempVal)
-		# print (str(tempVal[maxIndex]) + "\n")
-		# print tempVal
 		s=s-tempVal
-		# s[maxIndex]=0
+		iterations=iterations+1
 	
 	for x in listWords:
 		print x
@@ -102,6 +97,7 @@ if __name__ == "__main__":
 	textFiles=getTextFiles()
 	os.chdir('../data')
 	countWordDoc={}
+	lmztr=WordNetLemmatizer()
 
 	for file in textFiles:
 		with codecs.open(file,encoding='utf-8',mode='r') as infile:
@@ -110,17 +106,17 @@ if __name__ == "__main__":
 			wordsPresent={}
 			for fc in filteredContent:
 				for word in fc:
-					wordsPresent[word]=1
+					lemWord=lmztr.lemmatize(word)
+					wordsPresent[lemWord]=1
 			for word in wordsPresent:
-				if word not in countWordDoc:
-					countWordDoc[word]=1
+				lemWord=lmztr.lemmatize(word)
+				if lemWord not in countWordDoc:
+					countWordDoc[lemWord]=1
 				else:
-					countWordDoc[word]+=1
-
+					countWordDoc[lemWord]+=1
 
 	for file in textFiles:
-		# print file
-		if(file!='African_elephant.txt'):
+		if(file!='Alligator.txt'):
 			continue
 		print ("=======" + file + "\n")
 		with codecs.open(file,encoding='utf-8',mode='r') as infile:
@@ -129,26 +125,24 @@ if __name__ == "__main__":
 			wordsPresent={}
 			for fc in filteredContent:
 				for word in fc:
-					if word not in wordsPresent:
-						wordsPresent[word]=1
+					lemWord=lmztr.lemmatize(word)
+					if lemWord not in wordsPresent:
+						wordsPresent[lemWord]=1
 					else:
-						wordsPresent[word]+=1
+						wordsPresent[lemWord]+=1
 
 			maxValue=max(wordsPresent,key=wordsPresent.get)
 			maxValue=wordsPresent[maxValue]
 			valWord={}
 			for word in wordsPresent:
-				val=(0.5 + (0.5*wordsPresent[word])/maxValue)
-				val=val*val
-				val1=math.log(300.0/countWordDoc[word]*1.0,2)
-				val=val*val1
-				valWord[word]=val
+				lemWord=lmztr.lemmatize(word)
+				if lemWord in wordsPresent.keys():
+					val=(0.5 + (0.5*wordsPresent[lemWord])/maxValue)
+					val=val*val
+					val1=math.log(len(textFiles)*1.0/countWordDoc[lemWord]*1.0,2)
+					val=val*val1
+					valWord[lemWord]=val
 
 			l = sorted(sorted(wordsPresent), key=valWord.get, reverse=True)
-			# for item in l:
-			# 	print(item + " " + str(valWord[item]))
-			# print (len(valWord));
+			print l
 			getImportant(valWord);
-
-	
-
