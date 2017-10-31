@@ -1,4 +1,4 @@
-# entityComparison
+# EntityComparison
 
 <p align="center">
   <img src="https://img.shields.io/npm/v/npm.svg?maxAge=2592000" alt="npm version">
